@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(48, 46, 46);
+    color: white;
+}
+
+.nav-links {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+
+.link:visited {
+    color: white;
+}

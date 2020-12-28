@@ -16,6 +16,22 @@ nav {
     color: white;
 }
 
-.link:visited {
+.link{
+    text-decoration: none;
+    padding: 30px;
     color: white;
+    font-weight: 200;
 }
+
+.link:hover{
+    color:gray;
+    transition: 0.5s ease;
+}
+
+.link-active {
+    border-bottom: 5px solid gray;
+    transition: 0.5s ease;
+  }
+/* .link:visited {
+    color: white;
+} */

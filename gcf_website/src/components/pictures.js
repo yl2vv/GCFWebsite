@@ -1,10 +1,12 @@
-import React from 'react';
+import React from "react";
+import "./pictures.css";
 
 function Pictures() {
-    return (
-            <p>pictures</p>
-    );
-    
+  return (
+    <div>
+      <p className="pictures_title">Pictures</p>
+    </div>
+  );
 }
 
 export default Pictures;

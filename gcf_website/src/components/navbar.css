@@ -3,8 +3,11 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
-    background-color: rgb(48, 46, 46);
-    color: white;
+    background-color: rgb(48, 46, 46, 0);
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0%;
 }
 
 .nav-links {
@@ -18,7 +21,7 @@ nav {
 
 .link{
     text-decoration: none;
-    padding: 30px;
+    padding: 15px;
     color: white;
     font-weight: 200;
 }
@@ -29,7 +32,8 @@ nav {
 }
 
 .link-active {
-    border-bottom: 5px solid gray;
+    /* border-bottom: 5px solid gray; */
+    color:gray;
     transition: 0.5s ease;
   }
 /* .link:visited {

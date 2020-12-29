@@ -6,7 +6,12 @@ function Nav() {
   return (
     <nav>
       <u1 className="nav-links">
-        <NavLink className="link" activeClassName="link-active" to="/home">
+        <NavLink
+          exact={true}
+          className="link"
+          activeClassName="link-active"
+          to="/"
+        >
           <p>Home</p>
         </NavLink>
         <NavLink className="link" activeClassName="link-active" to="/about">

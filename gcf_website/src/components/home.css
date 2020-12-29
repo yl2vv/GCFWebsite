@@ -1,6 +1,31 @@
+body{
+    background-color: rgb(20,20,20);
+}
+.home{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/gcfhome.png');
+  background-size: cover;
+  position: absolute;
+  /* top: 50%;
+  left: 50%; */
+  height: 100%;
+  width: 100%;
+  /* transform: translate(-50%, -50%); */
+  color: white;
+  text-align: center;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 .home_title{
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 200;
-    text-align: center;
-    margin-top: 50px;
+    color: white;
+    text-transform: uppercase;
 }

@@ -1,6 +1,29 @@
+.about{
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2% auto;
+
+}
 .about_title{
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 200;
-    text-align: center;
-    margin-top: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.about_text{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.about_texts{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }

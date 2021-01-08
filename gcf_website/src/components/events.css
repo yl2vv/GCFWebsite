@@ -3,4 +3,9 @@
     font-weight: 200;
     text-align: center;
     margin-top: 50px;
+    color: white;
+}
+
+.events_text{
+    color: white;
 }

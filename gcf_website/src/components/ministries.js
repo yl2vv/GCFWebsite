@@ -29,50 +29,56 @@ function Ministries() {
 
   return (
     <div>
-      <p className="ministries_title">Ministries</p>
+      {/* <p className="ministries_title">Ministries</p> */}
       <div class="row">
         <div class="column"><p>Inreach</p>
           <div className={classes.root}>
-            <Paper className={classes.paper}>
-              <Grid container wrap="nowrap" spacing={2}>
-              <Grid item xs>
-                <div className="post me">
-                  <div className="me height"/>
-                  <div class="post-s">
-                    <div className="text">Live Love</div>
-                    <div className="text">Homeless Outreach Ministry</div>
-                      <div className="text">Led By Jennifer Cheung and Philip Song</div>
-                  </div>
+            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+              <div className="post me">
+                <div className="me height"/>
+                <div class="post-s">
+                  <div className="text">Live Love</div>
+                  <div className="text">Homeless Outreach Ministry</div>
+                    <div className="text">Led By Jennifer Cheung and Philip Song</div>
                 </div>
-              </Grid>
-              </Grid>
-            </Paper>
+              </div>
+            </Grid>
+            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+              <div className="post me">
+                <div className="me height"/>
+                <div class="post-s">
+                  <div className="text">Live Love</div>
+                  <div className="text">Homeless Outreach Ministry</div>
+                    <div className="text">Led By Jennifer Cheung and Philip Song</div>
+                </div>
+              </div>
+            </Grid>
           </div>
         </div>
         </div>
         <div class="column"><p>Outreach</p>
         <div className={classes.root}>
-            {/* <Paper className={classes.paper}>
-              <Grid container wrap="nowrap" spacing={2}>
-                <Grid item>
-                  <Avatar>W</Avatar>
-                </Grid>
-                <Grid item xs>
-                  <Typography>{message}</Typography>
-                </Grid>
-              </Grid>
-            </Paper>
-            <Paper className={classes.paper}>
-              <Grid container wrap="nowrap" spacing={2}>
-                <Grid item>
-                  <Avatar>W</Avatar>
-                </Grid>
-                <Grid item xs>
-                  <Typography>{message}</Typography>
-                </Grid>
-              </Grid>
-            </Paper> */}
-          </div>
+          <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+            <div className="post me">
+              <div className="me height"/>
+              <div class="post-s">
+                <div className="text">Live Love</div>
+                <div className="text">Homeless Outreach Ministry</div>
+                  <div className="text">Led By Jennifer Cheung and Philip Song</div>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+            <div className="post me">
+              <div className="me height"/>
+              <div class="post-s">
+                <div className="text">Live Love</div>
+                <div className="text">Homeless Outreach Ministry</div>
+                  <div className="text">Led By Jennifer Cheung and Philip Song</div>
+              </div>
+            </div>
+          </Grid>
+        </div>
       </div>
     </div>
   );

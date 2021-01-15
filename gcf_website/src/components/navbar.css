@@ -13,7 +13,7 @@
 .nav.active {
     /* background-color: rgb(55, 55, 55, 0.9); */
     animation-fill-mode: forwards;
-    animation: colorChange 0.5s;
+    animation: colorChange 0.3s;
     background-color: rgba(41, 40, 40, 0.9);
 }
 

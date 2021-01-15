@@ -10,10 +10,12 @@ import Events from "./components/events.js";
 import Supporters from "./components/supporters.js";
 import Pictures from "./components/pictures.js";
 import Connect from "./components/connect.js";
+import ScrollToTop from "./components/ScrollToTop.js";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Nav />
       <Switch>
         <Route exact={true} path="/" component={Home} />

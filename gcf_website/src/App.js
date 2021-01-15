@@ -11,6 +11,7 @@ import Supporters from "./components/supporters.js";
 import Pictures from "./components/pictures.js";
 import Connect from "./components/connect.js";
 import ScrollToTop from "./components/ScrollToTop.js";
+import Footer from "./components/footer.js";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/pictures" component={Pictures} />
         <Route path="/connect" component={Connect} />
       </Switch>
+      <Footer />
     </Router>
   );
 }

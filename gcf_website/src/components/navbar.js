@@ -1,10 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
 
 function Nav() {
+
+  const [navbar, setNavbar] = useState(false);
+
+  const changeBackground = () => {
+    if(window.scrollY >= (window.screen.height /15)) {
+      setNavbar(true);
+    }
+    else {
+      setNavbar(false);
+    }
+  }
+
+  window.addEventListener('scroll', changeBackground);
+
   return (
-    <nav>
+    <nav className={navbar ? 'nav active' : 'nav'}>
       <u1 className="nav-links">
         <NavLink
           exact={true}

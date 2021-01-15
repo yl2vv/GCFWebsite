@@ -1,4 +1,4 @@
-nav {
+.nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -8,6 +8,18 @@ nav {
     position: fixed;
     width: 100%;
     top: 0%;
+}
+
+.nav.active {
+    /* background-color: rgb(55, 55, 55, 0.9); */
+    animation-fill-mode: forwards;
+    animation: colorChange 0.5s;
+    background-color: rgba(41, 40, 40, 0.9);
+}
+
+@keyframes colorChange {
+    from {background-color: rgb(55, 55, 55, 0.5);}
+    to {background-color: rgba(41, 40, 40, 0.9);}
 }
 
 .nav-links {

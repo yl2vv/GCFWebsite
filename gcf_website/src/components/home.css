@@ -9,10 +9,10 @@ body{
     ),
     url('../images/gcfhome.png');
   background-size: cover;
-  position: absolute;
+  /* position: absolute; */
   /* top: 50%;
   left: 50%; */
-  height: 100%;
+  height: 100vh;
   width: 100%;
   /* transform: translate(-50%, -50%); */
   color: white;
@@ -28,4 +28,80 @@ body{
     font-weight: 200;
     color: white;
     text-transform: uppercase;
+}
+
+.homeBottom{
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2% auto;
+
+}
+
+.bibleVerse {
+  font-size: 45px;
+  font-weight: 300;
+  margin: 2%;
+  margin-bottom: 100px;
+}
+
+.subSection {
+  /* margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%; */
+  margin: 5%;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.textSection {
+  width: 60%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.linkSection {
+  width: 30%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.link {
+  text-decoration: none !important;
+}
+
+.redirectButton {
+  background-color: rgb(55, 55, 55, 0.5);
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline;
+  font-size: 18px;
+  width: 150px;
+  height: 50px;
+  cursor:pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.redirectButton:hover {
+  background-color: rgba(194, 192, 192, 0.2);
+}
+
+.home_text{
+  font-size: 35px;
+  font-weight: 250;
 }

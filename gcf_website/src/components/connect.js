@@ -3,8 +3,8 @@ import "./connect.css";
 
 function Connect() {
   return (
-    <div>
-      <p className="connect_title">How to be Connected</p>
+    <div className="connect">
+      <p className="connect_title">Connect With Us</p>
     </div>
   );
 }

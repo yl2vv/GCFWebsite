@@ -1,11 +1,80 @@
 .footer {
-    height: 60px;
-    padding-left: 20px;
-    padding-right: 1%;
+    height: 100px;
+    /* width: 100%; */
+    padding-left: 3%;
+    padding-right: 10%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     color: white;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 20px;
     background-color: rgb(55, 55, 55, 0.5);
+}
+
+.text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    -webkit-transition: color 0.3s;
+    -moz-transition:    color 0.3s;
+    -ms-transition:     color 0.3s;
+    -o-transition:      color 0.3s;
+    transition:         color 0.3s;
+    text-decoration: none;
+}
+
+.text:hover {
+    color: rgb(29,98,57);
+}
+
+.textmain {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textsub {
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.divider {
+    width: 80%;
+    height: 1.5%;
+    background-color: white;
+}
+
+.icons {
+    height: 100%;
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:35px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    -webkit-transition: color 0.3s;
+    -moz-transition:    color 0.3s;
+    -ms-transition:     color 0.3s;
+    -o-transition:      color 0.3s;
+    transition:         color 0.3s;
+}
+
+.links:hover {
+    color: rgb(29,98,57);
 }

@@ -52,9 +52,9 @@ function Nav() {
         <NavLink
           className="link"
           activeClassName="link-active"
-          to="/supporters"
+          to="/support"
         >
-          <p>Supporters</p>
+          <p>Support</p>
         </NavLink>
         {/* <NavLink className="link" activeClassName="link-active" to="/pictures">
           <p>Pictures</p>

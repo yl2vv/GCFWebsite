@@ -1,4 +1,4 @@
-.supporters{
+.support{
     height: 100%;
     width: 100%;
     color: white;
@@ -9,13 +9,13 @@
     flex-direction: column; 
   }
 
-.banner.supporters {
+.banner.support {
     /* background: url('../images/.jpg'); */
     background-size:cover;
     background-position: center 30%;
 }
 
-.supporters_title{
+.support_title{
     font-size: 60px;
     font-weight: 300;
     color: white;

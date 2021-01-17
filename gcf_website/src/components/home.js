@@ -28,7 +28,7 @@ function Home() {
               <Link className="link" to="/about">
                 <button className='redirectButton'>About</button>
               </Link>
-              <Link className="link" to="/supporters">
+              <Link className="link" to="/support">
                 <button className='redirectButton'>Donate</button>
               </Link>
             </div>

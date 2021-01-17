@@ -19,15 +19,16 @@ function Nav() {
 
   return (
     <nav className={navbar ? 'nav active' : 'nav'}>
-      <u1 className="nav-links">
-        <NavLink
+      <div className="leftCorner">
+          <NavLink
           exact={true}
           className="link"
-          activeClassName="link-active"
           to="/"
-        >
-          <p>Home</p>
-        </NavLink>
+          >
+            <div className='logo'></div>
+          </NavLink>
+      </div>
+      <u1 className="nav-links">
         <NavLink className="link" activeClassName="link-active" to="/about">
           <p>About</p>
         </NavLink>
@@ -55,9 +56,9 @@ function Nav() {
         >
           <p>Supporters</p>
         </NavLink>
-        <NavLink className="link" activeClassName="link-active" to="/pictures">
+        {/* <NavLink className="link" activeClassName="link-active" to="/pictures">
           <p>Pictures</p>
-        </NavLink>
+        </NavLink> */}
         <NavLink className="link" activeClassName="link-active" to="/connect">
           <p>Connect</p>
         </NavLink>

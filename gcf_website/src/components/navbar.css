@@ -1,9 +1,10 @@
 .nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     min-height: 10vh;
-    background-color: rgb(55, 55, 55, 0.5);
+    background-color: rgb(55, 55, 55, 0);
+    /* background-color: rgba(146, 146, 146, 0.5); */
     color: #ffffff;
     position: fixed;
     width: 100%;
@@ -23,6 +24,26 @@
     to {background-color: rgba(41, 40, 40, 0.9);}
 }
 
+.leftCorner {
+    margin-left: 20px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: auto; */
+
+}
+
+.logo {
+    background: 
+    url('../images/gcf_logo_clear.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 65px;
+    width: 70px;
+}
+
 .nav-links {
     width: 60%;
     display: flex;
@@ -30,13 +51,19 @@
     align-items: center;
     list-style: none;
     color: white;
+    margin-right: 20px;
+    /* margin-right: auto; */
 }
 
 .link{
     text-decoration: none;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: white;
     font-weight: 200;
+    text-transform: uppercase;
 }
 
 .link:hover{

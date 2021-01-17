@@ -4,7 +4,9 @@ import "./connect.css";
 function Connect() {
   return (
     <div className="connect">
-      <p className="connect_title">Connect With Us</p>
+      <div className='banner'>
+       <p className="connect_title">Connect with us</p>
+      </div>
     </div>
   );
 }

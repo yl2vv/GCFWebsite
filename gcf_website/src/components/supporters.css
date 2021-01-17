@@ -1,6 +1,23 @@
-.supporters_title{
-    font-size: 40px;
-    font-weight: 200;
+.supporters{
+    height: 100%;
+    width: 100%;
+    color: white;
     text-align: center;
-    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+  }
+
+.banner.supporters {
+    /* background: url('../images/.jpg'); */
+    background-size:cover;
+    background-position: center 30%;
+}
+
+.supporters_title{
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
 }

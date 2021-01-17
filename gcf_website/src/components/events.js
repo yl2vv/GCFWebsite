@@ -3,8 +3,10 @@ import "./events.css";
 
 function Events() {
   return (
-    <div>
-      <p className="events_title">Events</p>
+    <div className='events'>
+      <div className='banner events'>
+       <p className="events_title">Events</p>
+      </div>
     </div>
   );
 }

@@ -1,6 +1,23 @@
-.events_title{
-    font-size: 40px;
-    font-weight: 200;
+.events{
+    height: 100%;
+    width: 100%;
+    color: white;
     text-align: center;
-    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+  }
+
+.banner.events {
+    background: url('../images/pastor\ ij.jpg');
+    background-size:cover;
+    background-position: center 30%;
+}
+
+.events_title{
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
 }

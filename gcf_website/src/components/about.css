@@ -7,18 +7,39 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 2% auto;
+  /* margin: 2% auto; */
 
 }
+
+.banner.about {
+    background: url('../images/hands.jpg');
+    background-size:cover;
+    background-position: center;
+    /* transition: all .5s; */
+}
+/* 
+.banner.about:hover {
+    transform: scale(1.05);
+} */
+
 .about_title{
     font-size: 60px;
-    font-weight: 200;
+    font-weight: 300;
     color: white;
     text-transform: uppercase;
 }
 
+.video {
+    padding-top: 50px;
+}
+
 .about_text{
     font-size: 30px;
+    font-weight: 200;
+}
+
+.disclaimer {
+    font-size: 20px;
     font-weight: 200;
 }
 

@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     min-height: 10vh;
-    background-color: rgb(55, 55, 55, 0);
+    background-color: rgb(55, 55, 55, 0.5);
     /* background-color: rgba(146, 146, 146, 0.5); */
     color: #ffffff;
     position: fixed;

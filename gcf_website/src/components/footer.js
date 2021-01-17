@@ -5,7 +5,7 @@ import {FaFacebook, FaYoutube, FaTwitter, FaInstagram} from "react-icons/fa";
 function Footer() {
   return (
     <div className="footer">
-      <a href="http://www.servantsministry.org/index.html" target="_blank" className="text">
+      <a href="http://www.servantsministry.org/index.html" target="_blank" className="textFooter">
         <div className="textmain">
           Grace Christian Fellowship
         </div>

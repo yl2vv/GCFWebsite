@@ -12,12 +12,13 @@
     background-color: rgb(55, 55, 55, 0.5);
 }
 
-.text {
+.textFooter {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: white;
     -webkit-transition: color 0.3s;
     -moz-transition:    color 0.3s;
     -ms-transition:     color 0.3s;
@@ -26,7 +27,7 @@
     text-decoration: none;
 }
 
-.text:hover {
+.textFooter:hover {
     color: rgb(29,98,57);
 }
 

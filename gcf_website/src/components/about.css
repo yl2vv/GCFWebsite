@@ -33,9 +33,25 @@
     padding-top: 50px;
 }
 
+.divAbout{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
 .about_text{
     font-size: 30px;
     font-weight: 200;
+}
+
+.linkExec {
+    width: fit-content;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none !important;
 }
 
 .disclaimer {
@@ -43,8 +59,6 @@
     font-weight: 200;
 }
 
-.about_texts{
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+.divAbout.disclaimer {
+    margin-bottom: 40px;
 }

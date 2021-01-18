@@ -10,9 +10,9 @@
   }
 
 .banner.events {
-    background: url('../images/pastor\ ij.jpg');
+    background: url('../images/worship.jpg');
     background-size:cover;
-    background-position: center 30%;
+    background-position: center;
 }
 
 .events_title{

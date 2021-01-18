@@ -1,13 +1,20 @@
-.staff{
+.staff.content{
     width: 80%;
     margin: 10% auto;
 }
-.staff_title{
-    font-size: 40px;
-    font-weight: 200;
-    text-align: center;
-    margin-top: 50px;
+
+.banner.staff {
+    background: url('../images/pastor\ ij.jpg');
+    background-size:cover;
+    background-position: center 30%;
 }
+.staff_title{
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+}
+
 .pastorij_container{
     display: flex;
 }

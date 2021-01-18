@@ -10,9 +10,9 @@
   }
 
 .banner.support {
-    /* background: url('../images/.jpg'); */
+    background: url('../images/cross.jpg');
     background-size:cover;
-    background-position: center 30%;
+    background-position: center 20%;
 }
 
 .support_title{

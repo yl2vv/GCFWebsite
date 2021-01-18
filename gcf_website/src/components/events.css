@@ -21,3 +21,56 @@
     color: white;
     text-transform: uppercase;
 }
+
+.eventsContent {
+    height: 100%;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.week {
+    height:150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.weekTitle {
+    margin-bottom: 20px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border-top: solid white;
+    border-bottom: solid white;
+    border-right: solid white;
+    border-width: 2px;
+}
+
+.square.first {
+    border-left: solid white;
+}
+
+.day {
+    border-bottom: solid white;
+    border-width: 2px;
+    height: 25%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event {
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.retreat {
+    margin-top: 50px;
+    font-size: 30px;
+}

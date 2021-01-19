@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(0),
   },
   paper: {
-    maxWidth: 800,
+    maxWidth: 475,
     margin: `${theme.spacing(0)}px auto`,
     padding: theme.spacing(0),
   },
@@ -36,8 +36,8 @@ function Ministries() {
           <p>Inreach</p>
           <div className={classes.root}>
             <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
-              <div className="post me">
-                <div className="me height" />
+              <div className="post ministry_sample2">
+                <div className="ministry_sample2 height" />
                 <div class="post-s">
                   <div className="text">Live Love</div>
                   <div className="type">Homeless Outreach Ministry</div>
@@ -67,8 +67,8 @@ function Ministries() {
               </div>
             </Grid>
             <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
-              <div className="post me">
-                <div className="me height" />
+              <div className="post ministry_sample">
+                <div className="ministry_sample height" />
                 <div class="post-s">
                   <div className="text">Live Love</div>
                   <div className="type">Homeless Outreach Ministry</div>
@@ -88,8 +88,8 @@ function Ministries() {
         <p>Outreach</p>
         <div className={classes.root}>
           <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
-            <div className="post me">
-              <div className="me height" />
+            <div className="post ministry_sample">
+              <div className="ministry_sample height" />
               <div class="post-s">
                 <div className="text">Live Love</div>
                 <div className="type">Homeless Outreach Ministry</div>
@@ -103,8 +103,8 @@ function Ministries() {
             </div>
           </Grid>
           <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
-            <div className="post me">
-              <div className="me height" />
+            <div className="post ministry_sample2">
+              <div className="ministry_sample2 height" />
               <div class="post-s">
                 <div className="text">Live Love</div>
                 <div className="type">Homeless Outreach Ministry</div>

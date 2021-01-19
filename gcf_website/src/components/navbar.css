@@ -80,7 +80,7 @@
 
 .navtext {
   position: relative;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .link:hover .navtext:before {
@@ -106,31 +106,31 @@
 }
 
 .about_container {
-  width: 50px;
-  margin: 0 auto;
-}
-
-.staff_container {
-  width: 88px;
-  margin: 0 auto;
-}
-
-.ministry_container {
-  width: 78px;
-  margin: 0 auto;
-}
-
-.event_container {
   width: 55px;
   margin: 0 auto;
 }
 
+.staff_container {
+  width: 95px;
+  margin: 0 auto;
+}
+
+.ministry_container {
+  width: 85px;
+  margin: 0 auto;
+}
+
+.event_container {
+  width: 61px;
+  margin: 0 auto;
+}
+
 .support_container {
-  width: 67px;
+  width: 73px;
   margin: 0 auto;
 }
 
 .connect_container {
-  width: 70px;
+  width: 77px;
   margin: 0 auto;
 }

@@ -1,133 +1,133 @@
 .connect {
-    height: 100%;
-    width: 100%;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .banner {
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: url('../images/connect.jpg');
-    background-size:cover;
-    background-position: center 30%;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("../images/connect.jpg");
+  background-size: cover;
+  background-position: center 30%;
 }
 
-.connect_title{
-    font-size: 60px;
-    font-weight: 300;
-    color: white;
-    text-transform: uppercase;
+.connect_title {
+  font-size: 60px;
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
 }
 
 .connectBody {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
-    flex-direction: row;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    overflow: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-direction: row;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  overflow: auto;
 }
 
 /* .iframe::-webkit-scrollbar {
-    display: none;
-  } */
+  display: none;
+} */
 
 .connectCard {
-    width: 60%;
+  width: 60%;
 }
 
 .sideConnect {
-    height: 600;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  height: 600;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .socialMedia {
-    height: 250px;
-    width: 100%;
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-    text-transform: uppercase;
-    align-items: center;
+  height: 250px;
+  width: 100%;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  align-items: center;
 }
 
 .socialMediaText {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .socialMediaIcons {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .social {
-    display: flex;
-    align-items: center;
-    height: 70px;
-    width: 70px;
-    font-size: 70px;
-    color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-    -webkit-transition: color 0.3s;
-    -moz-transition:    color 0.3s;
-    -ms-transition:     color 0.3s;
-    -o-transition:      color 0.3s;
-    transition:         color 0.3s;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  font-size: 70px;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .social:hover {
-    color: rgb(29,98,57);
+  color: rgb(29, 98, 57);
 }
 
 .sideEmail {
-    height: 200px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .emailText {
-    margin-top: 0;
-    font-size: 30px;
-    text-transform: uppercase;
+  margin-top: 0;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
 .emailContent {
-    padding-top: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 20px;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
 }
 .emailIcon {
-    font-size: 70px;
-    color: white;
-    -webkit-transition: color 0.3s;
-    -moz-transition:    color 0.3s;
-    -ms-transition:     color 0.3s;
-    -o-transition:      color 0.3s;
-    transition:         color 0.3s;
+  font-size: 70px;
+  color: white;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .emailIcon:hover {
-    color: rgb(29,98,57);
+  color: rgb(29, 98, 57);
 }

@@ -1,4 +1,4 @@
-.about{
+.about {
   height: 100%;
   width: 100%;
   color: white;
@@ -8,57 +8,68 @@
   align-items: center;
   flex-direction: column;
   /* margin: 2% auto; */
-
 }
 
 .banner.about {
-    background: url('../images/hands.jpg');
-    background-size:cover;
-    background-position: center;
-    /* transition: all .5s; */
+  background: url("../images/hands.jpg");
+  background-size: cover;
+  background-position: center;
+  /* transition: all .5s; */
 }
 /* 
 .banner.about:hover {
     transform: scale(1.05);
 } */
 
-.about_title{
-    font-size: 60px;
-    font-weight: 300;
-    color: white;
-    text-transform: uppercase;
+.about_title {
+  font-size: 60px;
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+}
+
+.intro {
+  width: 80%;
+  display: flex;
 }
 
 .video {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
-.divAbout{
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
+.divAbout {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
 
-.about_text{
-    font-size: 30px;
-    font-weight: 200;
+.about_text {
+  font-size: 20px;
+  font-weight: 200;
+  width: 30%;
+  margin: 10%;
+}
+
+.gcf {
+  text-decoration: underline;
+  display: inline;
 }
 
 .linkExec {
-    width: fit-content;
-    color: white;
-    font-size: 25px;
-    font-weight: 400;
-    text-transform: uppercase;
-    text-decoration: none !important;
+  width: fit-content;
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none !important;
 }
 
 .disclaimer {
-    font-size: 20px;
-    font-weight: 200;
+  font-size: 20px;
+  font-weight: 200;
 }
 
 .divAbout.disclaimer {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }

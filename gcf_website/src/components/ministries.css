@@ -1,8 +1,14 @@
 .ministries_title {
-  font-size: 40px;
-  font-weight: 200;
-  text-align: center;
+  font-size: 60px;
+  font-weight: 300;
   color: white;
+  text-transform: uppercase;
+}
+
+.banner.ministries {
+  background: url("../images/ministry.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .column {
@@ -64,4 +70,25 @@
 }
 .text {
   color: white;
+}
+
+.type {
+  font-size: 13px;
+}
+
+.leaders {
+  margin-top: 5px;
+  font-size: 17px;
+}
+
+.snippet {
+  margin-top: 20px;
+  font-size: 15px;
+  white-space: pre-wrap;
+  text-align: center;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 10; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }

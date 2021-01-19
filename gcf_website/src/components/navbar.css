@@ -68,16 +68,69 @@
   text-transform: uppercase;
 }
 
-.link:hover {
-  color: rgb(29, 98, 57);
+/* .link:hover {
+  color: gray;
+  transition: 0.5s ease;
+} */
+
+.link-active {
+  color: gray;
   transition: 0.5s ease;
 }
 
-.link-active {
-  /* border-bottom: 5px solid gray; */
-  color: rgb(29, 98, 57);
-  transition: 0.5s ease;
+.navtext {
+  position: relative;
+  font-size: 15px;
 }
-/* .link:visited {
-    color: white;
-} */
+
+.link:hover .navtext:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.navtext:before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  top: 110%;
+  left: 0%;
+  background-color: #bbbbbb;
+  visibility: hidden;
+  transform: scaleX(0);
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.link:hover .navtext {
+  color: #bbbbbb;
+}
+
+.about_container {
+  width: 50px;
+  margin: 0 auto;
+}
+
+.staff_container {
+  width: 88px;
+  margin: 0 auto;
+}
+
+.ministry_container {
+  width: 78px;
+  margin: 0 auto;
+}
+
+.event_container {
+  width: 55px;
+  margin: 0 auto;
+}
+
+.support_container {
+  width: 67px;
+  margin: 0 auto;
+}
+
+.connect_container {
+  width: 70px;
+  margin: 0 auto;
+}

@@ -41,7 +41,7 @@ function Nav() {
             to="/staff_and_leadership"
           >
             <div className="staff_container">
-              <p className="navtext">Staff / Leadership</p>
+              <p className="navtext">Leadership</p>
             </div>
           </NavLink>
         </Fade>

@@ -6,7 +6,7 @@ function Staff() {
   return (
     <div className='staff'>
       <div className='banner staff'>
-        <p className="staff_title">Staff</p>
+        <p className="staff_title">Staff / Leadership</p>
       </div>
       <div className="staff content">
         <div className="pastorij_container">

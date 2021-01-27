@@ -45,27 +45,60 @@ body {
   margin-bottom: 100px;
 }
 
-.subSection {
-  margin: 5%;
+.subSection2 {
   width: 100%;
-  height: 200px;
+  /* height: 100%; */
   display: flex;
+  flex-direction: column;
+  background-color: #222222;
+}
+
+.width_control {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.subsection_title {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.subSection {
+  margin: 20px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  background-color: #222222;
+}
+
+.subSection3 {
+  margin: 30px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgb(20, 20, 20);
 }
 
 .textSection {
-  width: 60%;
+  width: 50%;
   margin-left: 5%;
   margin-right: 5%;
+  display: flex;
 }
 
 .linkSection {
-  width: 30%;
+  width: 33%;
   height: 80%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -75,8 +108,9 @@ body {
 }
 
 .redirectButton {
-  background-color: rgb(55, 55, 55, 0.5);
+  background-color: rgb(10, 10, 10, 1);
   border: none;
+  border-radius: 8px;
   color: white;
   text-align: center;
   display: inline;
@@ -85,7 +119,7 @@ body {
   height: 50px;
   cursor: pointer;
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 .redirectButton:hover {
@@ -95,4 +129,27 @@ body {
 .home_text {
   font-size: 35px;
   font-weight: 200;
+  width: 70%;
+}
+
+.home_text2 {
+  font-size: 20px;
+  font-weight: 200;
+  width: 33%;
+  justify-content: center;
+}
+
+.home_text3 {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.commission_text {
+  font-size: 45px;
+  font-weight: 200;
+  /* margin: 0 auto; */
+  margin: auto;
+  width: 33%;
+  justify-content: center;
+  padding: 50px;
 }

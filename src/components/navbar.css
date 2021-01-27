@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   min-height: 10vh;
-  background-color: rgb(55, 55, 55, 0.8);
+  background-color: rgb(55, 55, 55, 0);
   /* background-color: rgba(146, 146, 146, 0.5); */
   color: #ffffff;
   position: fixed;
@@ -15,16 +15,16 @@
 .nav.active {
   /* background-color: rgb(55, 55, 55, 0.9); */
   animation-fill-mode: forwards;
-  animation: colorChange 0.3s;
-  background-color: rgba(41, 40, 40, 0.9);
+  animation: colorChange 0.5s;
+  background-color: rgba(41, 40, 40, 0.7);
 }
 
 @keyframes colorChange {
   from {
-    background-color: rgb(55, 55, 55, 0.5);
+    background-color: rgb(55, 55, 55, 0);
   }
   to {
-    background-color: rgba(41, 40, 40, 0.9);
+    background-color: rgba(41, 40, 40, 0.7);
   }
 }
 
@@ -74,7 +74,7 @@
 } */
 
 .link-active {
-  color: gray;
+  color: #bbbbbb;
   transition: 0.5s ease;
 }
 

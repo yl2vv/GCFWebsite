@@ -23,54 +23,138 @@
 }
 
 .eventsContent {
-    height: 100%;
-    padding-top: 50px;
+    padding-top: 100px;
     margin-bottom: 50px;
     font-size: 40px;
-}
-
-.week {
-    height:150px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row; 
+    width: 100%;
 }
 
-.weekTitle {
-    margin-bottom: 20px;
+
+.scheduleWeek {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
 }
 
-.square {
-    width: 150px;
-    height: 150px;
-    border-top: solid white;
-    border-bottom: solid white;
-    border-right: solid white;
-    border-width: 2px;
+.weekContainer {
+    width: 100%;
+    margin-left: 60px;
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
 }
 
-.square.first {
-    border-left: solid white;
+.weekSubContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
 }
 
 .day {
-    border-bottom: solid white;
-    border-width: 2px;
-    height: 25%;
-    font-size: 25px;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 200px;
+}
+
+.dayContainer {
+    height: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .event {
-    height: 75%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     font-size: 20px;
+    height: 50px;
+    width: 100%;
+}
+
+.eventContainer {
+    width: 250px;
+    text-align: end;
+}
+
+.weekTitle {
+    margin-bottom: 30px;
+    font-size: 40px;
+    width: 100%;
+    text-align: start;
+}
+
+.specialEvents {
+    width: 60%;
+    margin-right: 30px;
+}
+
+.retreats {
+    font-size: 30px;
+    width: 100%;
 }
 
 .retreat {
-    margin-top: 50px;
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.retreatTitle {
+}
+
+.retreatPic {
+    width: 500px;
+    height: 500px;
+}
+
+/* .retreatPic:hover {
+    width: 1000px;
+    height: 400px;
+} */
+
+.retreatPic.Servants {
+    background: url('../images/servant.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.retreatPic.Mens {
+    background: url('../images/mens_retreat.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.retreatPic.Womens {
+    background: url('../images/servant.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.retreatPic.Spring {
+    background: url('../images/spring.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.retreatPic.Harvest {
+    background: url('../images/harvest.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
 }

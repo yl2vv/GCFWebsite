@@ -1,5 +1,6 @@
 import React from "react";
 import "./events.css";
+import Carousel from 'react-elastic-carousel';
 
 
 function getDayOfWeek(date) {
@@ -9,6 +10,17 @@ function getDayOfWeek(date) {
 }
 
 class Events extends React.Component {
+
+  state = {
+    items: [
+      {id: 1, title: 'Servants', class: 'retreatPic Servants'},
+      {id: 2, title: 'Mens', class: 'retreatPic Mens'},
+      {id: 3, title: 'Womens', class: 'retreatPic Womens'},
+      {id: 4, title: 'Spring', class: 'retreatPic Spring'},
+      {id: 5, title: 'Harvest', class: 'retreatPic Harvest'}
+    ]
+  }
+
   componentDidMount () {
     switch (getDayOfWeek(Date.now())) {
       case "Monday":
@@ -35,6 +47,7 @@ class Events extends React.Component {
     }
   } 
 render() {
+  const { items } = this.state;
   return (
     <div className='events'>
       <div className='banner events'>
@@ -105,7 +118,17 @@ render() {
           
         </div>
         <div className='specialEvents'>
-          <div className='retreats'>
+          <Carousel>
+            {items.map(item => 
+              <div className='retreat'>
+                <div className={item.class}></div>
+                <div className='retreatTitle'>
+                  <div>{item.title} Retreat</div>
+                </div>
+              </div>
+            )}
+          </Carousel>
+          {/* <div className='retreats'>
             <div className='retreat'>
               <div className='retreatTitle'>
                 Servants Retreat
@@ -140,7 +163,7 @@ render() {
               </div>
               <div className='retreatPic Harvest'></div>
             </div>
-          </div>
+          </div> */}
         </div>
         
        </div>

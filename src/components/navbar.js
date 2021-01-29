@@ -5,12 +5,16 @@ import "./navbar.css";
 
 function Nav() {
   const [navbar, setNavbar] = useState(false);
+  // const [navLogo, setLogo] = useState(false);
 
   const changeBackground = () => {
     if (window.scrollY >= window.screen.height / 25) {
       setNavbar(true);
+      // setLogo(true);
+
     } else {
       setNavbar(false);
+      // setLogo(false);
     }
   };
 
@@ -21,7 +25,8 @@ function Nav() {
       <div className="leftCorner">
         <Fade delay="500">
           <NavLink exact={true} className="link" to="/">
-            <div className="logo"></div>
+            <div className={"logo"} id="logo"></div>
+            {/* <div className={navLogo ? "logoActive" : "logo"} id="logo"></div> */}
           </NavLink>
         </Fade>
       </div>

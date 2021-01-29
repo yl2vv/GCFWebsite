@@ -39,12 +39,21 @@
 }
 
 .logo {
-  background: url("../images/gcf_logo_clear.png");
+  background: url("../images/gcf_logo_inverse.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 65px;
   width: 70px;
 }
+
+/* .logoActive {
+  background: url("../images/gcf_logo_clear.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 65px;
+  width: 70px;
+} */
+
 
 .nav-links {
   width: 60%;

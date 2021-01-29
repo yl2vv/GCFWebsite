@@ -28,7 +28,7 @@
     font-size: 40px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row; 
     width: 100%;
 }
@@ -117,16 +117,17 @@
 }
 
 .retreatTitle {
+    font-size: 40px;
 }
 
 .retreatPic {
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 480px;
 }
-
-/* .retreatPic:hover {
+/* 
+.retreatPic:hover {
     width: 1000px;
-    height: 400px;
+    height: 1000px;
 } */
 
 .retreatPic.Servants {

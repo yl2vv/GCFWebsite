@@ -142,8 +142,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 600px;
-  height: 300px;
 }
 
 .retreatPic.Mens {
@@ -151,8 +149,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 700px;
-  height: 400px;
 }
 
 .retreatPic.Womens {
@@ -167,16 +163,10 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 640px;
-  height: 350px;
-  
 }
-
 .retreatPic.Harvest {
   background: url("../images/harvest.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 600px;
-  height: 350px;
 }

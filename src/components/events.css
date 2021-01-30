@@ -119,16 +119,17 @@
 .retreatTitle {
   font-size: 40px;
   font-weight: 250;
+  margin-bottom: 30px;
 }
 
 .retreatPic {
   width: 700px;
-  height: 480px;
+  height: 400px;
 }
 
 .pic_container {
   width: 700px;
-  height: 480px;
+  height: 400px;
 }
 /* 
 .retreatPic:hover {
@@ -141,6 +142,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 600px;
+  height: 300px;
 }
 
 .retreatPic.Mens {
@@ -148,6 +151,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 700px;
+  height: 400px;
 }
 
 .retreatPic.Womens {
@@ -162,6 +167,9 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 640px;
+  height: 350px;
+  
 }
 
 .retreatPic.Harvest {
@@ -169,4 +177,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 600px;
+  height: 350px;
 }

@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Nav from "./components/navbar.js";
+import Navigation from "./components/navbar.js";
 import Home from "./components/home.js";
 import About from "./components/about.js";
 import Staff from "./components/staff.js";
@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <Nav />
+      <Navigation />
       <Switch>
         <Route exact={true} path="/" component={Home} />
         <Route path="/about" component={About} />

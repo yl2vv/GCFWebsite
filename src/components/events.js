@@ -169,34 +169,23 @@ class Events extends React.Component {
             <Carousel style={{ margin: "0 auto" }}>
               <Carousel.Item>
                 <div className="retreatPic Servants"></div>
-
-                <Carousel.Caption>
-                  <p className="retreatTitle">Servants Retreat</p>
-                </Carousel.Caption>
+                <p className="retreatTitle">Servants Retreat</p>
               </Carousel.Item>
               <Carousel.Item>
                 <div className="retreatPic Mens d-block w-100"></div>
-                <Carousel.Caption>
-                  <p className="retreatTitle">Mens Retreat</p>
-                </Carousel.Caption>
+                <p className="retreatTitle">Mens Retreat</p>
               </Carousel.Item>
               <Carousel.Item>
                 <div className="retreatPic Womens"></div>
-                <Carousel.Caption>
-                  <p className="retreatTitle">Womens Retreat</p>
-                </Carousel.Caption>
+                <p className="retreatTitle">Womens Retreat</p>
               </Carousel.Item>
               <Carousel.Item>
                 <div className="retreatPic Spring"></div>
-                <Carousel.Caption>
-                  <p className="retreatTitle">Spring Retreat</p>
-                </Carousel.Caption>
+                <p className="retreatTitle">Spring Retreat</p>
               </Carousel.Item>
               <Carousel.Item>
                 <div className="retreatPic Harvest"></div>
-                <Carousel.Caption>
-                  <p className="retreatTitle">Harvest Retreat</p>
-                </Carousel.Caption>
+                <p className="retreatTitle">Harvest Retreat</p>
               </Carousel.Item>
             </Carousel>
             {/* <div className='retreats'>

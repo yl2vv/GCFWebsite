@@ -20,16 +20,16 @@ function Navigation() {
     }
   };
 
-  const changeOnWindowSize = () => {
-    if (window.innerWidth <= 992) {
-      setNavbar2(true);
-    } else {
-      setNavbar2(false);
-    }
-  };
+  // const changeOnWindowSize = () => {
+  //   if (window.innerWidth <= 992) {
+  //     setNavbar2(true);
+  //   } else {
+  //     setNavbar2(false);
+  //   }
+  // };
 
   window.addEventListener("scroll", changeBackground);
-  window.addEventListener("resize", changeOnWindowSize);
+  // window.addEventListener("resize", changeOnWindowSize);
 
   return (
     <Navbar

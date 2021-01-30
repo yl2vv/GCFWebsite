@@ -108,8 +108,10 @@ body {
 }
 
 .redirectButton {
-  background-color: rgb(10, 10, 10, 1);
-  border: none;
+  /* background-color: rgb(10, 10, 10, 1); */
+  background-color: rgb(255, 255, 255, 0.2);
+  /* border: none; */
+  border: 1px solid white;
   border-radius: 8px;
   color: white;
   text-align: center;
@@ -119,11 +121,14 @@ body {
   height: 50px;
   cursor: pointer;
   text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 200;
+  transition: 0.3s;
 }
 
 .redirectButton:hover {
-  background-color: rgba(194, 192, 192, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  color: black;
 }
 
 .home_text {

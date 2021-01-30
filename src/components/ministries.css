@@ -6,7 +6,8 @@
 }
 
 .banner.ministries {
-  background: url("../images/ministry.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/ministry.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -17,7 +18,7 @@
   font-weight: 200;
   color: white;
   float: left;
-  width: 50%;
+  width: 100%;
   text-align: center;
 }
 
@@ -41,47 +42,8 @@
   height: auto;
 }
 
-.height {
-  height: 350px;
-  width: 100%;
-  transition: 0.2s;
-  overflow: visible;
-}
-
-.post {
-  width: 100%;
-  position: relative;
-  overflow: visible;
-}
-
-.post:hover .post-s {
-  width: 100%;
-  height: 100%;
-  background: rgba(25, 25, 25, 1);
-  opacity: 1;
-}
-
-.post:hover .height {
-  width: 100%;
-  max-width: 100%;
-}
-
-.post-s {
-  width: 0px;
-  height: 100%;
-  background: rgba(25, 25, 25, 0);
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  justify-content: center;
-  text-align: center;
-  overflow: hidden;
-  opacity: 0;
-  transition: 0.6s ease;
-  white-space: nowrap;
-}
 .text {
-  color: white;
+  font-size: 25px;
 }
 
 .type {
@@ -95,12 +57,106 @@
 
 .snippet {
   margin-top: 20px;
-  font-size: 13px;
+}
+
+.comment {
+  padding-right: 5%;
+  padding-left: 5%;
+  font-size: 15px;
   white-space: pre-wrap;
-  text-align: center;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 14; /* number of lines to show */
-  -webkit-box-orient: vertical;
+  text-align: left;
+}
+
+/* SJP's stuff */
+.aboutpic {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/apple_picking.jpg");
+  height: 300px;
+  width: 100%;
   overflow: hidden;
+  transition: 0.3s ease;
+  padding: 0px;
+  margin: 0px;
+  box-shadow: 6px 6px 0px 6px rgb(0, 0, 0, 0.8);
+  display: block;
+  line-height: 300px;
+  text-align: center;
+  font-size: 40px;
+  background-position: center;
+}
+
+.paper {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 20px;
+  transition: 0.3s ease;
+  box-shadow: 20px 20px 0px 0px rgb(0, 0, 0, 0.8);
+  overflow: hidden;
+  display: block;
+}
+
+.blackglass {
+  /* REMEMBER TO SUBTRACT PAPER WIDTH - 2* PADDING for WIDTH & HEIGHT HERE! */
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  overflow-y: hidden;
+  background: rgba(25, 25, 25, 0.1);
+  position: absolute;
+  color: rgb(255, 255, 255, 0);
+  font-size: 17px;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease;
+  display: block;
+}
+
+.paper:hover .blackglass {
+  color: rgb(255, 255, 255, 1);
+  background: rgba(25, 25, 25, 0.8);
+  /* transform: scale(1.3); */
+}
+
+.paper:hover {
+  box-shadow: 10px 10px 0px 0px rgb(0, 0, 0, 0.8);
+  /* box-shadow: 15px 15px 0px 0px rgb(0, 0, 0, 0.8); */
+}
+
+.paper:hover .aboutpic {
+  transform: scale(1.2);
+  /* box-shadow: 4px 4px 0px 0px rgb(0, 0, 0, 0.8); */
+}
+
+.underliner {
+  text-decoration: none;
+  color: white;
+  width: 0px;
+  opacity: 0;
+  position: relative;
+}
+
+.underliner:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 1px solid white;
+  transition: 0.5s;
+  visibility: hidden;
+  transform: scaleX(0);
+  width: 100%;
+}
+
+.blackglass:hover .underliner:after {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.paper:hover .underliner {
+  opacity: 1;
 }

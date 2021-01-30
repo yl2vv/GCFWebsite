@@ -14,9 +14,9 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(0),
   },
   paper: {
-    maxWidth: 475,
+    maxWidth: 800,
     margin: `${theme.spacing(0)}px auto`,
-    padding: theme.spacing(0),
+    padding: theme.spacing(3),
   },
 }));
 
@@ -36,47 +36,235 @@ function Ministries() {
           <p>Inreach</p>
           <div className={classes.root}>
             <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
-              <div className="post ministry_sample2">
-                <div className="ministry_sample2 height" />
-                <div class="post-s">
-                  <div className="text">Live Love</div>
-                  <div className="type">Homeless Outreach Ministry</div>
-                  <p className="snippet">
-                    What we do: we host events where UVA students can send in
-                    any questions about God, faith, or Christianity. We receive
-                    the questions and discuss them amongst ourselves in an
-                    apartment, referring to the Bible as our source of truth,
-                    and then go in teams to deliver a grilled cheese sandwich
-                    and an answer to the student who asked the question.
-                    <br />
-                    Purpose / Vision: We are an outreach ministry that seeks to
-                    spread God’s love and make His name known through sharing
-                    food and having discussions with the greater UVA community!
-                    <br />
-                    When we meet: meeting tri-weekly on thursdays at 9:15PM -
-                    12AM (can leave before that too)
-                    <br />
-                    Why someone should join: people should join to fulfill our
-                    calling to spread His word and His love, and to have an
-                    opportunity to have fruitful discussions and conversations
-                    with GCF/Cru people and with the UVA community.
-                    <br />
-                    Contact info: Phil Choi (psc3yh), Carmen Mew &nbsp(cem6dp)
-                  </p>
+              <div className="paper">
+                <div className="aboutpic">Praise</div>
+
+                <div className="blackglass">
+                  <div className="text">Praise Ministry</div>
+                  <div className="leaders">
+                    Led by Charles Lim, Joohee Yang, Christian Ro
+                  </div>
+                  <div className="snippet">
+                    <div className="comment">
+                      <a className="underliner">What we do:</a> Provide
+                      sandwiches, conversation, and prayer for the homeless
+                      people in downtown Charlottesville
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Vision:</a> To share the love of
+                      God to those in the area that God has called us to be in
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">When:</a>
+                      10:30am on Saturdays
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Why Join:</a>
+                      To glorify God, to obey His commandment to love God and
+                      love others
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Contact info:</a>
+                      Philip Song (ps8nu), Jennifer Cheung (jjc4dq)
+                    </div>
+                  </div>
                 </div>
               </div>
             </Grid>
             <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
-              <div className="post ministry_sample">
-                <div className="ministry_sample height" />
-                <div class="post-s">
-                  <div className="text">Live Love</div>
-                  <div className="type">Homeless Outreach Ministry</div>
+              <div className="paper">
+                <div className="aboutpic">Greeters</div>
+
+                <div className="blackglass">
+                  <div className="text">Homeless Outreach Ministry</div>
                   <div className="leaders">
                     Led by Jennifer Cheung & Philip Song
                   </div>
                   <div className="snippet">
-                    Short description of ministry goal, activity and schedule
+                    <div className="comment">
+                      <a className="underliner">What we do:</a> Provide
+                      sandwiches, conversation, and prayer for the homeless
+                      people in downtown Charlottesville
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Vision:</a> To share the love of
+                      God to those in the area that God has called us to be in
+                      When we meet: 10:30am on Saturdays
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Why join:</a>
+                      To glorify God, to obey His commandment to love God and
+                      love others
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Contact info:</a>
+                      Philip Song (ps8nu), Jennifer Cheung (jjc4dq)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Grid>
+            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+              <div className="paper">
+                <div className="aboutpic">Bulletins</div>
+
+                <div className="blackglass">
+                  <div className="text">Homeless Outreach Ministry</div>
+                  <div className="leaders">
+                    Led by Jennifer Cheung & Philip Song
+                  </div>
+                  <div className="snippet">
+                    <div className="comment">
+                      <a className="underliner">What we do:</a> Provide
+                      sandwiches, conversation, and prayer for the homeless
+                      people in downtown Charlottesville
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Vision:</a> To share the love of
+                      God to those in the area that God has called us to be in
+                      When we meet: 10:30am on Saturdays
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Why join:</a>
+                      To glorify God, to obey His commandment to love God and
+                      love others
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Contact info:</a>
+                      Philip Song (ps8nu), Jennifer Cheung (jjc4dq)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Grid>
+            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+              <div className="paper">
+                <div className="aboutpic">Arise</div>
+
+                <div className="blackglass">
+                  <div className="text">Homeless Outreach Ministry</div>
+                  <div className="leaders">
+                    Led by Jennifer Cheung & Philip Song
+                  </div>
+                  <div className="snippet">
+                    <div className="comment">
+                      <a className="underliner">What we do:</a> Provide
+                      sandwiches, conversation, and prayer for the homeless
+                      people in downtown Charlottesville
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Vision:</a> To share the love of
+                      God to those in the area that God has called us to be in
+                      When we meet: 10:30am on Saturdays
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Why join:</a>
+                      To glorify God, to obey His commandment to love God and
+                      love others
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Contact info:</a>
+                      Philip Song (ps8nu), Jennifer Cheung (jjc4dq)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Grid>
+            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+              <div className="paper">
+                <div className="aboutpic">Prayer</div>
+
+                <div className="blackglass">
+                  <div className="text">Homeless Outreach Ministry</div>
+                  <div className="leaders">
+                    Led by Jennifer Cheung & Philip Song
+                  </div>
+                  <div className="snippet">
+                    <div className="comment">
+                      <a className="underliner">What we do:</a> Provide
+                      sandwiches, conversation, and prayer for the homeless
+                      people in downtown Charlottesville
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Vision:</a> To share the love of
+                      God to those in the area that God has called us to be in
+                      When we meet: 10:30am on Saturdays
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Why join:</a>
+                      To glorify God, to obey His commandment to love God and
+                      love others
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Contact info:</a>
+                      Philip Song (ps8nu), Jennifer Cheung (jjc4dq)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Grid>
+            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+              <div className="paper">
+                <div className="aboutpic">Creative Arts (CAM)</div>
+
+                <div className="blackglass">
+                  <div className="text">Homeless Outreach Ministry</div>
+                  <div className="leaders">
+                    Led by Jennifer Cheung & Philip Song
+                  </div>
+                  <div className="snippet">
+                    <div className="comment">
+                      <a className="underliner">What we do:</a> Provide
+                      sandwiches, conversation, and prayer for the homeless
+                      people in downtown Charlottesville
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Vision:</a> To share the love of
+                      God to those in the area that God has called us to be in
+                      When we meet: 10:30am on Saturdays
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Why join:</a>
+                      To glorify God, to obey His commandment to love God and
+                      love others
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Contact info:</a>
+                      Philip Song (ps8nu), Jennifer Cheung (jjc4dq)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Grid>
+            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+              <div className="paper">
+                <div className="aboutpic">Multimedia (MMM)</div>
+
+                <div className="blackglass">
+                  <div className="text">Homeless Outreach Ministry</div>
+                  <div className="leaders">
+                    Led by Jennifer Cheung & Philip Song
+                  </div>
+                  <div className="snippet">
+                    <div className="comment">
+                      <a className="underliner">What we do:</a> Provide
+                      sandwiches, conversation, and prayer for the homeless
+                      people in downtown Charlottesville
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Vision:</a> To share the love of
+                      God to those in the area that God has called us to be in
+                      When we meet: 10:30am on Saturdays
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Why join:</a>
+                      To glorify God, to obey His commandment to love God and
+                      love others
+                    </div>
+                    <div className="comment">
+                      <a className="underliner">Contact info:</a>
+                      Philip Song (ps8nu), Jennifer Cheung (jjc4dq)
+                    </div>
                   </div>
                 </div>
               </div>
@@ -88,31 +276,133 @@ function Ministries() {
         <p>Outreach</p>
         <div className={classes.root}>
           <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
-            <div className="post ministry_sample">
-              <div className="ministry_sample height" />
-              <div class="post-s">
-                <div className="text">Live Love</div>
-                <div className="type">Homeless Outreach Ministry</div>
+            <div className="paper">
+              <div className="aboutpic">Text-A-Toasty</div>
+
+              <div className="blackglass">
+                <div className="text">Homeless Outreach Ministry</div>
                 <div className="leaders">
                   Led by Jennifer Cheung & Philip Song
                 </div>
                 <div className="snippet">
-                  Short description of ministry goal, activity and schedule
+                  <div className="comment">
+                    <a className="underliner">What we do:</a> Provide
+                    sandwiches, conversation, and prayer for the homeless people
+                    in downtown Charlottesville
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Vision:</a> To share the love of
+                    God to those in the area that God has called us to be in
+                    When we meet: 10:30am on Saturdays
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Why join:</a>
+                    To glorify God, to obey His commandment to love God and love
+                    others
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Contact info:</a>
+                    Philip Song (ps8nu), Jennifer Cheung (jjc4dq)
+                  </div>
                 </div>
               </div>
             </div>
           </Grid>
           <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
-            <div className="post ministry_sample2">
-              <div className="ministry_sample2 height" />
-              <div class="post-s">
-                <div className="text">Live Love</div>
-                <div className="type">Homeless Outreach Ministry</div>
+            <div className="paper">
+              <div className="aboutpic">Live Love</div>
+
+              <div className="blackglass">
+                <div className="text">Homeless Outreach Ministry</div>
                 <div className="leaders">
                   Led by Jennifer Cheung & Philip Song
                 </div>
                 <div className="snippet">
-                  Short description of ministry goal, activity and schedule
+                  <div className="comment">
+                    <a className="underliner">What we do:</a> Provide
+                    sandwiches, conversation, and prayer for the homeless people
+                    in downtown Charlottesville
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Vision:</a> To share the love of
+                    God to those in the area that God has called us to be in
+                    When we meet: 10:30am on Saturdays
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Why join:</a>
+                    To glorify God, to obey His commandment to love God and love
+                    others
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Contact info:</a>
+                    Philip Song (ps8nu), Jennifer Cheung (jjc4dq)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+            <div className="paper">
+              <div className="aboutpic">Veritas</div>
+
+              <div className="blackglass">
+                <div className="text">Homeless Outreach Ministry</div>
+                <div className="leaders">
+                  Led by Jennifer Cheung & Philip Song
+                </div>
+                <div className="snippet">
+                  <div className="comment">
+                    <a className="underliner">What we do:</a> Provide
+                    sandwiches, conversation, and prayer for the homeless people
+                    in downtown Charlottesville
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Vision:</a> To share the love of
+                    God to those in the area that God has called us to be in
+                    When we meet: 10:30am on Saturdays
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Why join:</a>
+                    To glorify God, to obey His commandment to love God and love
+                    others
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Contact info:</a>
+                    Philip Song (ps8nu), Jennifer Cheung (jjc4dq)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+            <div className="paper">
+              <div className="aboutpic">KCC</div>
+
+              <div className="blackglass">
+                <div className="text">Homeless Outreach Ministry</div>
+                <div className="leaders">
+                  Led by Jennifer Cheung & Philip Song
+                </div>
+                <div className="snippet">
+                  <div className="comment">
+                    <a className="underliner">What we do:</a> Provide
+                    sandwiches, conversation, and prayer for the homeless people
+                    in downtown Charlottesville
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Vision:</a> To share the love of
+                    God to those in the area that God has called us to be in
+                    When we meet: 10:30am on Saturdays
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Why join:</a>
+                    To glorify God, to obey His commandment to love God and love
+                    others
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Contact info:</a>
+                    Philip Song (ps8nu), Jennifer Cheung (jjc4dq)
+                  </div>
                 </div>
               </div>
             </div>

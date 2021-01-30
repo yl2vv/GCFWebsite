@@ -54,7 +54,6 @@
   width: 70px;
 } */
 
-
 .nav-links {
   width: 60%;
   display: flex;
@@ -85,6 +84,11 @@
 .link-active {
   color: #bbbbbb;
   transition: 0.5s ease;
+}
+
+.link-active:link .navtext:before {
+  visibility: visible;
+  transform: scaleX(1);
 }
 
 .navtext {

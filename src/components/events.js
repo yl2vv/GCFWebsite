@@ -1,6 +1,5 @@
 import React from "react";
 import "./events.css";
-// import Carousel from "react-elastic-carousel";
 import Carousel from "react-bootstrap/Carousel";
 
 function getDayOfWeek(date) {

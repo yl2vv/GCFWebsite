@@ -40,9 +40,9 @@
   overflow: auto;
 }
 
-/* .iframe::-webkit-scrollbar {
+.connectBody::-webkit-scrollbar {
   display: none;
-} */
+}
 
 .connectCard {
   width: 60%;

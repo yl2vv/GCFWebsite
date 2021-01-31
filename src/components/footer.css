@@ -42,6 +42,7 @@
   align-items: center;
   flex-direction: column;
   text-decoration: none;
+  font-weight: 200;
 }
 
 .textsub {
@@ -51,11 +52,12 @@
   align-items: center;
   flex-direction: column;
   padding-top: 5px;
+  font-weight: 200;
 }
 
 .divider {
   width: 65%;
-  height: 1.5%;
+  height: 0.75%;
   background-color: white;
   transition: 0.4s ease;
 }

@@ -70,47 +70,47 @@
 /* All Ministry Pictures */
 .praise_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/apple_picking.jpg");
+    url("../images/ministries/praise2.png");
 }
 .greeters_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/apple_picking.jpg");
+    url("../images/ministries/greeters3.jpg");
 }
 .bulletins_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/apple_picking.jpg");
+    url("../images/ministries/bulletins.jpg");
 }
 .arise_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/apple_picking.jpg");
+    url("../images/ministries/bulletins2.jpg");
 }
 .prayer_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/apple_picking.jpg");
+    url("../images/ministries/prayer3.jpg");
 }
 .cam_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/apple_picking.jpg");
+    url("../images/ministries/cam2.png");
 }
 .mmm_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/apple_picking.jpg");
+    url("../images/ministries/mmm.jpg");
 }
 .tat_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/apple_picking.jpg");
+    url("../images/ministries/tat.jpg");
 }
 .livelove_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/apple_picking.jpg");
+    url("../images/ministries/livelove2.jpg");
 }
 .veritas_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/apple_picking.jpg");
+    url("../images/ministries/veritas.png");
 }
 .kcc_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/apple_picking.jpg");
+    url("../images/ministries/kcc.jpg");
 }
 
 /* SJP's stuff */
@@ -126,6 +126,7 @@
   line-height: 300px;
   text-align: center;
   font-size: 40px;
+  background-size: cover;
   background-position: center;
 }
 

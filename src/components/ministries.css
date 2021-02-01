@@ -5,6 +5,22 @@
   text-transform: uppercase;
 }
 
+.ministries_subtitle {
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.subtitle_underliner {
+  border-bottom: 2px solid white;
+}
+
+.subtitle_container {
+  margin: auto;
+  width: 80px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
 .banner.ministries {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/ministry.jpg");
@@ -20,13 +36,13 @@
   float: left;
   width: 100%;
   text-align: center;
+  justify-content: center;
 }
 
 .ministry_sample {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/apple_picking.jpg");
   background-position: center;
-
   display: block;
   width: 100%;
   height: auto;

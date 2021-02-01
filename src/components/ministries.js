@@ -33,7 +33,10 @@ function Ministries() {
       </div>
       <div class="row">
         <div class="column">
-          <p>Inreach</p>
+          <div className="ministries_subtitle">Inreach</div>
+          <div className="subtitle_container">
+            <div className="subtitle_underliner"></div>
+          </div>
           <div className={classes.root}>
             <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
               <div className="paper">
@@ -350,7 +353,10 @@ function Ministries() {
         </div>
       </div>
       <div class="column">
-        <p>Outreach</p>
+        <div className="ministries_subtitle">Outreach</div>
+        <div className="subtitle_container">
+          <div className="subtitle_underliner"></div>
+        </div>
         <div className={classes.root}>
           <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
             <div className="paper">

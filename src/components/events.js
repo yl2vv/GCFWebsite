@@ -166,13 +166,19 @@ class Events extends React.Component {
                 </div>
               ))}
             </Carousel> */}
-            <Carousel style={{ margin: "0 auto" }}>
+            <Carousel
+              style={{
+                "max-width": "700px",
+                "max-height": "400px",
+                margin: "0 auto",
+              }}
+            >
               <Carousel.Item>
                 <div className="retreatPic Servants"></div>
                 <p className="retreatTitle">Servants Retreat</p>
               </Carousel.Item>
               <Carousel.Item>
-                <div className="retreatPic Mens d-block w-100"></div>
+                <div className="retreatPic Mens"></div>
                 <p className="retreatTitle">Mens Retreat</p>
               </Carousel.Item>
               <Carousel.Item>

@@ -24,6 +24,7 @@ body {
   font-weight: 200;
   color: white;
   text-transform: uppercase;
+  width: 90%;
 }
 
 .homeBottom {
@@ -41,7 +42,7 @@ body {
 .bibleVerse {
   font-size: 45px;
   font-weight: 200;
-  margin: 2%;
+  width: 90%;
   margin-bottom: 100px;
 }
 
@@ -88,9 +89,9 @@ body {
 }
 
 .textSection {
-  width: 50%;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 66%;
+  /* margin-left: 5%;
+  margin-right: 5%; */
   display: flex;
 }
 
@@ -108,8 +109,10 @@ body {
 }
 
 .redirectButton {
-  background-color: rgb(10, 10, 10, 1);
-  border: none;
+  /* background-color: rgb(10, 10, 10, 1); */
+  background-color: rgb(255, 255, 255, 0.2);
+  /* border: none; */
+  border: 1px solid white;
   border-radius: 8px;
   color: white;
   text-align: center;
@@ -119,11 +122,14 @@ body {
   height: 50px;
   cursor: pointer;
   text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 200;
+  transition: 0.3s;
 }
 
 .redirectButton:hover {
-  background-color: rgba(194, 192, 192, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  color: black;
 }
 
 .home_text {
@@ -135,7 +141,7 @@ body {
 .home_text2 {
   font-size: 20px;
   font-weight: 200;
-  width: 33%;
+  width: 50%;
   justify-content: center;
 }
 
@@ -147,9 +153,8 @@ body {
 .commission_text {
   font-size: 45px;
   font-weight: 200;
-  /* margin: 0 auto; */
-  margin: auto;
-  width: 33%;
+  margin: 0 auto;
+  width: 50%;
   justify-content: center;
   padding: 50px;
 }

@@ -11,19 +11,21 @@ function Connect() {
         <p className="connect_title">Connect with us</p>
       </div>
       <div className="connectBody">
-        <div className="connectCard">
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLScLxzEHctUpwNMDGAxDg6DXrKKMUW9ifLfVKvlIFkT_ar33lA/viewform?embedded=true"
-            className="iframe"
-            width="100%"
-            height="930"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0"
-          >
-            Loading…
-          </iframe>
-        </div>
+        <Fade top delay="500">
+          <div className="connectCard">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLScLxzEHctUpwNMDGAxDg6DXrKKMUW9ifLfVKvlIFkT_ar33lA/viewform?embedded=true"
+              className="iframe"
+              width="100%"
+              height="1000"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+            >
+              Loading…
+            </iframe>
+          </div>
+        </Fade>
         <Fade left delay="1000">
           <div className="sideConnect">
             <div className="socialMedia">

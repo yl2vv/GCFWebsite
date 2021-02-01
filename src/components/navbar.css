@@ -16,7 +16,7 @@
   /* background-color: rgb(55, 55, 55, 0.9); */
   animation-fill-mode: forwards;
   animation: colorChange 0.5s;
-  background-color: rgba(41, 40, 40, 0.7);
+  background-color: rgba(41, 40, 40, 1);
 }
 
 @keyframes colorChange {
@@ -24,7 +24,7 @@
     background-color: rgb(55, 55, 55, 0);
   }
   to {
-    background-color: rgba(41, 40, 40, 0.7);
+    background-color: rgba(41, 40, 40, 1);
   }
 }
 
@@ -94,7 +94,7 @@
 .navtext {
   position: relative;
   font-size: 17px;
-  color:white;
+  color: white;
 }
 
 .link:hover .navtext:before {
@@ -149,8 +149,42 @@
   margin: 0 auto;
 }
 
-
 .navToggle {
   background-color: rgba(255, 255, 255, 0.3);
-
 }
+
+@media only screen and (min-width: 1px) and (max-width: 992px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(55, 55, 55, 0.8);
+    /* background-color: rgba(146, 146, 146, 0.5); */
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 9999;
+  }
+
+  .nav.active {
+    /* background-color: rgb(55, 55, 55, 0.9); */
+    animation-fill-mode: forwards;
+    animation: colorChange 0.5s;
+    background-color: rgba(41, 40, 40, 1);
+  }
+
+  @keyframes colorChange {
+    from {
+      background-color: rgb(55, 55, 55, 0.8);
+    }
+    to {
+      background-color: rgba(41, 40, 40, 1);
+    }
+  }
+}
+
+/* .navbar-collapse:active {
+
+} */

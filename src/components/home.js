@@ -52,12 +52,12 @@ function Home() {
         <div className="subSection3">
           <Fade left delay="500">
             <div className="textSection">
-              <p className="commission_text">The Great Commission</p>
-              <p className="home_text2">
+              <div className="commission_text">The Great Commission</div>
+              <div className="home_text2">
                 "Go therefore and make disciples of all nations, baptizing them
                 in the name of the Father and of the Son and of the Holy Spirit,
                 teaching them to observe all that I have commanded you."
-              </p>
+              </div>
             </div>
           </Fade>
           <Fade right delay="700">

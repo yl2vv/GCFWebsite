@@ -67,10 +67,54 @@
   text-align: left;
 }
 
-/* SJP's stuff */
-.aboutpic {
+/* All Ministry Pictures */
+.praise_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/apple_picking.jpg");
+}
+.greeters_pic {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/apple_picking.jpg");
+}
+.bulletins_pic {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/apple_picking.jpg");
+}
+.arise_pic {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/apple_picking.jpg");
+}
+.prayer_pic {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/apple_picking.jpg");
+}
+.cam_pic {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/apple_picking.jpg");
+}
+.mmm_pic {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/apple_picking.jpg");
+}
+.tat_pic {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/apple_picking.jpg");
+}
+.livelove_pic {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/apple_picking.jpg");
+}
+.veritas_pic {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/apple_picking.jpg");
+}
+.kcc_pic {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/apple_picking.jpg");
+}
+
+/* SJP's stuff */
+.pic_container {
   height: 300px;
   width: 100%;
   overflow: hidden;
@@ -113,6 +157,11 @@
   transform: translate(-50%, -50%);
   transition: 0.3s ease;
   display: block;
+  overflow-y: auto;
+}
+
+.blackglass::-webkit-scrollbar {
+  display: none;
 }
 
 .paper:hover .blackglass {
@@ -126,7 +175,7 @@
   /* box-shadow: 15px 15px 0px 0px rgb(0, 0, 0, 0.8); */
 }
 
-.paper:hover .aboutpic {
+.paper:hover .pic_container {
   transform: scale(1.2);
   /* box-shadow: 4px 4px 0px 0px rgb(0, 0, 0, 0.8); */
 }

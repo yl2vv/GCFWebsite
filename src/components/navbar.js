@@ -2,72 +2,95 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 import "./navbar.css";
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
 
 function Navigation() {
   const [navbar, setNavbar] = useState(false);
+  const [navbar2, setNavbar2] = useState(false);
+
   // const [navLogo, setLogo] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= window.screen.height / 25) {
+    if (window.scrollY >= window.screen.height / 100) {
       setNavbar(true);
       // setLogo(true);
-
     } else {
       setNavbar(false);
       // setLogo(false);
     }
   };
 
+  // const changeOnWindowSize = () => {
+  //   if (window.innerWidth <= 992) {
+  //     setNavbar2(true);
+  //   } else {
+  //     setNavbar2(false);
+  //   }
+  // };
+
   window.addEventListener("scroll", changeBackground);
+  // window.addEventListener("resize", changeOnWindowSize);
 
   return (
-    <Navbar className={navbar ? "nav active" : "nav"} expand="lg">
+    <Navbar
+      collapseOnSelect
+      className={navbar || navbar2 ? "nav active" : "nav"}
+      expand="lg"
+    >
       <Navbar.Brand href="/">
         <Fade delay="500">
           <div className={"logo"} id="logo"></div>
         </Fade>
       </Navbar.Brand>
-      <Navbar.Toggle  className='navToggle' aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav"> 
+      <Navbar.Toggle
+        className="navToggle"
+        aria-controls="responsive-navbar-nav"
+      />
+      <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="nav-links">
-
           <NavLink to="/about" className="link" activeClassName="link-active">
             <Fade delay="750">
-                <div className='navtext'>About</div>
+              <div className="navtext">About</div>
             </Fade>
           </NavLink>
 
-          <NavLink to="/staff_and_leadership" className="link" activeClassName="link-active">
+          <NavLink
+            to="/staff_and_leadership"
+            className="link"
+            activeClassName="link-active"
+          >
             <Fade delay="900">
-               <div className="navtext">Leadership</div>
+              <div className="navtext">Leadership</div>
             </Fade>
           </NavLink>
 
-          <NavLink to="/ministries" className="link" activeClassName="link-active">
+          <NavLink
+            to="/ministries"
+            className="link"
+            activeClassName="link-active"
+          >
             <Fade delay="1050">
-                <div className="navtext">Ministries</div>
+              <div className="navtext">Ministries</div>
             </Fade>
           </NavLink>
 
           <NavLink to="/events" className="link" activeClassName="link-active">
             <Fade delay="1200">
-                <div className="navtext">Events</div>
+              <div className="navtext">Events</div>
             </Fade>
           </NavLink>
 
           <NavLink className="link" activeClassName="link-active" to="/support">
             <Fade delay="1350">
-                <div className="navtext">Support</div>
+              <div className="navtext">Support</div>
             </Fade>
           </NavLink>
 
           <NavLink to="/connect" className="link" activeClassName="link-active">
             <Fade delay="1500">
-                <div className="navtext">Connect</div>
+              <div className="navtext">Connect</div>
             </Fade>
           </NavLink>
-          
         </Nav>
       </Navbar.Collapse>
     </Navbar>

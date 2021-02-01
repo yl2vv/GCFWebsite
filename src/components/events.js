@@ -64,7 +64,8 @@ class Events extends React.Component {
       default:
         document
           .getElementById("Sunday")
-          .setAttribute("color", "color: rgb(29,98,57);");
+          .setAttribute("style", "color: rgb(29,98,57);");
+          break;
     }
   }
   render() {

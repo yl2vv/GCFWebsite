@@ -18,7 +18,7 @@
   margin: auto;
   width: 80px;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .banner.ministries {
@@ -29,7 +29,21 @@
 }
 
 .column {
-  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 40px;
+  font-weight: 200;
+  color: white;
+  float: left;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.column2 {
+  background-color: #222222;
+  padding-top: 50px;
+  padding-bottom: 50px;
   font-size: 40px;
   font-weight: 200;
   color: white;
@@ -97,8 +111,8 @@
     url("../images/ministries/bulletins.jpg");
 }
 .arise_pic {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/ministries/bulletins2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/ministries/arise2.jpg");
 }
 .prayer_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -106,7 +120,7 @@
 }
 .cam_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/ministries/cam2.png");
+    url("../images/ministries/cam3.jpg");
 }
 .mmm_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),

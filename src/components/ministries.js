@@ -352,7 +352,7 @@ function Ministries() {
           </div>
         </div>
       </div>
-      <div class="column">
+      <div class="column2">
         <div className="ministries_subtitle">Outreach</div>
         <div className="subtitle_container">
           <div className="subtitle_underliner"></div>

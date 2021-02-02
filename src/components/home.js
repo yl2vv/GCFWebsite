@@ -7,12 +7,12 @@ function Home() {
   return (
     <div>
       <div className="home">
-        <Fade duration="5000" className="fade">
+        <Fade duration="2000" className="fade">
           <p className="home_title">Welcome to Grace Christian Fellowship</p>
         </Fade>
       </div>
       <div className="homeBottom">
-        <Fade duration="6000">
+        <Fade duration="1500">
           <p className="bibleVerse">
             From whom the whole body, joined and held together by every joint
             with which it is equipped, when each part is working properly, makes
@@ -24,7 +24,9 @@ function Home() {
         </Fade>
         <div className="subSection2">
           <div className="width_control">
-            <p className="subsection_title">Our Mission</p>
+            <Fade bottom>
+              <p className="subsection_title">Our Mission</p>
+            </Fade>
             <div className="subSection">
               <Fade left delay="500">
                 <div className="textSection">
@@ -50,17 +52,19 @@ function Home() {
         </div>
 
         <div className="subSection3">
-          <Fade left delay="500">
-            <div className="textSection">
+          <div className="textSection">
+            <Fade left delay="500">
               <div className="commission_text">The Great Commission</div>
+            </Fade>
+            <Fade bottom delay="500">
               <div className="home_text2">
                 "Go therefore and make disciples of all nations, baptizing them
                 in the name of the Father and of the Son and of the Holy Spirit,
                 teaching them to observe all that I have commanded you."
               </div>
-            </div>
-          </Fade>
-          <Fade right delay="700">
+            </Fade>
+          </div>
+          <Fade right delay="500">
             <div className="linkSection">
               <Link className="link" to="/ministries">
                 <button className="redirectButton">Ministries</button>

@@ -38,7 +38,7 @@ function Navigation() {
       expand="lg"
     >
       <Navbar.Brand href="/">
-        <Fade delay="500">
+        <Fade delay="0">
           <div className={"logo"} id="logo"></div>
         </Fade>
       </Navbar.Brand>
@@ -49,7 +49,7 @@ function Navigation() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="nav-links">
           <NavLink to="/about" className="link" activeClassName="link-active">
-            <Fade delay="750">
+            <Fade delay="150">
               <div className="navtext">About</div>
             </Fade>
           </NavLink>
@@ -59,7 +59,7 @@ function Navigation() {
             className="link"
             activeClassName="link-active"
           >
-            <Fade delay="900">
+            <Fade delay="350">
               <div className="navtext">Leadership</div>
             </Fade>
           </NavLink>
@@ -69,25 +69,25 @@ function Navigation() {
             className="link"
             activeClassName="link-active"
           >
-            <Fade delay="1050">
+            <Fade delay="500">
               <div className="navtext">Ministries</div>
             </Fade>
           </NavLink>
 
           <NavLink to="/events" className="link" activeClassName="link-active">
-            <Fade delay="1200">
+            <Fade delay="650">
               <div className="navtext">Events</div>
             </Fade>
           </NavLink>
 
           <NavLink className="link" activeClassName="link-active" to="/support">
-            <Fade delay="1350">
+            <Fade delay="800">
               <div className="navtext">Support</div>
             </Fade>
           </NavLink>
 
           <NavLink to="/connect" className="link" activeClassName="link-active">
-            <Fade delay="1500">
+            <Fade delay="950">
               <div className="navtext">Connect</div>
             </Fade>
           </NavLink>

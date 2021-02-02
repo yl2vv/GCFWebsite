@@ -24,21 +24,29 @@ function About() {
         </p>
       </div>
       <div className="divAbout">
-        <Link className="linkExec" to="/staff_and_leadership">
-          Statement about student leaders
-        </Link>
+        <div className="about_underliner">
+          <Link className="linkExec" to="/staff_and_leadership">
+            Statement about student leaders
+          </Link>
+        </div>
       </div>
-      <div className="divAbout">
+      {/* <div className="divAbout">
         <p>Service Times</p>
         <div>
           <p>Sunday Worship Service @11:00AM</p>
           <p>Friday Large Group @7:30PM</p>
         </div>
-      </div>
+      </div> */}
       <div className="divAbout">
-        <p>Get involved</p>
+        <div className="about_subtitle">Serve With Us</div>
         <Link className="link" to="/ministries">
           <button className="redirectButton">Ministries</button>
+        </Link>
+      </div>
+      <div className="divAbout">
+        <div className="about_subtitle">Get Connected</div>
+        <Link className="link" to="/connect">
+          <button className="redirectButton">Connect</button>
         </Link>
       </div>
       <div className="divAbout disclaimer">

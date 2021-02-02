@@ -45,6 +45,51 @@
   margin-bottom: 5%;
 }
 
+/* The Underliner */
+.linkExec {
+  position: relative;
+  font-size: 40px;
+  width: 100%;
+  color: white;
+  font-weight: 200;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+/* 
+.linkExec:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.linkExec:before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  left: 0%;
+  background-color: #bbbbbb;
+  visibility: hidden;
+  transform: scaleX(0);
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+} */
+
+.linkExec:hover {
+  color: #bbbbbb;
+}
+
+.about_underliner {
+  width: 1000px;
+  margin: 0 auto;
+}
+/* End of The Underliner */
+
+.about_subtitle {
+  font-size: 35px;
+  font-weight: 200;
+  padding-bottom: 50px;
+}
+
 .about_text {
   font-size: 20px;
   font-weight: 200;
@@ -55,15 +100,6 @@
 .gcf {
   text-decoration: underline;
   display: inline;
-}
-
-.linkExec {
-  width: fit-content;
-  color: white;
-  font-size: 25px;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-decoration: none !important;
 }
 
 .disclaimer {

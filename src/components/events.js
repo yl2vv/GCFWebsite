@@ -1,6 +1,7 @@
 import React from "react";
 import "./events.css";
 import Carousel from "react-bootstrap/Carousel";
+import Fade from "react-reveal/Fade";
 
 function getDayOfWeek(date) {
   const dayOfWeek = new Date(date).getDay();
@@ -78,7 +79,8 @@ class Events extends React.Component {
         <div className="eventsContent">
           <div className="scheduleWeek">
             <div className="weekContainer">
-              <div className="weekTitle">Recurring Events</div>
+              <Fade left >
+                <div className="weekTitle">Recurring Events</div>
               <div className="weekSubContainer">
                 <div className="day">
                   <div className="dayContainer" id="Monday">
@@ -107,7 +109,8 @@ class Events extends React.Component {
                 </div>
                 <div className="event">
                   <div className="eventContainer">
-                    Morning Prayer @8:00AM <br /> Prayer Meeting @9:00PM
+                    <div className='eventSub'>Morning Prayer @8:00AM</div>
+                    <div className='eventSub'>Prayer Meeting @9:00PM</div>
                   </div>
                 </div>
               </div>
@@ -129,7 +132,8 @@ class Events extends React.Component {
                 </div>
                 <div className="event">
                   <div className="eventContainer">
-                    Morning Prayer @8:00AM <br /> Large Group @7:15PM
+                    <div className='eventSub'>Morning Prayer @8:00AM</div>
+                    <div className='eventSub'>Large Group @7:30PM</div>
                   </div>
                 </div>
               </div>
@@ -153,19 +157,10 @@ class Events extends React.Component {
                   <div className="eventContainer">Sunday Chapel @11:00AM</div>
                 </div>
               </div>
+              </Fade>
             </div>
           </div>
           <div className="specialEvents">
-            {/* <Carousel>
-              {items.map((item) => (
-                <div className="retreat">
-                  <div className={item.class}></div>
-                  <div className="retreatTitle">
-                    <div>{item.title} Retreat</div>
-                  </div>
-                </div>
-              ))}
-            </Carousel> */}
             <Carousel
               style={{
                 "max-width": "700px",

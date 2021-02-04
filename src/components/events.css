@@ -60,6 +60,7 @@
   margin-top: 15px;
   margin-bottom: 15px;
   width: 100%;
+  height: 60px;
 }
 
 .day {
@@ -71,7 +72,7 @@
 }
 
 .dayContainer {
-  height: 50px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -82,13 +83,17 @@
   justify-content: center;
   align-items: flex-end;
   font-size: 20px;
-  height: 50px;
+  height: 60px;
   width: 100%;
 }
 
 .eventContainer {
   width: 250px;
   text-align: end;
+}
+
+.eventSub {
+  height: 25px;
 }
 
 .weekTitle {
@@ -123,15 +128,9 @@
 }
 
 .retreatPic {
-  width: 700px;
+  width: 630px;
   height: 400px;
 }
-
-/* 
-.retreatPic:hover {
-    width: 1000px;
-    height: 1000px;
-} */
 
 .retreatPic.Servants {
   background: url("../images/servant.jpg");
@@ -148,7 +147,7 @@
 }
 
 .retreatPic.Womens {
-  background: url("../images/servant.jpg");
+  background: url("../images/womens.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

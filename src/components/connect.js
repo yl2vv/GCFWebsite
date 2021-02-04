@@ -26,7 +26,7 @@ function Connect() {
             </iframe>
           </div>
         </Fade>
-        <Fade left delay="1000">
+        <Fade right delay="1000">
           <div className="sideConnect">
             <div className="socialMedia">
               <p className="socialMediaText">Find us on social media</p>

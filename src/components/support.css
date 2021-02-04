@@ -27,7 +27,7 @@
   font-size: 20px;
   width: 60%;
   font-weight: 200;
-  margin-top: 5%;
+  margin-top: 40px;
 }
 
 /* Donation */
@@ -116,4 +116,17 @@
   width: 60%;
   font-weight: 200;
   margin-top: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+  .supportListContainer {
+    flex-direction: column;
+  }
+  .supportList {
+    font-size: 16px;
+    width:85%;
+  }
+  .mission {
+    width: 80%;
+  }
 }

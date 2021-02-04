@@ -88,3 +88,18 @@
 .links:hover {
   color: rgb(29, 98, 57);
 }
+
+@media screen and (max-width: 500px) {
+  .links {
+    height: 25px;
+  }
+  .icons {
+    font-size: 25px;
+  }
+  .textmain {
+    font-size: 15px;
+  }
+  .textsub {
+    font-size: 10px;
+  }
+}

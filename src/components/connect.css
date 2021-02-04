@@ -135,3 +135,24 @@
 .emailIcon:hover {
   color: rgb(29, 98, 57);
 }
+
+@media screen and (max-width: 1000px) {
+  .connectBody {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .connectCard {
+    width: 100%;
+  }
+  .sideConnect {
+    width: 80%;
+
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width:1000px) {
+  .sideConnect {
+    flex-direction: row;
+  }
+}

@@ -185,6 +185,8 @@
   }
 }
 
-/* .navbar-collapse:active {
-
-} */
+@media screen and (max-width: 1000px) {
+  .nav-links {
+    width: 100%;
+  }
+}

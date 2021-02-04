@@ -8,20 +8,44 @@ function Support() {
         <p className="support_title">How To Support</p>
       </div>
       <p className="mission">
-        Our ministry is made possible through faithful prayer and financial
-        supporters. Please contact us if you are interested in joining this
-        cause of helping young men and women to embrace and follow the way of
-        God's love and truth during the important years of their life.
+      Your giving is vital and beneficial for our ministry and supporting our mission. 
+      If you would like to give to GCF online, please click below and put "GCF offering" in the memo.
       </p>
       <div className="donation_container">
         <a
           className="donation_link"
-          href="https://www.paypal.com/donate?token=0sTslCiDx-Hq38afiiynb66SMJXgh0DZTLfuYczyI9rBsakIPaRI_sSIUKaJvstshmO_EWFM8ykiOZc6"
+          target="_blank"
+          href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=FT4CR7E33JZD2&source=url"
         >
           <p className="donation">DONATE HERE</p>
         </a>
       </div>
-      <p className="mission">
+      <div className="supportListContainer">
+        <p className="supportList">
+          ALUMNI MISSIONARIES WE PRAY FOR <br/>
+
+          Bob ('92, medicine) & Grace Shim (VT '90) -- Thailand <br/>
+          James & Lauren Kim ('91) -- N. America mobilization <br/>
+          Jee Lee ('03) -- Korea orphan ministry <br/>
+          Peter ('93) & Joann Kim -- Native American outreach, AZ <br/>
+          Peter & Rachel Chin -- E Africa <br/>
+          Sung ('92) & Heidi -- Asia <br/>
+          Susan ('09) & Michael Lee -- Asia
+        </p>
+        <p className="supportList">
+          CHURCHES THAT SUPPORTS GCF AND PRAYS FOR US <br/>
+
+          The Church of the Blue Ridge <br/>
+          Korean Community Church in Charlottesville <br/>
+          Covenant Fellowship Church, Urbana, IL <br/>
+          Great Commission Community Church, Arlington, VA <br/>
+          Korean Central Presb Church, Centreville, VA <br/>
+          Korean Presb Church of Washington, Fairfax, VA <br/>
+          Open Door Presbyterian Church, Herndon, VA <br/>
+          Pilgrim Community Baptist Church, Burke, VA <br/>
+        </p>
+      </div>
+      {/* <p className="mission">
         Servants Ministry is a non-profit tax-exempt 501(c)(3) organization. All
         donations are tax deductible to the extent allowed by law. Donors will
         receive an annual contribution statement by the end of January for
@@ -30,7 +54,7 @@ function Support() {
         <div className="contact_container">
           <p className="contact">jgross@servantsministry.org.</p>
         </div>
-      </p>
+      </p> */}
     </div>
   );
 }

@@ -102,3 +102,18 @@
   width: 189px;
   margin: 0 auto;
 }
+
+.supportListContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.supportList {
+  font-size: 20px;
+  width: 60%;
+  font-weight: 200;
+  margin-top: 5%;
+}

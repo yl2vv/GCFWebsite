@@ -2,6 +2,7 @@ import React from "react";
 import "./events.css";
 import Carousel from "react-bootstrap/Carousel";
 import Fade from "react-reveal/Fade";
+import { Link } from "react-router-dom";
 
 function getDayOfWeek(date) {
   const dayOfWeek = new Date(date).getDay();
@@ -77,9 +78,9 @@ class Events extends React.Component {
           <p className="events_title">Events</p>
         </div>
         <div className="eventsContent">
+        <Fade left >
           <div className="scheduleWeek">
             <div className="weekContainer">
-              <Fade left >
                 <div className="weekTitle">Recurring Events</div>
               <div className="weekSubContainer">
                 <div className="day">
@@ -157,10 +158,18 @@ class Events extends React.Component {
                   <div className="eventContainer">Sunday Chapel @11:00AM</div>
                 </div>
               </div>
-              </Fade>
             </div>
           </div>
+          </Fade>
           <div className="specialEvents">
+            <Fade duration="5000">
+              <div className="SmallGroupJoin">
+                <Link className="linkExec" to="/connect">
+                  Join A Small Group
+                </Link>
+                <br/>Tuesday | Thursday
+              </div>
+            </Fade>
             <Carousel
               style={{
                 "max-width": "700px",

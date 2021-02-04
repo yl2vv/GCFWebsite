@@ -22,7 +22,7 @@ function Support() {
       </div>
       <div className="supportListContainer">
         <p className="supportList">
-          ALUMNI MISSIONARIES WE PRAY FOR <br/>
+          <b>ALUMNI MISSIONARIES WE PRAY FOR</b> <br/>
 
           Bob ('92, medicine) & Grace Shim (VT '90) -- Thailand <br/>
           James & Lauren Kim ('91) -- N. America mobilization <br/>
@@ -33,7 +33,7 @@ function Support() {
           Susan ('09) & Michael Lee -- Asia
         </p>
         <p className="supportList">
-          CHURCHES THAT SUPPORTS GCF AND PRAYS FOR US <br/>
+          <b>CHURCHES THAT SUPPORTS GCF AND PRAYS FOR US</b> <br/>
 
           The Church of the Blue Ridge <br/>
           Korean Community Church in Charlottesville <br/>

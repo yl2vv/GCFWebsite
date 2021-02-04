@@ -67,7 +67,7 @@ class Events extends React.Component {
         document
           .getElementById("Sunday")
           .setAttribute("style", "color: rgb(29,98,57);");
-          break;
+        break;
     }
   }
   render() {
@@ -78,88 +78,88 @@ class Events extends React.Component {
           <p className="events_title">Events</p>
         </div>
         <div className="eventsContent">
-        <Fade left >
-          <div className="scheduleWeek">
-            <div className="weekContainer">
+          <Fade left>
+            <div className="scheduleWeek">
+              <div className="weekContainer">
                 <div className="weekTitle">Recurring Events</div>
-              <div className="weekSubContainer">
-                <div className="day">
-                  <div className="dayContainer" id="Monday">
-                    MON
+                <div className="weekSubContainer">
+                  <div className="day">
+                    <div className="dayContainer" id="Monday">
+                      MON
+                    </div>
+                  </div>
+                  <div className="event">
+                    <div className="eventContainer">Morning Prayer @8:00AM</div>
                   </div>
                 </div>
-                <div className="event">
-                  <div className="eventContainer">Morning Prayer @8:00AM</div>
-                </div>
-              </div>
-              <div className="weekSubContainer">
-                <div className="day">
-                  <div className="dayContainer" id="Tuesday">
-                    TUE
+                <div className="weekSubContainer">
+                  <div className="day">
+                    <div className="dayContainer" id="Tuesday">
+                      TUE
+                    </div>
+                  </div>
+                  <div className="event">
+                    <div className="eventContainer">Morning Prayer @8:00AM</div>
                   </div>
                 </div>
-                <div className="event">
-                  <div className="eventContainer">Morning Prayer @8:00AM</div>
-                </div>
-              </div>
-              <div className="weekSubContainer">
-                <div className="day">
-                  <div className="dayContainer" id="Wednesday">
-                    WED
+                <div className="weekSubContainer">
+                  <div className="day">
+                    <div className="dayContainer" id="Wednesday">
+                      WED
+                    </div>
+                  </div>
+                  <div className="event">
+                    <div className="eventContainer">
+                      <div className="eventSub">Morning Prayer @8:00AM</div>
+                      <div className="eventSub">Prayer Meeting @9:00PM</div>
+                    </div>
                   </div>
                 </div>
-                <div className="event">
-                  <div className="eventContainer">
-                    <div className='eventSub'>Morning Prayer @8:00AM</div>
-                    <div className='eventSub'>Prayer Meeting @9:00PM</div>
+                <div className="weekSubContainer">
+                  <div className="day">
+                    <div className="dayContainer" id="Thursday">
+                      THU
+                    </div>
+                  </div>
+                  <div className="event">
+                    <div className="eventContainer">Morning Prayer @8:00AM</div>
                   </div>
                 </div>
-              </div>
-              <div className="weekSubContainer">
-                <div className="day">
-                  <div className="dayContainer" id="Thursday">
-                    THU
+                <div className="weekSubContainer">
+                  <div className="day">
+                    <div className="dayContainer" id="Friday">
+                      FRI
+                    </div>
+                  </div>
+                  <div className="event">
+                    <div className="eventContainer">
+                      <div className="eventSub">Morning Prayer @8:00AM</div>
+                      <div className="eventSub">Large Group @7:30PM</div>
+                    </div>
                   </div>
                 </div>
-                <div className="event">
-                  <div className="eventContainer">Morning Prayer @8:00AM</div>
-                </div>
-              </div>
-              <div className="weekSubContainer">
-                <div className="day">
-                  <div className="dayContainer" id="Friday">
-                    FRI
+                <div className="weekSubContainer">
+                  <div className="day">
+                    <div className="dayContainer" id="Saturday">
+                      SAT
+                    </div>
+                  </div>
+                  <div className="event">
+                    <div className="eventContainer">-</div>
                   </div>
                 </div>
-                <div className="event">
-                  <div className="eventContainer">
-                    <div className='eventSub'>Morning Prayer @8:00AM</div>
-                    <div className='eventSub'>Large Group @7:30PM</div>
+                <div className="weekSubContainer">
+                  <div className="day">
+                    <div className="dayContainer" id="Sunday">
+                      SUN
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div className="weekSubContainer">
-                <div className="day">
-                  <div className="dayContainer" id="Saturday">
-                    SAT
+                  <div className="event">
+                    <div className="eventContainer">Sunday Chapel @11:00AM</div>
                   </div>
-                </div>
-                <div className="event">
-                  <div className="eventContainer">-</div>
-                </div>
-              </div>
-              <div className="weekSubContainer">
-                <div className="day">
-                  <div className="dayContainer" id="Sunday">
-                    SUN
-                  </div>
-                </div>
-                <div className="event">
-                  <div className="eventContainer">Sunday Chapel @11:00AM</div>
                 </div>
               </div>
             </div>
-          </div>
           </Fade>
           <div className="specialEvents">
             <Fade duration="5000">
@@ -167,12 +167,13 @@ class Events extends React.Component {
                 <Link className="linkExec" to="/connect">
                   Join A Small Group
                 </Link>
-                <br/>Tuesday | Thursday
+                <br />
+                Tuesday | Thursday
               </div>
             </Fade>
             <Carousel
               style={{
-                "max-width": "700px",
+                "max-width": "630px",
                 "max-height": "400px",
                 margin: "0 auto",
               }}

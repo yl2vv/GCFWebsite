@@ -38,7 +38,7 @@ function Home() {
                 </div>
               </Fade>
               <Fade right delay="700">
-                <div className="linkSection">
+                <div className="linkSection aboutOne">
                   <Link className="link" to="/about">
                     <button className="redirectButton">About</button>
                   </Link>
@@ -64,7 +64,7 @@ function Home() {
               </div>
             </Fade>
             <Fade right delay="500">
-              <div className="linkSection">
+              <div className="linkSection greatCom">
                 <Link className="link" to="/ministries">
                   <button className="redirectButton">Ministries</button>
                 </Link>

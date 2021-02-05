@@ -56,7 +56,7 @@ body {
 
 .width_control {
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
 }
 
 .subsection_title {
@@ -72,7 +72,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  background-color: #222222;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
 }
 
 .subSection3 {
@@ -89,14 +91,12 @@ body {
 
 .textSection {
   width: 100%;
-  display: flex;
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .textSection2 {
   width: 100%;
   display: flex;
+  align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -108,6 +108,12 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.linkSection.aboutOne {
+  padding-left: 100px;
+}
+.linkSection.greatCom {
+  width: 70%;
 }
 
 .link {
@@ -149,6 +155,7 @@ body {
   font-weight: 200;
   width: 100%;
   /* justify-content: center; */
+  margin-left: 30px;
 }
 
 .home_text3 {
@@ -162,6 +169,8 @@ body {
   margin: 0 auto;
   width: 100%;
   justify-content: center;
+  text-align: center;
+  height: 50%;
   /* padding: 50px; */
 }
 
@@ -178,8 +187,19 @@ body {
   .textSection2 {
     flex-direction: column;
     width: 90%;
+    align-items: center;
   }
   .home_text2 {
     padding-top: 30px;
+    margin-left: 0px;
+  }
+  .linkSection.aboutOne {
+    padding-left: 0px;
+  }
+  .linkSection.greatCom {
+    margin-top: 20px;
+  }
+  .width_control {
+    width: 90%;
   }
 }

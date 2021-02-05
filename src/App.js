@@ -17,20 +17,20 @@ import Footer from "./components/footer.js";
 function App() {
   return (
     <Router>
-      {/* <ScrollToTop /> */}
-      {/* <Switch> */}
-      <Fragment>
-        <Navigation />
-        <Route exact={true} path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/staff_and_leadership" component={Staff} />
-        <Route path="/ministries" component={Ministries} />
-        <Route path="/events" component={Events} />
-        <Route path="/support" component={Support} />
-        <Route path="/pictures" component={Pictures} />
-        <Route path="/connect" component={Connect} />
-      </Fragment>
-      {/* </Switch> */}
+      <ScrollToTop />
+      <Switch>
+        <Fragment>
+          <Navigation />
+          <Route exact={true} path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/staff_and_leadership" component={Staff} />
+          <Route path="/ministries" component={Ministries} />
+          <Route path="/events" component={Events} />
+          <Route path="/support" component={Support} />
+          <Route path="/pictures" component={Pictures} />
+          <Route path="/connect" component={Connect} />
+        </Fragment>
+      </Switch>
       <Footer />
     </Router>
   );

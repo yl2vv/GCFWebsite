@@ -46,7 +46,7 @@ const Navigator = (props) => {
           </Nav.Link>
 
           <Nav.Link
-            eventKey="2"
+            eventKey="/staff_and_leadership"
             to="/staff_and_leadership"
             as={Link}
             className="link"

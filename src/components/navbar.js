@@ -56,25 +56,40 @@ const Navigator = (props) => {
             </Fade>
           </Nav.Link>
 
-          <Nav.Link eventKey="3" to="/ministries" as={Link} className="link">
+          <Nav.Link
+            eventKey="/ministries"
+            to="/ministries"
+            as={Link}
+            className="link"
+          >
             <Fade delay="500">
               <div className="navtext">Ministries</div>
             </Fade>
           </Nav.Link>
 
-          <Nav.Link eventKey="4" to="/events" as={Link} className="link">
+          <Nav.Link eventKey="/events" to="/events" as={Link} className="link">
             <Fade delay="650">
               <div className="navtext">Events</div>
             </Fade>
           </Nav.Link>
 
-          <Nav.Link eventKey="5" className="link" to="/support" as={Link}>
+          <Nav.Link
+            eventKey="/support"
+            className="link"
+            to="/support"
+            as={Link}
+          >
             <Fade delay="800">
               <div className="navtext">Support</div>
             </Fade>
           </Nav.Link>
 
-          <Nav.Link eventKey="6" to="/connect" className="link" as={Link}>
+          <Nav.Link
+            eventKey="/connect"
+            to="/connect"
+            className="link"
+            as={Link}
+          >
             <Fade delay="950">
               <div className="navtext">Connect</div>
             </Fade>

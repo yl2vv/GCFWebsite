@@ -76,20 +76,17 @@
   text-transform: uppercase;
 }
 
-/* .link:hover {
-  color: gray;
-  transition: 0.5s ease;
-} */
-
-.link-active {
+/* React Bootstrap CSS name: active*/
+.active {
   color: #bbbbbb;
   transition: 0.5s ease;
 }
 
-.link-active:link .navtext:before {
+.active:link .navtext:before {
   visibility: visible;
   transform: scaleX(1);
 }
+/* End of React Bootstrap CSS name: active */
 
 .navtext {
   position: relative;

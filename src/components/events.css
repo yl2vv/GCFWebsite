@@ -179,9 +179,6 @@
   .scheduleWeek {
     width: 100%;
   }
-  .weekContainer {
-    margin-left: 20px;
-  }
   .specialEvents {
     width: 95%;
   }
@@ -191,6 +188,10 @@
   }
   .dayContainer {
     font-size: 40px;
+  }
+  .weekContainer {
+    padding-left: 20px;
+    margin-left: 0px;
   }
   .eventContainer {
     /* width: 200px; */

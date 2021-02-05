@@ -240,3 +240,10 @@
 .paper:hover .underliner {
   opacity: 1;
 }
+
+@media screen and (max-width: 800px) {
+  .column {
+  }
+  .column2 {
+  }
+}

@@ -124,6 +124,15 @@
     padding-top: 15px;
     width: 100%;
   }
+  .exec_image {
+    width: 250px;
+  }
+  .staff_subtitle {
+    font-size: 45px;
+  }
+  .exec_text {
+    width: 250px;
+  }
 }
 @media screen and (max-width: 600px) {
   .pastorij_container {
@@ -135,5 +144,14 @@
     padding-left: 0px;
     padding-top: 15px;
     width: 100%;
+  }
+  .exec_image {
+    width: 250px;
+  }
+  .staff_subtitle {
+    font-size: 45px;
+  }
+  .exec_text {
+    width: 250px;
   }
 }

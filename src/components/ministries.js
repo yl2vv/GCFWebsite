@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     maxWidth: 800,
     margin: `${theme.spacing(0)}px auto`,
-    padding: theme.spacing(3),
+    padding: theme.spacing(5),
   },
 }));
 
@@ -31,325 +31,317 @@ function Ministries() {
       <div className="banner ministries">
         <p className="ministries_title">Ministries</p>
       </div>
-      <div class="row">
-        <div class="column">
-          <div className="ministries_subtitle">Inreach</div>
-          <div className="subtitle_container">
-            <div className="subtitle_underliner"></div>
-          </div>
-          <div className={classes.root}>
-            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
-              <div className="paper">
-                <div className="pic_container praise_pic">Praise</div>
+      <div class="column">
+        <div className="ministries_subtitle">Inreach</div>
+        <div className="subtitle_container">
+          <div className="subtitle_underliner"></div>
+        </div>
+        <div className={classes.root}>
+          <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+            <div className="paper">
+              <div className="pic_container praise_pic">Praise</div>
 
-                <div className="blackglass">
-                  <div className="text">Praise Ministry</div>
-                  <div className="leaders">
-                    Led by Charles Lim, Joohee Yang, Christian Ro
+              <div className="blackglass">
+                <div className="text">Praise Ministry</div>
+                <div className="leaders">
+                  Led by Charles Lim, Joohee Yang, Christian Ro
+                </div>
+                <div className="snippet">
+                  <div className="comment">
+                    <a className="underliner">What we do:</a> Praise God and
+                    serve the body of GCF
                   </div>
-                  <div className="snippet">
-                    <div className="comment">
-                      <a className="underliner">What we do:</a> Praise God and
-                      serve the body of GCF
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Vision:</a> The purpose of
-                      praise team is to use the gifts and talents God has given
-                      us to serve and love the body of Christ through our praise
-                      and worship. We seek to view Praise Team as a community to
-                      encourage everyday personal and corporate worship and
-                      serving the body in order to prepare ourselves to serve in
-                      other ways. We also want to emphasize that leading the
-                      congregation begins with worshipping God ourselves in that
-                      moment and that a Spirit-filled heart can do much more.
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">When:</a>
-                      We meet 2 hours before Friday Large Groups and Sunday
-                      Chapels to pray and prepare our hearts as well as practice
-                      for the set that day. And we also have weekly meetings on
-                      Saturday mornings
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Why Join:</a>
-                      Join if you want to glorify God with music and praise and
-                      learn what our worship means and how it should be Christ
-                      centered and Christ filled.
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Contact info:</a>
-                      Charles Lim (csl4wd), Joohee Yang (jy8zn), Christian Ro
-                      (cr9ey@virginia.edu)
-                    </div>
+                  <div className="comment">
+                    <a className="underliner">Vision:</a> The purpose of praise
+                    team is to use the gifts and talents God has given us to
+                    serve and love the body of Christ through our praise and
+                    worship. We seek to view Praise Team as a community to
+                    encourage everyday personal and corporate worship and
+                    serving the body in order to prepare ourselves to serve in
+                    other ways. We also want to emphasize that leading the
+                    congregation begins with worshipping God ourselves in that
+                    moment and that a Spirit-filled heart can do much more.
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">When:</a>
+                    We meet 2 hours before Friday Large Groups and Sunday
+                    Chapels to pray and prepare our hearts as well as practice
+                    for the set that day. And we also have weekly meetings on
+                    Saturday mornings
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Why Join:</a>
+                    Join if you want to glorify God with music and praise and
+                    learn what our worship means and how it should be Christ
+                    centered and Christ filled.
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Contact info:</a>
+                    Charles Lim (csl4wd), Joohee Yang (jy8zn), Christian Ro
+                    (cr9ey@virginia.edu)
                   </div>
                 </div>
               </div>
-            </Grid>
-            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
-              <div className="paper">
-                <div className="pic_container greeters_pic">Greeters</div>
+            </div>
+          </Grid>
+          <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+            <div className="paper">
+              <div className="pic_container greeters_pic">Greeters</div>
 
-                <div className="blackglass">
-                  <div className="text">Greeters Ministry</div>
-                  <div className="leaders">
-                    Led by Shua Jeong & Sung Joon Park
+              <div className="blackglass">
+                <div className="text">Greeters Ministry</div>
+                <div className="leaders">
+                  Led by Shua Jeong & Sung Joon Park
+                </div>
+                <div className="snippet">
+                  <div className="comment">
+                    <a className="underliner">What we do:</a> We greet people
+                    before friday large group and sunday chapel by handing out
+                    bulletins, opening doors, and having conversations with
+                    people
                   </div>
-                  <div className="snippet">
-                    <div className="comment">
-                      <a className="underliner">What we do:</a> We greet people
-                      before friday large group and sunday chapel by handing out
-                      bulletins, opening doors, and having conversations with
-                      people
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Vision:</a> To welcome and greet
-                      people into the body of GCF by loving them with the love
-                      God first showed us
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">When:</a>
-                      We meet 30 min before LG and Chapel, usually 7:00 on
-                      Fridays and 12:30 on Sundays to pray and start greeting
-                      before people get there
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Why join:</a>
-                      People should join greeters ministry because it's a way to
-                      challenge yourself to step outside of your comfort zone
-                      and live out what it means to love the body of GCF as
-                      Christ loves us. It's also a good way to get to know
-                      people you otherwise wouldn't talk to and foster a greater
-                      sense of community within GCF
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Contact info:</a>
-                      Sung Joon Park (sp3bk), Shua Jeong (sj6xa)
-                    </div>
+                  <div className="comment">
+                    <a className="underliner">Vision:</a> To welcome and greet
+                    people into the body of GCF by loving them with the love God
+                    first showed us
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">When:</a>
+                    We meet 30 min before LG and Chapel, usually 7:00 on Fridays
+                    and 12:30 on Sundays to pray and start greeting before
+                    people get there
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Why join:</a>
+                    People should join greeters ministry because it's a way to
+                    challenge yourself to step outside of your comfort zone and
+                    live out what it means to love the body of GCF as Christ
+                    loves us. It's also a good way to get to know people you
+                    otherwise wouldn't talk to and foster a greater sense of
+                    community within GCF
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Contact info:</a>
+                    Sung Joon Park (sp3bk), Shua Jeong (sj6xa)
                   </div>
                 </div>
               </div>
-            </Grid>
-            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
-              <div className="paper">
-                <div className="pic_container bulletins_pic">Bulletins</div>
+            </div>
+          </Grid>
+          <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+            <div className="paper">
+              <div className="pic_container bulletins_pic">Bulletins</div>
 
-                <div className="blackglass">
-                  <div className="text">Bulletins Ministry</div>
-                  <div className="leaders">
-                    Led by James Yubin Lim & Jisu Kim
+              <div className="blackglass">
+                <div className="text">Bulletins Ministry</div>
+                <div className="leaders">Led by James Yubin Lim & Jisu Kim</div>
+                <div className="snippet">
+                  <div className="comment">
+                    <a className="underliner">What we do:</a> We edit, print,
+                    cut/fold, and deliver the bulletins every week for Sunday
+                    Chapel
                   </div>
-                  <div className="snippet">
-                    <div className="comment">
-                      <a className="underliner">What we do:</a> We edit, print,
-                      cut/fold, and deliver the bulletins every week for Sunday
-                      Chapel
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Vision:</a> We hope to provide
-                      nicely organized and informative bulletins every week so
-                      that people can see an overview of what is going on in
-                      chapel and GCF as a fellowship and know who to contact for
-                      further information.
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">When:</a>
-                      We meet Sunday mornings at around 11:45 to go print
-                      bulletins at the Newcomb Info desk. Rides are provided!
-                      (Editors also edit from home so you can do it at any time
-                      that is convenient)
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Why join:</a>
-                      If you are looking for a way to serve behind the scenes or
-                      wish to simply get plugged into a ministry Bulletins
-                      Ministry is for you!
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Contact info:</a>
-                      Jisu Kim (jk5nc), James Lim (yl2vv)
-                    </div>
+                  <div className="comment">
+                    <a className="underliner">Vision:</a> We hope to provide
+                    nicely organized and informative bulletins every week so
+                    that people can see an overview of what is going on in
+                    chapel and GCF as a fellowship and know who to contact for
+                    further information.
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">When:</a>
+                    We meet Sunday mornings at around 11:45 to go print
+                    bulletins at the Newcomb Info desk. Rides are provided!
+                    (Editors also edit from home so you can do it at any time
+                    that is convenient)
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Why join:</a>
+                    If you are looking for a way to serve behind the scenes or
+                    wish to simply get plugged into a ministry Bulletins
+                    Ministry is for you!
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Contact info:</a>
+                    Jisu Kim (jk5nc), James Lim (yl2vv)
                   </div>
                 </div>
               </div>
-            </Grid>
-            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
-              <div className="paper">
-                <div className="pic_container arise_pic">Arise</div>
+            </div>
+          </Grid>
+          <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+            <div className="paper">
+              <div className="pic_container arise_pic">Arise</div>
 
-                <div className="blackglass">
-                  <div className="text">Arise Ministry</div>
-                  <div className="leaders">Led by Haley Chae & Shua Jeong</div>
-                  <div className="snippet">
-                    <div className="comment">
-                      <a className="underliner">What we do:</a>We praise and
-                      honor God with our body!
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Vision:</a> To fully experience
-                      joy and freedom in Christ, to be more rooted in His words,
-                      to reach out to the lost
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">When:</a>
-                      Saturday 9pm (tentative)
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Why join:</a>
-                      If you want to try to praise God in a different way and
-                      also want to know what it means to worship
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Contact info:</a>
-                      Shua Jeong(sj6xa), Haley Chae (hjc2cc)
-                    </div>
+              <div className="blackglass">
+                <div className="text">Arise Ministry</div>
+                <div className="leaders">Led by Haley Chae & Shua Jeong</div>
+                <div className="snippet">
+                  <div className="comment">
+                    <a className="underliner">What we do:</a>We praise and honor
+                    God with our body!
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Vision:</a> To fully experience
+                    joy and freedom in Christ, to be more rooted in His words,
+                    to reach out to the lost
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">When:</a>
+                    Saturday 9pm (tentative)
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Why join:</a>
+                    If you want to try to praise God in a different way and also
+                    want to know what it means to worship
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Contact info:</a>
+                    Shua Jeong(sj6xa), Haley Chae (hjc2cc)
                   </div>
                 </div>
               </div>
-            </Grid>
-            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
-              <div className="paper">
-                <div className="pic_container prayer_pic">Prayer</div>
+            </div>
+          </Grid>
+          <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+            <div className="paper">
+              <div className="pic_container prayer_pic">Prayer</div>
 
-                <div className="blackglass">
-                  <div className="text">Prayer Ministry</div>
-                  <div className="leaders">Led by Kacie Park & Phil Choi</div>
-                  <div className="snippet">
-                    <div className="comment">
-                      <a className="underliner">What we do:</a>We pray and
-                      intercede for ourselves, each other, GCF, for those
-                      serving beyond where our eyes can see, the church of
-                      Christ, those who have yet to know Him, and for His
-                      Kingdom to come.
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Vision:</a> The purpose of this
-                      ministry is to allow a venue where individuals can come
-                      and be held accountable in prayer in whatever capacity
-                      they desire, but also to have a consistent group of
-                      members praying for GCF. The vision is that God would use
-                      this ministry to foster faithful men and women of prayer
-                      who will also pray consistently in their personal time and
-                      in all aspects of their lives. And that this heart of
-                      prayer would be contagious and spread throughout all of
-                      GCF.
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">When:</a>
-                      30 minutes before large group on Friday and Chapel on
-                      Sundays. Occasionally, we will meet outside of these times
-                      to also prepare for praise and prayer nights. We also go
-                      to retreat centers early (the day of departure) to pray at
-                      the venues.
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Why join:</a>
-                      Prayer itself is important because God tells us to pray in
-                      the Bible. It says in Scripture to pray without ceasing,
-                      and not just for yourself, but also to pray for one
-                      another-- for leaders, for the unsaved, for the persecuted
-                      church, and for fellow believers. It's also just an
-                      amazing opportunity and privilege to commune with our
-                      heavenly Father. Prayer ministry is where we can practice
-                      praying on a deeper level, share requests, and pray in one
-                      voice and mind. We encourage you to join to enrich your
-                      own prayer life and to grow your heart for God's people
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Contact info:</a>
-                      Phil Choi (psc3yh), Kacie Park (kjp6ah)
-                    </div>
+              <div className="blackglass">
+                <div className="text">Prayer Ministry</div>
+                <div className="leaders">Led by Kacie Park & Phil Choi</div>
+                <div className="snippet">
+                  <div className="comment">
+                    <a className="underliner">What we do:</a>We pray and
+                    intercede for ourselves, each other, GCF, for those serving
+                    beyond where our eyes can see, the church of Christ, those
+                    who have yet to know Him, and for His Kingdom to come.
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Vision:</a> The purpose of this
+                    ministry is to allow a venue where individuals can come and
+                    be held accountable in prayer in whatever capacity they
+                    desire, but also to have a consistent group of members
+                    praying for GCF. The vision is that God would use this
+                    ministry to foster faithful men and women of prayer who will
+                    also pray consistently in their personal time and in all
+                    aspects of their lives. And that this heart of prayer would
+                    be contagious and spread throughout all of GCF.
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">When:</a>
+                    30 minutes before large group on Friday and Chapel on
+                    Sundays. Occasionally, we will meet outside of these times
+                    to also prepare for praise and prayer nights. We also go to
+                    retreat centers early (the day of departure) to pray at the
+                    venues.
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Why join:</a>
+                    Prayer itself is important because God tells us to pray in
+                    the Bible. It says in Scripture to pray without ceasing, and
+                    not just for yourself, but also to pray for one another--
+                    for leaders, for the unsaved, for the persecuted church, and
+                    for fellow believers. It's also just an amazing opportunity
+                    and privilege to commune with our heavenly Father. Prayer
+                    ministry is where we can practice praying on a deeper level,
+                    share requests, and pray in one voice and mind. We encourage
+                    you to join to enrich your own prayer life and to grow your
+                    heart for God's people
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Contact info:</a>
+                    Phil Choi (psc3yh), Kacie Park (kjp6ah)
                   </div>
                 </div>
               </div>
-            </Grid>
-            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
-              <div className="paper">
-                <div className="pic_container cam_pic">Creative Arts (CAM)</div>
+            </div>
+          </Grid>
+          <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+            <div className="paper">
+              <div className="pic_container cam_pic">Creative Arts (CAM)</div>
 
-                <div className="blackglass">
-                  <div className="text">Creative Arts Ministry</div>
-                  <div className="leaders">
-                    Led by Jenny Chun & Katelynn Lee
+              <div className="blackglass">
+                <div className="text">Creative Arts Ministry</div>
+                <div className="leaders">Led by Jenny Chun & Katelynn Lee</div>
+                <div className="snippet">
+                  <div className="comment">
+                    <a className="underliner">What we do:</a> we aim to use the
+                    growing interest in visual arts, specifically graphic design
+                    and video, to help our fellowship grow in any way.
+                    Understanding that God uses all things for his glory, this
+                    ministry was created to utilize our passions, hobbies, and
+                    interests in a way that can make much of God.
                   </div>
-                  <div className="snippet">
-                    <div className="comment">
-                      <a className="underliner">What we do:</a> we aim to use
-                      the growing interest in visual arts, specifically graphic
-                      design and video, to help our fellowship grow in any way.
-                      Understanding that God uses all things for his glory, this
-                      ministry was created to utilize our passions, hobbies, and
-                      interests in a way that can make much of God.
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Vision:</a> Our goal is to give
-                      the exec team and other ministries more time to focus on
-                      their ministry, rather than spending that time making
-                      graphics and videos. We also aim to use this ministry as a
-                      way to give others a glimpse of what our community lives
-                      for and how we grow in Christ. We want to use this medium
-                      as a way to live out the value of being a purpose-driven
-                      community.
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">When:</a>
-                      Once a month!
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Why join:</a>
-                      Everyone should join because we are need of members!! This
-                      ministry is for people who have a serving heart and want a
-                      creative outlet, or a learning experience~~
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Contact info:</a>
-                      Jenny Chun (jc6ac), Katelynn Lee (kdl4ca)
-                    </div>
+                  <div className="comment">
+                    <a className="underliner">Vision:</a> Our goal is to give
+                    the exec team and other ministries more time to focus on
+                    their ministry, rather than spending that time making
+                    graphics and videos. We also aim to use this ministry as a
+                    way to give others a glimpse of what our community lives for
+                    and how we grow in Christ. We want to use this medium as a
+                    way to live out the value of being a purpose-driven
+                    community.
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">When:</a>
+                    Once a month!
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Why join:</a>
+                    Everyone should join because we are need of members!! This
+                    ministry is for people who have a serving heart and want a
+                    creative outlet, or a learning experience~~
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Contact info:</a>
+                    Jenny Chun (jc6ac), Katelynn Lee (kdl4ca)
                   </div>
                 </div>
               </div>
-            </Grid>
-            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
-              <div className="paper">
-                <div className="pic_container mmm_pic">Multimedia (MMM)</div>
+            </div>
+          </Grid>
+          <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+            <div className="paper">
+              <div className="pic_container mmm_pic">Multimedia (MMM)</div>
 
-                <div className="blackglass">
-                  <div className="text">Multimedia Ministry</div>
-                  <div className="leaders">
-                    Led by Annie Huynh & Janis Chen & Melissa Zhu
+              <div className="blackglass">
+                <div className="text">Multimedia Ministry</div>
+                <div className="leaders">
+                  Led by Annie Huynh & Janis Chen & Melissa Zhu
+                </div>
+                <div className="snippet">
+                  <div className="comment">
+                    <a className="underliner">What we do:</a> We help in leading
+                    the congregation in praise by clicking through the lyric
+                    slides as well as clicking through Sunday sermon/Friday
+                    guest speaker slides.
                   </div>
-                  <div className="snippet">
-                    <div className="comment">
-                      <a className="underliner">What we do:</a> We help in
-                      leading the congregation in praise by clicking through the
-                      lyric slides as well as clicking through Sunday
-                      sermon/Friday guest speaker slides.
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Vision:</a> To learn the
-                      importance of preparedness in our service to God and be
-                      rooted in active prayer.
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">When:</a>
-                      You should join MMM if you are looking for a way to serve
-                      God and His people in a behind the scenes/low-time
-                      commitment way. Would love new members, we r small!
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Why join:</a>
-                      To glorify God, to obey His commandment to love God and
-                      love others
-                    </div>
-                    <div className="comment">
-                      <a className="underliner">Contact info:</a>
-                      Janis Chen (Jc6mh), Melissa Zhu (my4kz), Annie Huynh
-                      (ath2kr)
-                    </div>
+                  <div className="comment">
+                    <a className="underliner">Vision:</a> To learn the
+                    importance of preparedness in our service to God and be
+                    rooted in active prayer.
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">When:</a>
+                    You should join MMM if you are looking for a way to serve
+                    God and His people in a behind the scenes/low-time
+                    commitment way. Would love new members, we r small!
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Why join:</a>
+                    To glorify God, to obey His commandment to love God and love
+                    others
+                  </div>
+                  <div className="comment">
+                    <a className="underliner">Contact info:</a>
+                    Janis Chen (Jc6mh), Melissa Zhu (my4kz), Annie Huynh
+                    (ath2kr)
                   </div>
                 </div>
               </div>
-            </Grid>
-          </div>
+            </div>
+          </Grid>
         </div>
       </div>
       <div class="column2">
@@ -357,6 +349,7 @@ function Ministries() {
         <div className="subtitle_container">
           <div className="subtitle_underliner"></div>
         </div>
+
         <div className={classes.root}>
           <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
             <div className="paper">
@@ -406,7 +399,7 @@ function Ministries() {
               <div className="pic_container livelove_pic">Live Love</div>
 
               <div className="blackglass">
-                <div className="text">Homeless Outreach Ministry</div>
+                <div className="text">Live Love Ministry</div>
                 <div className="leaders">
                   Led by Jennifer Cheung & Philip Song
                 </div>

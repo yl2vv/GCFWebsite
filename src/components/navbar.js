@@ -39,7 +39,7 @@ const Navigator = (props) => {
       />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="nav-links" activeKey={location.pathname}>
-          <Nav.Link eventKey="1" to="/about" as={Link} className="link">
+          <Nav.Link eventKey="/about" to="/about" as={Link} className="link">
             <Fade delay="150">
               <div className="navtext">About</div>
             </Fade>

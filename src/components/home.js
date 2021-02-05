@@ -52,7 +52,7 @@ function Home() {
         </div>
 
         <div className="subSection3">
-          <div className="textSection">
+          <div className="textSection2">
             <Fade left delay="500">
               <div className="commission_text">The Great Commission</div>
             </Fade>
@@ -63,14 +63,14 @@ function Home() {
                 teaching them to observe all that I have commanded you."
               </div>
             </Fade>
+            <Fade right delay="500">
+              <div className="linkSection">
+                <Link className="link" to="/ministries">
+                  <button className="redirectButton">Ministries</button>
+                </Link>
+              </div>
+            </Fade>
           </div>
-          <Fade right delay="500">
-            <div className="linkSection">
-              <Link className="link" to="/ministries">
-                <button className="redirectButton">Ministries</button>
-              </Link>
-            </div>
-          </Fade>
         </div>
       </div>
     </div>

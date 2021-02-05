@@ -30,12 +30,26 @@
 }
 
 .intro {
-  width: 80%;
+  padding-top: 50px;
+  width: 60%;
   display: flex;
+  flex-direction: column;
+}
+/* 
+.video_container {
+  padding-top: 50px;
+} */
+
+.video_container {
+  position: relative;
+  padding-top: 57.25%;
+  /* padding-top: 200%; */
 }
 
 .video {
-  padding-top: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .divAbout {
@@ -44,35 +58,22 @@
   margin-right: 5%;
   margin-bottom: 5%;
 }
+.combiner {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
 
 /* The Underliner */
 .linkExec {
   position: relative;
   font-size: 40px;
-  width: 100%;
+  /* width: 100%; */
   color: white;
   font-weight: 200;
   text-transform: uppercase;
   transition: 0.3s;
 }
-/* 
-.linkExec:hover:before {
-  visibility: visible;
-  transform: scaleX(1);
-}
-
-.linkExec:before {
-  content: "";
-  position: absolute;
-  height: 1px;
-  bottom: 0;
-  left: 0%;
-  background-color: #bbbbbb;
-  visibility: hidden;
-  transform: scaleX(0);
-  width: 100%;
-  transition: all 0.5s ease-in-out;
-} */
 
 .linkExec:hover {
   color: #bbbbbb;
@@ -93,8 +94,8 @@
 .about_text {
   font-size: 20px;
   font-weight: 200;
-  width: 30%;
-  margin: 10%;
+  width: 100%;
+  padding: 25px;
 }
 
 .gcf {
@@ -109,4 +110,9 @@
 
 .divAbout.disclaimer {
   margin-bottom: 40px;
+}
+@media screen and (max-width: 1000px) {
+  .intro {
+    width: 80%;
+  }
 }

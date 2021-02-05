@@ -66,6 +66,8 @@
 .pastorij_container {
   display: flex;
   padding-left: 30px;
+  /* align-items: center; */
+  justify-content: center;
 }
 .staff_text {
   width: 50%;
@@ -76,7 +78,7 @@
   color: white;
 }
 .pastorij_image {
-  max-width: 45%;
+  width: 350px;
   transition: 0.5s;
 }
 .exec_container {
@@ -108,3 +110,30 @@
     width: 42%;
     transition: 0.5s;
 } */
+@media screen and (max-width: 800px) and (min-width: 601px) {
+  .pastorij_image {
+    width: 500px;
+  }
+  .pastorij_container {
+    flex-direction: column;
+    padding-left: 0px;
+    align-items: center;
+  }
+  .staff_text {
+    padding-left: 0px;
+    padding-top: 15px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pastorij_container {
+    flex-direction: column;
+    padding-left: 0px;
+    align-items: center;
+  }
+  .staff_text {
+    padding-left: 0px;
+    padding-top: 15px;
+    width: 100%;
+  }
+}

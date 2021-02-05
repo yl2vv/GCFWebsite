@@ -10,11 +10,15 @@ function About() {
         <p className="about_title">We Are Grace Christian Fellowship</p>
       </div>
       <div className="intro">
-        <ReactPlayer
-          url="https://youtu.be/GSOAj-Q5-1k"
-          controls="true"
-          className="video"
-        />
+        <div className="video_container">
+          <ReactPlayer
+            url="https://youtu.be/GSOAj-Q5-1k"
+            controls="true"
+            className="video"
+            height="100%"
+            width="100%"
+          />
+        </div>
         <p className="about_text">
           <p className="gcf">Grace Christian Fellowship</p> is a fellowship
           branch of Servants Ministry at UV.a., and seeks to follow Christ's
@@ -24,11 +28,11 @@ function About() {
         </p>
       </div>
       <div className="divAbout">
-        <div className="about_underliner">
-          <Link className="linkExec" to="/staff_and_leadership">
-            Statement about student leaders
-          </Link>
-        </div>
+        {/* <div className="about_underliner"> */}
+        <Link className="linkExec" to="/staff_and_leadership">
+          Statement about student leaders
+        </Link>
+        {/* </div> */}
       </div>
       {/* <div className="divAbout">
         <p>Service Times</p>
@@ -37,17 +41,19 @@ function About() {
           <p>Friday Large Group @7:30PM</p>
         </div>
       </div> */}
-      <div className="divAbout">
-        <div className="about_subtitle">Serve With Us</div>
-        <Link className="link" to="/ministries">
-          <button className="redirectButton">Ministries</button>
-        </Link>
-      </div>
-      <div className="divAbout">
-        <div className="about_subtitle">Get Connected</div>
-        <Link className="link" to="/connect">
-          <button className="redirectButton">Connect</button>
-        </Link>
+      <div className="combiner">
+        <div className="divAbout">
+          <div className="about_subtitle">Serve With Us</div>
+          <Link className="link" to="/ministries">
+            <button className="redirectButton">Ministries</button>
+          </Link>
+        </div>
+        <div className="divAbout">
+          <div className="about_subtitle">Get Connected</div>
+          <Link className="link" to="/connect">
+            <button className="redirectButton">Connect</button>
+          </Link>
+        </div>
       </div>
       <div className="divAbout disclaimer">
         <p className="disclaimer">

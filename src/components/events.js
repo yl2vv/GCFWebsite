@@ -199,42 +199,6 @@ class Events extends React.Component {
                 <p className="retreatTitle">Harvest Retreat</p>
               </Carousel.Item>
             </Carousel>
-            {/* <div className='retreats'>
-            <div className='retreat'>
-              <div className='retreatTitle'>
-                Servants Retreat
-              </div>
-              <div className='retreatPic Servants'></div>
-            </div>
-
-            <div className='retreat'>
-              <div className='retreatTitle'>
-                Men's Retreat
-              </div>
-              <div className='retreatPic Mens'></div>
-            </div>
-
-            <div className='retreat'>
-              <div className='retreatTitle'>
-                Women's Retreat
-              </div>
-              <div className='retreatPic Womens'></div>
-            </div>
-
-            <div className='retreat'>
-              <div className='retreatTitle'>
-                Spring Retreat
-              </div>
-              <div className='retreatPic Spring'></div>
-            </div>
-
-            <div className='retreat'>
-              <div className='retreatTitle'>
-                Harvest Retreat
-              </div>
-              <div className='retreatPic Harvest'></div>
-            </div>
-          </div> */}
           </div>
         </div>
       </div>

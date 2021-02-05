@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Fragment } from "react";
 
 import Navigation from "./components/navbar.js";
 import Home from "./components/home.js";
@@ -16,9 +17,10 @@ import Footer from "./components/footer.js";
 function App() {
   return (
     <Router>
-      <ScrollToTop />
-      <Navigation />
-      <Switch>
+      {/* <ScrollToTop /> */}
+      {/* <Switch> */}
+      <Fragment>
+        <Navigation />
         <Route exact={true} path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/staff_and_leadership" component={Staff} />
@@ -27,7 +29,8 @@ function App() {
         <Route path="/support" component={Support} />
         <Route path="/pictures" component={Pictures} />
         <Route path="/connect" component={Connect} />
-      </Switch>
+      </Fragment>
+      {/* </Switch> */}
       <Footer />
     </Router>
   );

@@ -25,7 +25,17 @@ function Staff() {
               <img src={PastorIJ} alt="PastorIJ" className="pastorij_image" />
               <p className="staff_text">
                 IJ Kim is the Pastor of Grace Christian Fellowship and the
-                Director of Servants Ministry.
+                Director of Servants Ministry. IJ Kim is the Pastor of Grace
+                Christian Fellowship and the Director of Servants Ministry. IJ
+                Kim is the Pastor of Grace Christian Fellowship and the Director
+                of Servants Ministry. IJ Kim is the Pastor of Grace Christian
+                Fellowship and the Director of Servants Ministry. IJ Kim is the
+                Pastor of Grace Christian Fellowship and the Director of
+                Servants Ministry. IJ Kim is the Pastor of Grace Christian
+                Fellowship and the Director of Servants Ministry. IJ Kim is the
+                Pastor of Grace Christian Fellowship and the Director of
+                Servants Ministry. IJ Kim is the Pastor of Grace Christian
+                Fellowship and the Director of Servants Ministry.
               </p>
             </div>
           </div>

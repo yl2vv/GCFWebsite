@@ -7,9 +7,14 @@ function Support() {
       <div className="banner support">
         <p className="support_title">How To Support</p>
       </div>
+      <p className='mission'>
+          PRAY FOR US REGULARLY <br/>
+          SUPPORT US FINANCIALLY (TOTALLY VOLUNTARY)
+      </p>
       <p className="mission">
       Your giving is vital and beneficial for our ministry and supporting our mission. 
       If you would like to give to GCF online, please click below and put "GCF offering" in the memo.
+      For those who are ALUMNI, Please contact our treasurer if you would like to support us.
       </p>
       <div className="donation_container">
         <a
@@ -24,13 +29,12 @@ function Support() {
         <p className="supportList">
           <b>ALUMNI MISSIONARIES WE PRAY FOR</b> <br/>
 
-          Bob ('92, medicine) & Grace Shim (VT '90) -- Thailand <br/>
+          Bob  & Grace -- Asia <br/>
           James & Lauren Kim ('91) -- N. America mobilization <br/>
           Jee Lee ('03) -- Korea orphan ministry <br/>
           Peter ('93) & Joann Kim -- Native American outreach, AZ <br/>
           Peter & Rachel Chin -- E Africa <br/>
-          Sung ('92) & Heidi -- Asia <br/>
-          Susan ('09) & Michael Lee -- Asia
+          Others alums serving in various parts of the world <br/>
         </p>
         <p className="supportList">
           <b>CHURCHES THAT SUPPORTS GCF AND PRAYS FOR US</b> <br/>
@@ -39,7 +43,7 @@ function Support() {
           Korean Community Church in Charlottesville <br/>
           Covenant Fellowship Church, Urbana, IL <br/>
           Great Commission Community Church, Arlington, VA <br/>
-          Korean Central Presb Church, Centreville, VA <br/>
+          Korean Central Presbyterian Church, Centreville, VA <br/>
           Korean Presb Church of Washington, Fairfax, VA <br/>
           Open Door Presbyterian Church, Herndon, VA <br/>
           Pilgrim Community Baptist Church, Burke, VA <br/>

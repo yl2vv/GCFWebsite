@@ -30,6 +30,7 @@
 }
 
 .intro {
+  margin-top: 50px;
   padding-top: 50px;
   width: 60%;
   display: flex;
@@ -62,6 +63,7 @@
   display: flex;
   width: 100%;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 /* The Underliner */
@@ -99,7 +101,7 @@
 }
 
 .gcf {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   display: inline;
 }
 
@@ -111,6 +113,27 @@
 .divAbout.disclaimer {
   margin-bottom: 40px;
 }
+
+.statementOfFaith {
+  width: 80%;
+  font-size: 50px;
+  font-weight: 200;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.statementOfFaithBody {
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.colorChange {
+  background-color: #222222;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 1000px) {
   .intro {
     width: 80%;

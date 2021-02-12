@@ -24,6 +24,7 @@ function About() {
           and share His love and truth among all seekers of truth.  
           We also seek to raise Christ's people to reach out to the UVA
            and Charlottesville communities with His good news (the Gospel of Christ).
+           GCF is a part of Servants Ministry, a network of campus ministries in Virginia.
         </p>
       </div>
 

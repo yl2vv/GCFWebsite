@@ -9,7 +9,6 @@
 .staff.content {
   width: 90%;
   margin: 0 auto;
-  padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
   flex-direction: column;
@@ -50,6 +49,7 @@
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
+  padding-top: 50px;
 }
 
 .staff_underliner {
@@ -72,9 +72,9 @@
 .staff_text {
   width: 50%;
   text-align: left;
-  font-size: 15px;
-  font-weight: 300;
-  padding-left: 30px;
+  font-size: 20px;
+  font-weight: 200;
+  padding-left: 25px;
   color: white;
 }
 .pastorij_image {
@@ -123,6 +123,7 @@
     padding-left: 0px;
     padding-top: 15px;
     width: 100%;
+    text-align: center;
   }
   .exec_image {
     width: 250px;
@@ -144,6 +145,7 @@
     padding-left: 0px;
     padding-top: 15px;
     width: 100%;
+    text-align: center;
   }
   .exec_image {
     width: 250px;

@@ -15,31 +15,6 @@ function Staff() {
         <div className="banner staff">
           <p className="staff_title">Staff / Leadership</p>
         </div>
-        <div className="staff content">
-          <div className="section_container">
-            <div className="staff_subtitle">Our Pastor</div>
-            <div className="staff_container">
-              <div className="staff_underliner"></div>
-            </div>
-            <div className="pastorij_container">
-              <img src={PastorIJ} alt="PastorIJ" className="pastorij_image" />
-              <p className="staff_text">
-                IJ Kim is the Pastor of Grace Christian Fellowship and the
-                Director of Servants Ministry. IJ Kim is the Pastor of Grace
-                Christian Fellowship and the Director of Servants Ministry. IJ
-                Kim is the Pastor of Grace Christian Fellowship and the Director
-                of Servants Ministry. IJ Kim is the Pastor of Grace Christian
-                Fellowship and the Director of Servants Ministry. IJ Kim is the
-                Pastor of Grace Christian Fellowship and the Director of
-                Servants Ministry. IJ Kim is the Pastor of Grace Christian
-                Fellowship and the Director of Servants Ministry. IJ Kim is the
-                Pastor of Grace Christian Fellowship and the Director of
-                Servants Ministry. IJ Kim is the Pastor of Grace Christian
-                Fellowship and the Director of Servants Ministry.
-              </p>
-            </div>
-          </div>
-        </div>
 
         <div className="staff2">
           <div className="section_container">
@@ -76,6 +51,25 @@ function Staff() {
                 <img src={Treasurer} alt="Exec" className="exec_image" />
                 <p className="exec_text">Treasurer - Alex Wang</p>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="staff content">
+          <div className="section_container">
+            <div className="staff_subtitle">Our Pastor</div>
+            <div className="staff_container">
+              <div className="staff_underliner"></div>
+            </div>
+            <div className="pastorij_container">
+              <img src={PastorIJ} alt="PastorIJ" className="pastorij_image" />
+              <p className="staff_text">
+              Pastor IJ Kim is the director and pastor of Grace Christian Fellowship.
+              He grew up in Northern Virginia and 
+              after obtaining his B.A. in Economics from the University of Virginia (Charlottesville, VA),
+               he studied at the Biblical Theological Seminary/Missio Seminary (Philadelphia, PA).
+                He is married to Aileen, and is blessed with two sons, Noah and Joshua.
+              </p>
             </div>
           </div>
         </div>

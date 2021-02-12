@@ -9,7 +9,6 @@ import Staff from "./components/staff.js";
 import Ministries from "./components/ministries.js";
 import Events from "./components/events.js";
 import Support from "./components/support.js";
-import Pictures from "./components/pictures.js";
 import Connect from "./components/connect.js";
 import ScrollToTop from "./components/ScrollToTop.js";
 import Footer from "./components/footer.js";
@@ -27,7 +26,6 @@ function App() {
           <Route path="/ministries" component={Ministries} />
           <Route path="/events" component={Events} />
           <Route path="/support" component={Support} />
-          <Route path="/pictures" component={Pictures} />
           <Route path="/connect" component={Connect} />
         </Fragment>
       </Switch>

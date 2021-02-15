@@ -209,3 +209,12 @@
     /* width: 200px; */
   }
 }
+
+@media screen and (max-width: 900px) {
+  .scheduleWeek {
+    width: 98%;
+  }
+  .weekContainer {
+    padding-left: 0px;
+  }
+}

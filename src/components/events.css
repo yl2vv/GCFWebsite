@@ -11,8 +11,7 @@
 }
 
 .banner.events {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/worship.jpg");
+  background: url("../images/worship.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center -350px;
@@ -71,6 +70,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #777777;
   /* width: 200px; */
 }
 
@@ -83,8 +83,8 @@
 
 .event {
   display: flex;
-  justify-content: center;
   align-items: flex-end;
+  justify-content: flex-end;
   font-size: 20px;
   height: 60px;
   width: 100%;

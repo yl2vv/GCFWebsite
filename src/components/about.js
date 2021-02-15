@@ -39,7 +39,7 @@ function About() {
       <Fade top duration="2000">
         <div className="divAbout">
           <Link className="linkExec" to="/staff_and_leadership">
-            Statement about student leaders
+            Student Leaders and Pastor
           </Link>
         </div>
       </Fade>

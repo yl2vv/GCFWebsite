@@ -163,3 +163,15 @@
     width: 80%;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .disclaimer {
+    flex-direction: column;
+  }
+  .disclaimer_firsttext {
+    padding-right: 0px;
+  }
+  .disclaimer_secondtext {
+    padding-left: 0px;
+  }
+}

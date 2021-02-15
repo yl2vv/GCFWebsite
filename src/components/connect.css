@@ -93,7 +93,9 @@
 }
 
 .social:hover {
-  color: rgb(29, 98, 57);
+  /* color: rgb(29, 98, 57);
+   */
+  color: #999999;
 }
 
 .sideEmail {
@@ -133,7 +135,8 @@
 }
 
 .emailIcon:hover {
-  color: rgb(29, 98, 57);
+  /* color: rgb(29, 98, 57); */
+  color: #999999;
 }
 
 @media screen and (max-width: 1000px) {
@@ -147,11 +150,10 @@
   }
   .sideConnect {
     width: 80%;
-
   }
 }
 
-@media screen and (min-width: 700px) and (max-width:1000px) {
+@media screen and (min-width: 700px) and (max-width: 1000px) {
   .sideConnect {
     flex-direction: row;
   }

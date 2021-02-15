@@ -35,38 +35,38 @@ class Events extends React.Component {
       case "Monday":
         document
           .getElementById("Monday")
-          .setAttribute("style", "color: rgb(29,98,57);");
+          .setAttribute("style", "color: #777777;");
         break;
       case "Tuesday":
         document
           .getElementById("Tuesday")
-          .setAttribute("style", "color: rgb(29,98,57);");
+          .setAttribute("style", "color: #777777;");
         break;
       case "Wednesday":
         document
           .getElementById("Wednesday")
-          .setAttribute("style", "color: rgb(29,98,57);");
+          .setAttribute("style", "color: #777777;");
 
         break;
       case "Thursday":
         document
           .getElementById("Thursday")
-          .setAttribute("style", "color: rgb(29,98,57);");
+          .setAttribute("style", "color: #777777;");
         break;
       case "Friday":
         document
           .getElementById("Friday")
-          .setAttribute("style", "color: rgb(29,98,57);");
+          .setAttribute("style", "color: #777777;");
         break;
       case "Saturday":
         document
           .getElementById("Saturday")
-          .setAttribute("style", "color: rgb(29,98,57);");
+          .setAttribute("style", "color: #777777;");
         break;
       default:
         document
           .getElementById("Sunday")
-          .setAttribute("style", "color: rgb(29,98,57);");
+          .setAttribute("style", "color: #777777;");
         break;
     }
   }

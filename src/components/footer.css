@@ -29,13 +29,13 @@
 
 .textFooter:hover {
   /* color: rgb(29, 98, 57); */
-  color: #999999;
+  color: #bbbbbb;
 }
 
 .textFooter:hover .divider {
   /* background-color: rgb(29, 98, 57); */
   width: 80%;
-  background-color: #999999;
+  background-color: #bbbbbb;
 }
 
 .textmain {

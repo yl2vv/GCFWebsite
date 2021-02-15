@@ -13,7 +13,7 @@ const Navigator = (props) => {
   // const [navLogo, setLogo] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= window.screen.height / 100) {
+    if (window.scrollY >= window.screen.height / 12.5) {
       setNavbar(true);
     } else {
       setNavbar(false);

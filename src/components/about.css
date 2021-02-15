@@ -106,16 +106,37 @@
 }
 
 .disclaimer {
+  width: 70%;
   font-size: 15px;
   font-weight: 200;
+  text-align: left;
+  display: flex;
 }
 
 .divAbout.disclaimer {
-  margin-bottom: 40px;
+  margin-bottom: 70px;
+}
+
+.disclaimer_firsttext {
+  padding-right: 30px;
+}
+
+.disclaimer_secondtext {
+  padding-left: 30px;
+}
+
+.statement_container {
+  margin: auto;
+  width: 80px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.statement_underliner {
+  border-bottom: 2px solid white;
 }
 
 .statementOfFaith {
-  width: 80%;
+  width: 60%;
   font-size: 50px;
   font-weight: 200;
   margin-top: 50px;
@@ -125,6 +146,7 @@
 .statementOfFaithBody {
   margin-top: 25px;
   font-size: 20px;
+  text-align: left;
 }
 
 .colorChange {

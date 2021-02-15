@@ -75,13 +75,18 @@ class Events extends React.Component {
     return (
       <div className="events">
         <div className="banner events">
-          <p className="events_title">Events</p>
+          <Fade duration="1000">
+            <p className="events_title">Events</p>
+          </Fade>
         </div>
         <div className="eventsContent">
           <Fade left>
             <div className="scheduleWeek">
               <div className="weekContainer">
                 <div className="weekTitle">Recurring Events</div>
+                <div className="calendar_container">
+                  <div className="calendar_underliner"></div>
+                </div>
                 <div className="weekSubContainer">
                   <div className="day">
                     <div className="dayContainer" id="Monday">

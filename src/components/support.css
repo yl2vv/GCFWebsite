@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
   flex-direction: column;
 }
 
@@ -30,6 +31,31 @@
   margin-top: 40px;
 }
 
+.request {
+  font-size: 25px;
+  font-weight: 200;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.request_firsttext {
+  padding-right: 20px;
+}
+
+.request_secondtext {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.vertical_divider {
+  border-left: 1px solid white;
+  height: 100px;
+}
+
 /* Donation */
 .donation_link {
   text-decoration: none;
@@ -37,8 +63,8 @@
 }
 .donation {
   position: relative;
-  margin-top: 50%;
-  margin-bottom: 50%;
+  margin-top: 70px;
+  margin-bottom: 70px;
   font-size: 40px;
   font-weight: 200;
 }
@@ -106,7 +132,6 @@
 .supportListContainer {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: row;
   width: 100%;
   margin-bottom: 100px;
@@ -121,10 +146,11 @@
 @media screen and (max-width: 1000px) {
   .supportListContainer {
     flex-direction: column;
+    align-items: center;
   }
   .supportList {
     font-size: 16px;
-    width:85%;
+    width: 85%;
   }
   .mission {
     width: 80%;

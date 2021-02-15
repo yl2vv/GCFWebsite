@@ -28,12 +28,14 @@
 }
 
 .textFooter:hover {
-  color: rgb(29, 98, 57);
+  /* color: rgb(29, 98, 57); */
+  color: #999999;
 }
 
 .textFooter:hover .divider {
-  background-color: rgb(29, 98, 57);
+  /* background-color: rgb(29, 98, 57); */
   width: 80%;
+  background-color: #999999;
 }
 
 .textmain {
@@ -86,7 +88,8 @@
 }
 
 .links:hover {
-  color: rgb(29, 98, 57);
+  /* color: rgb(29, 98, 57); */
+  color: #666666;
 }
 
 @media screen and (max-width: 500px) {

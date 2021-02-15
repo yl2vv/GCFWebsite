@@ -8,7 +8,9 @@ function Connect() {
   return (
     <div className="connect">
       <div className="banner">
-        <p className="connect_title">Connect with us</p>
+        <Fade duration="1000">
+          <p className="connect_title">Connect with us</p>
+        </Fade>
       </div>
       <div className="connectBody">
         <Fade top delay="500">

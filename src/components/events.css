@@ -101,7 +101,17 @@
   margin-bottom: 30px;
   font-size: 40px;
   width: 100%;
-  text-align: start;
+  text-align: center;
+}
+.calendar_container {
+  margin: auto;
+  width: 80px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.calendar_underliner {
+  border-bottom: 2px solid white;
 }
 
 .specialEvents {

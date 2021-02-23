@@ -20,7 +20,7 @@ function Connect() {
               src="https://docs.google.com/forms/d/e/1FAIpQLSdofG0fWKAJS9L2sEn199WsQRY1jl4ryojPQLLT1TNXkBQXwg/viewform?embedded=true" 
               className="iframe"
               width="100%"
-              height="1000"
+              height="1720"
               frameborder="0"
               marginheight="0"
               marginwidth="0"

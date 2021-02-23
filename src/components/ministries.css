@@ -29,6 +29,13 @@
   background-repeat: no-repeat;
 }
 
+.notice {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
 .column {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -52,6 +59,18 @@
   width: 100%;
   text-align: center;
   justify-content: center;
+}
+
+.smallGroup {
+}
+
+.sgImage {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.sgText {
+  font-size: 14px;
 }
 
 .ministry_sample {

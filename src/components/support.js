@@ -54,14 +54,14 @@ function Support() {
         </Fade>
         <Fade right duration="1000">
           <p className="supportList">
-            <b>CHURCHES THAT SUPPORT GCF AND PRAYS FOR US</b> <br />
+            <b>CHURCHES THAT SUPPORT GCF AND PRAY FOR US</b> <br />
             The Church of the Blue Ridge <br />
             Korean Community Church in Charlottesville <br />
             Covenant Fellowship Church, Urbana, IL <br />
             Great Commission Community Church, Arlington, VA <br />
             Korean Central Presbyterian Church, Centreville, VA <br />
             Korean Church of Vision and Love, Centreville, VA<br />
-            Korean Presb Church of Washington, Fairfax, VA <br />
+            Korean Presbyterian Church of Washington, Fairfax, VA <br />
             Open Door Presbyterian Church, Herndon, VA <br />
             Pilgrim Community Baptist Church, Burke, VA <br />
           </p>

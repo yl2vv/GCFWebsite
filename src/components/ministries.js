@@ -7,6 +7,8 @@ import Typography from "@material-ui/core/Typography";
 import Fade from "react-reveal/Fade";
 import "./ministries.css";
 
+import sg from "../images/small_group.jpeg";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -33,7 +35,29 @@ function Ministries() {
           <p className="ministries_title">Ministries</p>
         </Fade>
       </div>
+      <div className="notice">
+        Per CDC, Virginia, and UVA guidelines, all meetings and events are virtual until further notice.
+      </div>
       <div class="column">
+        <div className="ministries_subtitle">Small Groups</div>
+        <Fade left duration="1000">
+          <div className="subtitle_container">
+            <div className="subtitle_underliner"></div>
+          </div>
+        </Fade>
+        <Fade cascade left duration="1000">
+          <div className={classes.root}>
+            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+              <div className="smallGroup">
+                <p className="sgText">Small Groups are a vital part of Grace Christian Fellowship.
+                Small Groups meet once a week where members come together for a time of bible study, mutual encouragement, and closer fellowship.</p>
+                <img src={sg} alt="small group" className="sgImage" />
+              </div>
+            </Grid>
+          </div>
+        </Fade>
+      </div>
+      <div class="column2">
         <div className="ministries_subtitle">Inreach</div>
         <Fade left duration="1000">
           <div className="subtitle_container">
@@ -335,7 +359,7 @@ function Ministries() {
           </div>
         </Fade>
       </div>
-      <div class="column2">
+      <div class="column">
         <div className="ministries_subtitle">Outreach</div>
         <Fade left duration="1000">
           <div className="subtitle_container">

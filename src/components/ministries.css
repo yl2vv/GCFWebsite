@@ -228,6 +228,7 @@
 
 .underliner {
   text-decoration: none;
+  font-weight: bold;
   color: white;
   width: 0px;
   opacity: 0;

@@ -123,9 +123,7 @@ function Ministries() {
 
                 <div className="blackglass">
                   <div className="text">Greeters Ministry</div>
-                  <div className="leaders">
-                    Led by Shua Jeong & Sung Joon Park
-                  </div>
+                  <div className="leaders">Led by Abby Park & Joseph Kang</div>
                   <div className="snippet">
                     <div className="comment">
                       <a className="underliner">What we do:</a> We greet people
@@ -153,8 +151,8 @@ function Ministries() {
                       within GCF
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> Sung Joon Park
-                      (sp3bk), Shua Jeong (sj6xa)
+                      <a className="underliner">Contact info:</a> Abby Park
+                      (asp4yb), Joseph Kang (jdk7ham)
                     </div>
                   </div>
                 </div>

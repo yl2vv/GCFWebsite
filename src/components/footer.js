@@ -13,7 +13,7 @@ function Footer() {
         <div className="divider">
         </div>
         <div className="textsub">
-          At UVA
+          University of Virginia
         </div>
       </div>
       <div className="icons">

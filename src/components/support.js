@@ -54,7 +54,7 @@ function Support() {
         </Fade>
         <Fade right duration="1000">
           <p className="supportList">
-            <b>CHURCHES THAT SUPPORTS GCF AND PRAYS FOR US</b> <br />
+            <b>CHURCHES THAT SUPPORT GCF AND PRAYS FOR US</b> <br />
             The Church of the Blue Ridge <br />
             Korean Community Church in Charlottesville <br />
             Covenant Fellowship Church, Urbana, IL <br />

@@ -22,10 +22,9 @@
 }
 
 .banner.ministries {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: 
     url("../images/ministry.jpg");
   background-size: cover;
-  background-attachment: fixed;
   background-position: center -150px;
   background-repeat: no-repeat;
 }

@@ -16,10 +16,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: 
     url("../images/connect.jpg");
   background-size: cover;
-  background-attachment: fixed;
   background-position: center -150px;
   background-repeat: no-repeat;
 }

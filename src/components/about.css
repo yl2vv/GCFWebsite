@@ -11,9 +11,8 @@
 }
 
 .banner.about {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: 
     url("../images/hands.jpg");
-  background-attachment: fixed;
   background-size: cover;
   background-position: center -200px;
 

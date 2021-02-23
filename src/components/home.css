@@ -3,11 +3,10 @@ body {
   height: 100%;
 }
 .home {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: 
     url("../images/gcfhome.png");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
 
   /* top: 50%;
   left: 50%; */

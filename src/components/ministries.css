@@ -31,7 +31,6 @@
 
 .notice {
   padding-top: 50px;
-  padding-bottom: 50px;
   text-align: center;
   font-size: 20px;
 }
@@ -60,10 +59,6 @@
   text-align: center;
   justify-content: center;
 }
-
-.smallGroup {
-}
-
 .sgImage {
   width: 100%;
   transition: 0.5s;

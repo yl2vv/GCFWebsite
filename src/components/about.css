@@ -11,10 +11,9 @@
 }
 
 .banner.about {
-  background: 
-    url("../images/hands.jpg");
+  background: url("../images/hands.jpg");
   background-size: cover;
-  background-position: center -200px;
+  background-position: center;
 
   /* transition: all .5s; */
 }

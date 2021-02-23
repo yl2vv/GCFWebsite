@@ -22,11 +22,9 @@
 }
 
 .banner.ministries {
-  background: 
-    url("../images/ministry.jpg");
+  background: url("../images/ministry.jpg");
   background-size: cover;
-  background-position: center -150px;
-  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .notice {

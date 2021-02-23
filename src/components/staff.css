@@ -16,10 +16,9 @@
 }
 
 .banner.staff {
-  background:
-    url("../images/pastor\ ij.jpg");
+  background: url("../images/pastor\ ij.jpg");
   background-size: cover;
-  background-position: center -150px;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .staff_title {
@@ -92,7 +91,7 @@
 
 .exec_image {
   width: 350px;
-  height: auto;
+  height: 350px;
   transition: 0.5s;
   border-radius: 50%;
   padding: 20px;
@@ -129,6 +128,7 @@
   }
   .exec_image {
     width: 250px;
+    height: 250px;
   }
   .staff_subtitle {
     font-size: 45px;
@@ -151,7 +151,7 @@
   }
   .exec_image {
     width: 250px;
-    height: auto;
+    height: 250px;
   }
   .staff_subtitle {
     font-size: 45px;

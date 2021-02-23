@@ -13,7 +13,7 @@
 .banner.events {
   background: url("../images/worship.jpg");
   background-size: cover;
-  background-position: center -350px;
+  background-position: center;
   background-repeat: no-repeat;
 }
 

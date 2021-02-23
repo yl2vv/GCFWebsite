@@ -11,10 +11,9 @@
 }
 
 .banner.support {
-  background:
-    url("../images/nonkorean4.jpg");
+  background: url("../images/nonkorean4.jpg");
   background-size: cover;
-  background-position: center -100px;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -151,7 +150,7 @@
   }
   .supportList {
     font-size: 16px;
-    width: 85%;
+    width: 80%;
   }
   .mission {
     width: 80%;

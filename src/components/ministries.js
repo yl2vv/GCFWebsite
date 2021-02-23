@@ -36,7 +36,8 @@ function Ministries() {
         </Fade>
       </div>
       <div className="notice">
-        Per CDC, Virginia, and UVA guidelines, all meetings and events are virtual until further notice.
+        NOTE: Per CDC, Virginia, and UVA guidelines, all meetings and events are
+        virtual until further notice.
       </div>
       <div class="column">
         <div className="ministries_subtitle">Small Groups</div>
@@ -49,8 +50,12 @@ function Ministries() {
           <div className={classes.root}>
             <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
               <div className="smallGroup">
-                <p className="sgText">Small Groups are a vital part of Grace Christian Fellowship.
-                Small Groups meet once a week where members come together for a time of bible study, mutual encouragement, and closer fellowship.</p>
+                <p className="sgText">
+                  Small Groups are a vital part of Grace Christian Fellowship.
+                  Small Groups meet once a week where members come together for
+                  a time of bible study, mutual encouragement, and closer
+                  fellowship.
+                </p>
                 <img src={sg} alt="small group" className="sgImage" />
               </div>
             </Grid>
@@ -92,18 +97,20 @@ function Ministries() {
                       moment and that a Spirit-filled heart can do much more.
                     </div>
                     <div className="comment">
-                      <a className="underliner">When:</a> We meet 2 hours before Friday Large Groups and Sunday
-                      Chapels to pray and prepare our hearts as well as practice
-                      for the set that day. And we also have weekly meetings on
-                      Saturday mornings
+                      <a className="underliner">When:</a> We meet 2 hours before
+                      Friday Large Groups and Sunday Chapels to pray and prepare
+                      our hearts as well as practice for the set that day. And
+                      we also have weekly meetings on Saturday mornings
                     </div>
                     <div className="comment">
-                      <a className="underliner">Why Join:</a> Join if you want to glorify God with music and praise and
-                      learn what our worship means and how it should be Christ
-                      centered and Christ filled.
+                      <a className="underliner">Why Join:</a> Join if you want
+                      to glorify God with music and praise and learn what our
+                      worship means and how it should be Christ centered and
+                      Christ filled.
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> Charles Lim (csl4wd), Joohee Yang (jy8zn), Christian Ro
+                      <a className="underliner">Contact info:</a> Charles Lim
+                      (csl4wd), Joohee Yang (jy8zn), Christian Ro
                       (cr9ey@virginia.edu)
                     </div>
                   </div>
@@ -132,20 +139,22 @@ function Ministries() {
                       God first showed us
                     </div>
                     <div className="comment">
-                      <a className="underliner">When:</a> We meet 30 min before LG and Chapel, usually 7:00 on
-                      Fridays and 12:30 on Sundays to pray and start greeting
-                      before people get there
+                      <a className="underliner">When:</a> We meet 30 min before
+                      LG and Chapel, usually 7:00 on Fridays and 12:30 on
+                      Sundays to pray and start greeting before people get there
                     </div>
                     <div className="comment">
-                      <a className="underliner">Why join:</a> People should join greeters ministry because it's a way to
-                      challenge yourself to step outside of your comfort zone
-                      and live out what it means to love the body of GCF as
-                      Christ loves us. It's also a good way to get to know
-                      people you otherwise wouldn't talk to and foster a greater
-                      sense of community within GCF
+                      <a className="underliner">Why join:</a> People should join
+                      greeters ministry because it's a way to challenge yourself
+                      to step outside of your comfort zone and live out what it
+                      means to love the body of GCF as Christ loves us. It's
+                      also a good way to get to know people you otherwise
+                      wouldn't talk to and foster a greater sense of community
+                      within GCF
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> Sung Joon Park (sp3bk), Shua Jeong (sj6xa)
+                      <a className="underliner">Contact info:</a> Sung Joon Park
+                      (sp3bk), Shua Jeong (sj6xa)
                     </div>
                   </div>
                 </div>
@@ -174,18 +183,19 @@ function Ministries() {
                       further information.
                     </div>
                     <div className="comment">
-                      <a className="underliner">When:</a> We meet Sunday mornings at around 11:45 to go print
-                      bulletins at the Newcomb Info desk. Rides are provided!
-                      (Editors also edit from home so you can do it at any time
-                      that is convenient)
+                      <a className="underliner">When:</a> We meet Sunday
+                      mornings at around 11:45 to go print bulletins at the
+                      Newcomb Info desk. Rides are provided! (Editors also edit
+                      from home so you can do it at any time that is convenient)
                     </div>
                     <div className="comment">
-                      <a className="underliner">Why join:</a> If you are looking for a way to serve behind the scenes or
-                      wish to simply get plugged into a ministry Bulletins
-                      Ministry is for you!
+                      <a className="underliner">Why join:</a> If you are looking
+                      for a way to serve behind the scenes or wish to simply get
+                      plugged into a ministry Bulletins Ministry is for you!
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> Jisu Kim (jk5nc), James Lim (yl2vv)
+                      <a className="underliner">Contact info:</a> Jisu Kim
+                      (jk5nc), James Lim (yl2vv)
                     </div>
                   </div>
                 </div>
@@ -209,14 +219,17 @@ function Ministries() {
                       to reach out to the lost
                     </div>
                     <div className="comment">
-                      <a className="underliner">When:</a> Saturday 9pm (tentative)
+                      <a className="underliner">When:</a> Saturday 9pm
+                      (tentative)
                     </div>
                     <div className="comment">
-                      <a className="underliner">Why join:</a> If you want to try to praise God in a different way and
-                      also want to know what it means to worship
+                      <a className="underliner">Why join:</a> If you want to try
+                      to praise God in a different way and also want to know
+                      what it means to worship
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> Shua Jeong(sj6xa), Haley Chae (hjc2cc)
+                      <a className="underliner">Contact info:</a> Shua
+                      Jeong(sj6xa), Haley Chae (hjc2cc)
                     </div>
                   </div>
                 </div>
@@ -250,26 +263,28 @@ function Ministries() {
                       GCF.
                     </div>
                     <div className="comment">
-                      <a className="underliner">When:</a> 30 minutes before large group on Friday and Chapel on
-                      Sundays. Occasionally, we will meet outside of these times
-                      to also prepare for praise and prayer nights. We also go
-                      to retreat centers early (the day of departure) to pray at
-                      the venues.
+                      <a className="underliner">When:</a> 30 minutes before
+                      large group on Friday and Chapel on Sundays. Occasionally,
+                      we will meet outside of these times to also prepare for
+                      praise and prayer nights. We also go to retreat centers
+                      early (the day of departure) to pray at the venues.
                     </div>
                     <div className="comment">
-                      <a className="underliner">Why join:</a> Prayer itself is important because God tells us to pray in
-                      the Bible. It says in Scripture to pray without ceasing,
-                      and not just for yourself, but also to pray for one
-                      another-- for leaders, for the unsaved, for the persecuted
-                      church, and for fellow believers. It's also just an
-                      amazing opportunity and privilege to commune with our
-                      heavenly Father. Prayer ministry is where we can practice
-                      praying on a deeper level, share requests, and pray in one
-                      voice and mind. We encourage you to join to enrich your
-                      own prayer life and to grow your heart for God's people
+                      <a className="underliner">Why join:</a> Prayer itself is
+                      important because God tells us to pray in the Bible. It
+                      says in Scripture to pray without ceasing, and not just
+                      for yourself, but also to pray for one another-- for
+                      leaders, for the unsaved, for the persecuted church, and
+                      for fellow believers. It's also just an amazing
+                      opportunity and privilege to commune with our heavenly
+                      Father. Prayer ministry is where we can practice praying
+                      on a deeper level, share requests, and pray in one voice
+                      and mind. We encourage you to join to enrich your own
+                      prayer life and to grow your heart for God's people
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> Phil Choi (psc3yh), Kacie Park (kjp6ah)
+                      <a className="underliner">Contact info:</a> Phil Choi
+                      (psc3yh), Kacie Park (kjp6ah)
                     </div>
                   </div>
                 </div>
@@ -307,12 +322,14 @@ function Ministries() {
                       <a className="underliner">When:</a> Once a month!
                     </div>
                     <div className="comment">
-                      <a className="underliner">Why join:</a> Everyone should join because we are need of members!! This
-                      ministry is for people who have a serving heart and want a
-                      creative outlet, or a learning experience~~
+                      <a className="underliner">Why join:</a> Everyone should
+                      join because we are need of members!! This ministry is for
+                      people who have a serving heart and want a creative
+                      outlet, or a learning experience~~
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> Jenny Chun (jc6ac), Katelynn Lee (kdl4ca)
+                      <a className="underliner">Contact info:</a> Jenny Chun
+                      (jc6ac), Katelynn Lee (kdl4ca)
                     </div>
                   </div>
                 </div>
@@ -340,17 +357,18 @@ function Ministries() {
                       rooted in active prayer.
                     </div>
                     <div className="comment">
-                      <a className="underliner">When:</a> You should join MMM if you are looking for a way to serve
-                      God and His people in a behind the scenes/low-time
-                      commitment way. Would love new members, we r small!
+                      <a className="underliner">When:</a> You should join MMM if
+                      you are looking for a way to serve God and His people in a
+                      behind the scenes/low-time commitment way. Would love new
+                      members, we r small!
                     </div>
                     <div className="comment">
-                      <a className="underliner">Why join:</a> To glorify God, to obey His commandment to love God and
-                      love others
+                      <a className="underliner">Why join:</a> To glorify God, to
+                      obey His commandment to love God and love others
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> Janis Chen (Jc6mh), Melissa Zhu (my4kz), Annie Huynh
-                      (ath2kr)
+                      <a className="underliner">Contact info:</a> Janis Chen
+                      (Jc6mh), Melissa Zhu (my4kz), Annie Huynh (ath2kr)
                     </div>
                   </div>
                 </div>
@@ -392,17 +410,19 @@ function Ministries() {
                       greater UVA community!
                     </div>
                     <div className="comment">
-                      <a className="underliner">When:</a> Meeting tri-weekly on thursdays at 9:15PM - 12AM (can
-                      leave before that too)
+                      <a className="underliner">When:</a> Meeting tri-weekly on
+                      thursdays at 9:15PM - 12AM (can leave before that too)
                     </div>
                     <div className="comment">
-                      <a className="underliner">Why join:</a> People should join to fulfill our calling to spread His
-                      word and His love, and to have an opportunity to have
-                      fruitful discussions and conversations with GCF/Cru people
-                      and with the UVA community.
+                      <a className="underliner">Why join:</a> People should join
+                      to fulfill our calling to spread His word and His love,
+                      and to have an opportunity to have fruitful discussions
+                      and conversations with GCF/Cru people and with the UVA
+                      community.
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> Carmen Mew (cem6dp), Phil Choi (psc3yh)
+                      <a className="underliner">Contact info:</a> Carmen Mew
+                      (cem6dp), Phil Choi (psc3yh)
                     </div>
                   </div>
                 </div>
@@ -429,16 +449,17 @@ function Ministries() {
                       When we meet: 10:30am on Saturdays
                     </div>
                     <div className="comment">
-                      <a className="underliner">When:</a> We meet 30 min before LG and Chapel, usually 7:00 on
-                      Fridays and 12:30 on Sundays to pray and start greeting
-                      before people get there
+                      <a className="underliner">When:</a> We meet 30 min before
+                      LG and Chapel, usually 7:00 on Fridays and 12:30 on
+                      Sundays to pray and start greeting before people get there
                     </div>
                     <div className="comment">
-                      <a className="underliner">Why join:</a> To glorify God, to obey His commandment to love God and
-                      love others
+                      <a className="underliner">Why join:</a> To glorify God, to
+                      obey His commandment to love God and love others
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> Jennifer Cheung (jjc4dq), Philip Song (ps8nu)
+                      <a className="underliner">Contact info:</a> Jennifer
+                      Cheung (jjc4dq), Philip Song (ps8nu)
                     </div>
                   </div>
                 </div>
@@ -463,16 +484,18 @@ function Ministries() {
                       to go out and share the gospel with UVA students
                     </div>
                     <div className="comment">
-                      <a className="underliner">When:</a> We meet at 4pm on Fridays
+                      <a className="underliner">When:</a> We meet at 4pm on
+                      Fridays
                     </div>
                     <div className="comment">
-                      <a className="underliner">Why join:</a> You should join if you want to get a better understanding
-                      of the gospel, share the gospel, and be challenged to
-                      still love God and his people even when it's hard
+                      <a className="underliner">Why join:</a> You should join if
+                      you want to get a better understanding of the gospel,
+                      share the gospel, and be challenged to still love God and
+                      his people even when it's hard
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> James Lim (yl2vv), Sung Joon Park (sp3bk), Sung-Ki Lee
-                      (sl7ta)
+                      <a className="underliner">Contact info:</a> James Lim
+                      (yl2vv), Sung Joon Park (sp3bk), Sung-Ki Lee (sl7ta)
                     </div>
                   </div>
                 </div>
@@ -503,20 +526,21 @@ function Ministries() {
                       teach children the word of God
                     </div>
                     <div className="comment">
-                      <a className="underliner">When:</a> Meetings are either at 1910 Apt 22 or Apt 23 @ 10:30am on
-                      Saturdays, and we serve at KCC’s Sunday service in the
-                      mornings before Chapel
+                      <a className="underliner">When:</a> Meetings are either at
+                      1910 Apt 22 or Apt 23 @ 10:30am on Saturdays, and we serve
+                      at KCC’s Sunday service in the mornings before Chapel
                     </div>
                     <div className="comment">
-                      <a className="underliner">Why join:</a> People should join in hopes to branch out to the local
-                      Charlottesville community and for them to feed the
-                      children the Word of God! Just the simple act of serving
-                      in this way could help children grow into beautiful
-                      men/women of God and being with them along the process is
-                      very rewarding!
+                      <a className="underliner">Why join:</a> People should join
+                      in hopes to branch out to the local Charlottesville
+                      community and for them to feed the children the Word of
+                      God! Just the simple act of serving in this way could help
+                      children grow into beautiful men/women of God and being
+                      with them along the process is very rewarding!
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> Bryan Kim (bjk3yf), Hannah Lee (hel3sb)
+                      <a className="underliner">Contact info:</a> Bryan Kim
+                      (bjk3yf), Hannah Lee (hel3sb)
                     </div>
                   </div>
                 </div>

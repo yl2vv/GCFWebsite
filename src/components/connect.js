@@ -16,7 +16,8 @@ function Connect() {
         <Fade top delay="500">
           <div className="connectCard">
             <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLScLxzEHctUpwNMDGAxDg6DXrKKMUW9ifLfVKvlIFkT_ar33lA/viewform?embedded=true"
+              // src="https://docs.google.com/forms/d/e/1FAIpQLScLxzEHctUpwNMDGAxDg6DXrKKMUW9ifLfVKvlIFkT_ar33lA/viewform?embedded=true"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSdofG0fWKAJS9L2sEn199WsQRY1jl4ryojPQLLT1TNXkBQXwg/viewform?embedded=true" 
               className="iframe"
               width="100%"
               height="1000"
@@ -75,6 +76,7 @@ function Connect() {
                 <a href="mailto:cr9ey@virginia.edu" className="emailIcon">
                   <HiOutlineMail></HiOutlineMail>
                 </a>
+                Christian Ro: <br/>
                 cr9ey@virginia.edu
               </div>
             </div>

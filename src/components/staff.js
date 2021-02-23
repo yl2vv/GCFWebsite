@@ -81,8 +81,7 @@ function Staff() {
                   obtaining his B.A. in Economics from the University of
                   Virginia (Charlottesville, VA), he studied at the Biblical
                   Theological Seminary/Missio Seminary (Philadelphia, PA). He is
-                  married to Aileen, and is blessed with two sons, Noah and
-                  Joshua.
+                  married to Aileen (UVA Alum, Comm School), and is blessed with two sons.
                 </p>
               </Fade>
             </div>

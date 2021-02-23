@@ -5,16 +5,17 @@ import {FaFacebook, FaYoutube, FaTwitter, FaInstagram} from "react-icons/fa";
 function Footer() {
   return (
     <div className="footer">
-      <a href="http://www.servantsministry.org/index.html" target="_blank" rel="noreferrer" className="textFooter">
+      {/* <a href="http://www.servantsministry.org/index.html" target="_blank" rel="noreferrer" className="textFooter"> */}
+      <div className="textFooter"> 
         <div className="textmain">
           Grace Christian Fellowship
         </div>
         <div className="divider">
         </div>
         <div className="textsub">
-          Servants Ministry
+          At UVA
         </div>
-      </a>
+      </div>
       <div className="icons">
           <a href="https://www.facebook.com/GCFatUVA" target="_blank" rel="noreferrer" className="links">
             <FaFacebook/>

@@ -42,8 +42,9 @@
   background: url("../images/gcf_logo_inverse.png");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 65px;
-  width: 70px;
+  height: 85px;
+  width: 90px;
+  margin-left: 10px;
 }
 
 /* .logoActive {

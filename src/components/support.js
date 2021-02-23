@@ -47,7 +47,7 @@ function Support() {
             Bob & Grace -- Asia <br />
             James & Lauren Kim ('91) -- N. America mobilization <br />
             Jee Lee ('03) -- Korea orphan ministry <br />
-            Peter ('93) & Joann Kim -- Native American outreach, AZ <br />
+            Peter ('93) & Joann Kim -- Arizona <br />
             Peter & Rachel Chin -- E Africa <br />
             Others alums serving in various parts of the world <br />
           </p>
@@ -60,6 +60,7 @@ function Support() {
             Covenant Fellowship Church, Urbana, IL <br />
             Great Commission Community Church, Arlington, VA <br />
             Korean Central Presbyterian Church, Centreville, VA <br />
+            Korean Church of Vision and Love, Centreville, VA<br />
             Korean Presb Church of Washington, Fairfax, VA <br />
             Open Door Presbyterian Church, Herndon, VA <br />
             Pilgrim Community Baptist Church, Burke, VA <br />

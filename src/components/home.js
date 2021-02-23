@@ -8,7 +8,7 @@ function Home() {
     <div>
       <div className="home">
         <Fade duration="2000" className="fade">
-          <p className="home_title">Welcome to Grace Christian Fellowship</p>
+          <p className="home_title">Welcome to<br /> Grace Christian Fellowship</p>
         </Fade>
       </div>
       <div className="homeBottom">

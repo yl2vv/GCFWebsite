@@ -10,6 +10,10 @@
   /* margin: 2% auto; */
 }
 
+.redirectButton {
+  font-size: 20px;
+}
+
 .banner.about {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/hands.jpg");
@@ -24,6 +28,7 @@
 } */
 
 .about_title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 60px;
   font-weight: 300;
   color: white;
@@ -31,6 +36,7 @@
 }
 
 .intro {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-top: 50px;
   padding-top: 50px;
   width: 60%;
@@ -70,6 +76,7 @@
 /* The Underliner */
 .linkExec {
   position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 40px;
   /* width: 100%; */
   color: white;
@@ -89,6 +96,7 @@
 /* End of The Underliner */
 
 .about_subtitle {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 35px;
   font-weight: 200;
   padding-bottom: 50px;
@@ -115,7 +123,9 @@
 }
 
 .divAbout.disclaimer {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-bottom: 70px;
+  text-align: justify;
 }
 
 .disclaimer_firsttext {
@@ -138,16 +148,17 @@
 
 .statementOfFaith {
   width: 60%;
-  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
   font-weight: 200;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
 .statementOfFaithBody {
-  margin-top: 25px;
-  font-size: 20px;
-  text-align: left;
+  margin-top: 15px;
+  font-size: 18px;
+  text-align: justify;
 }
 
 .colorChange {

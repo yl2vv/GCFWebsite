@@ -12,7 +12,7 @@
 
 .banner.events {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/worship.jpg");
+    url("../images/retreat_praise_spring.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,6 +21,7 @@
 .events_title {
   font-size: 60px;
   font-weight: 300;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: white;
   text-transform: uppercase;
 }
@@ -67,6 +68,7 @@
 
 .day {
   font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,6 +90,7 @@
   font-size: 20px;
   height: 60px;
   width: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .eventContainer {
@@ -104,6 +107,7 @@
   font-size: 40px;
   width: 100%;
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .calendar_container {
   margin: auto;
@@ -124,6 +128,7 @@
 .SmallGroupJoin {
   margin-bottom: 80px;
   font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .retreats {
@@ -143,6 +148,7 @@
   font-size: 40px;
   font-weight: 200;
   margin-bottom: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .retreatPic {
@@ -150,35 +156,35 @@
   height: 400px;
 }
 
-.retreatPic.Servants {
-  background: url("../images/servant.jpg");
-  background-size: cover;
+.retreatPic.Easter {
+  background: url("../images/easterservice.jpg");
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .retreatPic.Mens {
-  background: url("../images/mens_retreat.jpg");
+  background: url("../images/mens_retreat_2022.JPG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.retreatPic.Womens {
-  background: url("../images/womens.jpg");
+.retreatPic.Vision {
+  background: url("../images/holy_vision.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .retreatPic.Spring {
-  background: url("../images/spring.jpg");
-  background-size: cover;
+  background: url("../images/spring_retreat_2022.jpg");
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
 .retreatPic.Harvest {
-  background: url("../images/harvest.jpg");
+  background: url("../images/harvest_2022.JPG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

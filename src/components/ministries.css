@@ -1,12 +1,14 @@
 .ministries_title {
   font-size: 60px;
   font-weight: 300;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: white;
   text-transform: uppercase;
 }
 
 .ministries_subtitle {
   font-size: 45px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-transform: uppercase;
 }
 
@@ -23,14 +25,17 @@
 
 .banner.ministries {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/ministry.jpg");
-  background-size: cover;
+    url("../images/ministries/praise_stairs.jpeg");
+  background-size: 100%;
   background-position: center;
 }
 
 .notice {
   padding-top: 50px;
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-left: 375px;
+  padding-right: 375px;
   font-size: 20px;
   color: #555555;
 }
@@ -66,6 +71,7 @@
 
 .sgText {
   font-size: 17px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .ministry_sample {
@@ -89,6 +95,7 @@
 
 .text {
   font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .type {
@@ -98,6 +105,7 @@
 .leaders {
   margin-top: 5px;
   font-size: 17px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .snippet {
@@ -108,14 +116,15 @@
   padding-right: 5%;
   padding-left: 5%;
   font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   white-space: pre-wrap;
-  text-align: left;
+  text-align: justify;
 }
 
 /* All Ministry Pictures */
 .praise_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/ministries/praise2.png");
+    url("../images/ministries/praise3.jpeg");
 }
 .greeters_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -139,7 +148,7 @@
 }
 .mmm_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/ministries/mmm.jpg");
+    url("../images/ministries/mmm2022.jpg");
 }
 .tat_pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -169,6 +178,7 @@
   box-shadow: 6px 6px 0px 6px rgb(0, 0, 0, 0.8);
   display: block;
   line-height: 300px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   font-size: 40px;
   background-size: cover;
@@ -229,6 +239,8 @@
 .underliner {
   text-decoration: none;
   font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
   color: white;
   width: 0px;
   opacity: 0;

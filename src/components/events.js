@@ -104,7 +104,10 @@ class Events extends React.Component {
                     </div>
                   </div>
                   <div className="event">
-                    <div className="eventContainer">Morning Prayer @8:00AM</div>
+                    <div className="eventContainer">
+                      <div classname="eventSub">Morning Prayer @8:00AM</div>
+                      <div classname="eventSub">Small Group</div>
+                    </div>
                   </div>
                 </div>
                 <div className="weekSubContainer">
@@ -127,7 +130,10 @@ class Events extends React.Component {
                     </div>
                   </div>
                   <div className="event">
-                    <div className="eventContainer">Morning Prayer @8:00AM</div>
+                    <div className="eventContainer">
+                      <div classname="eventSub">Morning Prayer @8:00AM</div>
+                      <div classname="eventSub">Small Group</div>
+                    </div>
                   </div>
                 </div>
                 <div className="weekSubContainer">
@@ -139,7 +145,7 @@ class Events extends React.Component {
                   <div className="event">
                     <div className="eventContainer">
                       <div className="eventSub">Morning Prayer @8:00AM</div>
-                      <div className="eventSub">Large Group @7:30PM</div>
+                      <div className="eventSub">Large Group @7:15PM</div>
                     </div>
                   </div>
                 </div>
@@ -150,7 +156,9 @@ class Events extends React.Component {
                     </div>
                   </div>
                   <div className="event">
-                    <div className="eventContainer">-</div>
+                    <div className="eventContainer">
+                      <div className="eventSub">Morning Prayer @10:00AM</div>
+                    </div>
                   </div>
                 </div>
                 <div className="weekSubContainer">
@@ -160,7 +168,10 @@ class Events extends React.Component {
                     </div>
                   </div>
                   <div className="event">
-                    <div className="eventContainer">Sunday Chapel @11:00AM</div>
+                    <div className="eventContainer">
+                      <div className="eventSub">Local Church Services</div>
+                      <div className="eventSub">Prayer Meeting @4:00PM </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -184,24 +195,24 @@ class Events extends React.Component {
               }}
             >
               <Carousel.Item>
-                <div className="retreatPic Servants"></div>
-                <p className="retreatTitle">Servants Retreat</p>
+                <div className="retreatPic Easter"></div>
+                <p className="retreatTitle">2022 Easter Sunrise Service</p>
               </Carousel.Item>
               <Carousel.Item>
                 <div className="retreatPic Mens"></div>
-                <p className="retreatTitle">Mens Retreat</p>
+                <p className="retreatTitle">2022 Mens Retreat</p>
               </Carousel.Item>
               <Carousel.Item>
-                <div className="retreatPic Womens"></div>
-                <p className="retreatTitle">Womens Retreat</p>
+                <div className="retreatPic Vision"></div>
+                <p className="retreatTitle">2022 Holy Vision</p>
               </Carousel.Item>
               <Carousel.Item>
                 <div className="retreatPic Spring"></div>
-                <p className="retreatTitle">Spring Retreat</p>
+                <p className="retreatTitle">2022 Spring Retreat</p>
               </Carousel.Item>
               <Carousel.Item>
                 <div className="retreatPic Harvest"></div>
-                <p className="retreatTitle">Harvest Retreat</p>
+                <p className="retreatTitle">2022 Harvest Retreat</p>
               </Carousel.Item>
             </Carousel>
           </div>

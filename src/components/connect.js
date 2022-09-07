@@ -17,7 +17,8 @@ function Connect() {
           <div className="connectCard">
             <iframe
               // src="https://docs.google.com/forms/d/e/1FAIpQLScLxzEHctUpwNMDGAxDg6DXrKKMUW9ifLfVKvlIFkT_ar33lA/viewform?embedded=true"
-              src="https://docs.google.com/forms/d/e/1FAIpQLSdofG0fWKAJS9L2sEn199WsQRY1jl4ryojPQLLT1TNXkBQXwg/viewform?embedded=true" 
+              // src="https://docs.google.com/forms/d/e/1FAIpQLSdofG0fWKAJS9L2sEn199WsQRY1jl4ryojPQLLT1TNXkBQXwg/viewform?embedded=true" 
+              src="https://docs.google.com/forms/d/e/1FAIpQLScSclKgrlqVaYyBJjtbfzdgEc-jcga-vd2MHUKEwTlbA4prWw/viewform?usp=sf_link"
               className="iframe"
               width="100%"
               height="1720"
@@ -43,7 +44,7 @@ function Connect() {
                   <FaFacebook />
                 </a>
                 <a
-                  href="https://www.instagram.com/gcfuva/"
+                  href="https://www.instagram.com/gcfatuva/"
                   target="_blank"
                   rel="noreferrer"
                   className="social"
@@ -73,11 +74,11 @@ function Connect() {
             <div className="sideEmail">
               <p className="emailText">Email Us</p>
               <div className="emailContent">
-                <a href="mailto:cr9ey@virginia.edu" className="emailIcon">
+                <a href="mailto:dws4ba@virginia.edu" className="emailIcon">
                   <HiOutlineMail></HiOutlineMail>
                 </a>
-                Christian Ro: <br/>
-                cr9ey@virginia.edu
+                Daniel Sun: <br/>
+                dws4ba@virginia.edu
               </div>
             </div>
           </div>

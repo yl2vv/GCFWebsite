@@ -13,7 +13,7 @@
 .banner.support {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/nonkorean4.jpg");
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -21,6 +21,7 @@
 .support_title {
   font-size: 60px;
   font-weight: 300;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: white;
   text-transform: uppercase;
 }
@@ -30,6 +31,7 @@
   width: 60%;
   font-weight: 200;
   margin-top: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .request {
@@ -45,11 +47,13 @@
 
 .request_firsttext {
   padding-right: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .request_secondtext {
   padding-left: 20px;
   text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .vertical_divider {
@@ -68,6 +72,7 @@
   margin-bottom: 70px;
   font-size: 40px;
   font-weight: 200;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .donation:hover:before {
@@ -142,6 +147,7 @@
   width: 60%;
   font-weight: 200;
   margin-top: 5%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 @media screen and (max-width: 1000px) {

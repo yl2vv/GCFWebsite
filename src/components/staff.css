@@ -17,7 +17,7 @@
 
 .banner.staff {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/pastor\ ij.jpg");
+    url("../images/pastorij2.JPG");
 
   background-size: cover;
   background-position: center;
@@ -25,6 +25,7 @@
 }
 .staff_title {
   font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 300;
   color: white;
   text-transform: uppercase;
@@ -46,6 +47,7 @@
 
 .staff_subtitle {
   font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: white;
   font-weight: 200;
   justify-content: center;
@@ -76,6 +78,8 @@
   text-align: left;
   font-size: 20px;
   font-weight: 200;
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding-left: 25px;
   color: white;
 }
@@ -100,6 +104,7 @@
 }
 .exec_text {
   width: 350px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   font-size: 20px;
   font-weight: 200;

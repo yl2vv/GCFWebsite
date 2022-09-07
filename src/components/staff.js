@@ -1,12 +1,12 @@
 import React from "react";
 import "./staff.css";
-import PastorIJ from "../images/pastorij.png";
-import President from "../images/exec/cro.jpg";
-import SGC from "../images/exec/katelynn.jpg";
-import OC from "../images/exec/abby.jpg";
-import LGC from "../images/exec/matthew2.png";
-import Secretary from "../images/exec/sophie2.jpg";
-import Treasurer from "../images/exec/alex.jpg";
+import PastorIJ from "../images/pastorij3.jpeg";
+import President from "../images/exec/daniel.jpeg";
+import SGC from "../images/exec/emerson1.jpg";
+import OC from "../images/exec/joseph.jpg";
+import LGC from "../images/exec/dpark.jpg";
+import Secretary from "../images/exec/jane.jpg";
+import Treasurer from "../images/exec/laurenn3.jpg";
 import Fade from "react-reveal/Fade";
 
 function Staff() {
@@ -31,31 +31,35 @@ function Staff() {
               <Fade cascade duration="1000">
                 <div className="exec_container">
                   <img src={President} alt="Exec" className="exec_image" />
-                  <p className="exec_text">President - Christian Ro</p>
+                  <p className="exec_text">President - Daniel Sun
+                  <br></br>dws4ba@virginia.edu</p>
                 </div>
                 <div className="exec_container">
                   <img src={SGC} alt="Exec" className="exec_image" />
                   <p className="exec_text">
-                    Small Group Coordinator - Katelynn Lee
-                  </p>
+                    SG Coordinator - Emerson Stovner
+                  <br></br>es4wtr@virginia.edu</p>
                 </div>
                 <div className="exec_container">
                   <img src={OC} alt="Exec" className="exec_image" />
-                  <p className="exec_text">Outreach Coordinator - Abby Park</p>
+                  <p className="exec_text">Outreach Coordinator - Joseph Lee
+                  <br></br>jl5ag@virginia.edu</p>
                 </div>
                 <div className="exec_container">
                   <img src={LGC} alt="Exec" className="exec_image" />
                   <p className="exec_text">
-                    Large Group Coordinator - Matthew Yang
-                  </p>
+                    Large Group Coordinator - David Park
+                  <br></br>sp8et@virginia.edu</p>
                 </div>
                 <div className="exec_container">
                   <img src={Secretary} alt="Exec" className="exec_image" />
-                  <p className="exec_text">Secretary - Sophie Peng</p>
+                  <p className="exec_text">Secretary - Jane Sun
+                  <br></br>js2uex@virginia.edu</p>
                 </div>
                 <div className="exec_container">
                   <img src={Treasurer} alt="Exec" className="exec_image" />
-                  <p className="exec_text">Treasurer - Alex Wang</p>
+                  <p className="exec_text">Treasurer - Laurenn Lee
+                  <br></br>ll5edw@virginia.edu</p>
                 </div>
               </Fade>
             </div>
@@ -77,11 +81,11 @@ function Staff() {
               <Fade right duration="1000">
                 <p className="staff_text">
                   Pastor IJ Kim is the director and pastor of Grace Christian
-                  Fellowship. He grew up in Northern Virginia and after
+                  Fellowship. He grew up in Northern Virginia and, after
                   obtaining his B.A. in Economics from the University of
                   Virginia (Charlottesville, VA), he studied at the Biblical
                   Theological Seminary/Missio Seminary (Philadelphia, PA). He is
-                  married to Aileen (UVA Alum, Comm School), and is blessed with two sons.
+                  married to Aileen (UVA Alum, Comm School), and is blessed with two sons, Noah and Joshua.
                 </p>
               </Fade>
             </div>

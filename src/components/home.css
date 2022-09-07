@@ -21,7 +21,8 @@ body {
   align-items: center;
 }
 .home_title {
-  font-size: 60px;
+  font-size: 70px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 200;
   color: white;
   text-transform: uppercase;
@@ -41,7 +42,8 @@ body {
 }
 
 .bibleVerse {
-  font-size: 45px;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 200;
   width: 90%;
   margin-bottom: 100px;
@@ -57,12 +59,14 @@ body {
 
 .width_control {
   margin: 0 auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 80%;
 }
 
 .subsection_title {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 200;
+  text-transform: uppercase;
 }
 
 .subSection {
@@ -79,6 +83,8 @@ body {
 
 .subSection3 {
   margin: 30px;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 100%;
   display: flex;
   text-align: center;
@@ -151,7 +157,7 @@ body {
 }
 
 .home_text2 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 200;
   width: 100%;
   /* justify-content: center; */
@@ -164,7 +170,7 @@ body {
 }
 
 .commission_text {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 200;
   margin: 0 auto;
   width: 100%;

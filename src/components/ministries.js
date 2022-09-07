@@ -7,7 +7,7 @@ import Typography from "@material-ui/core/Typography";
 import Fade from "react-reveal/Fade";
 import "./ministries.css";
 
-import sg from "../images/small_group.jpeg";
+import sg from "../images/dsun_small_group.JPG";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -36,11 +36,12 @@ function Ministries() {
         </Fade>
       </div>
       <div className="notice">
-        NOTE: Per CDC, Virginia, and UVA guidelines, all meetings and events are
-        virtual until further notice.
+        NOTE: With the recent relaxation of CDC, Virginia, and UVA guidelines, all meetings and events are
+        IN PERSON, with masks strongly encouraged while indoors until further notice.
       </div>
       <div class="column">
-        <div className="ministries_subtitle">Small Groups</div>
+        <div className="ministries_subtitle">
+          Small Groups</div>
         <Fade left duration="1000">
           <div className="subtitle_container">
             <div className="subtitle_underliner"></div>
@@ -76,13 +77,13 @@ function Ministries() {
                 <div className="pic_container praise_pic">Praise</div>
 
                 <div className="blackglass">
-                  <div className="text">Praise Ministry</div>
+                  <div className="text">Praise Team</div>
                   <div className="leaders">
-                    Led by Charles Lim, Joohee Yang, Christian Ro
+                    Led by Yujin Oh, Nathan Park, Joseph Lee
                   </div>
                   <div className="snippet">
                     <div className="comment">
-                      <a className="underliner">What we do:</a> Praise God and
+                      <a className="underliner">What we do:</a> Praise God through worship and praise and
                       serve the body of GCF
                     </div>
                     <div className="comment">
@@ -98,20 +99,19 @@ function Ministries() {
                     </div>
                     <div className="comment">
                       <a className="underliner">When:</a> We meet 2 hours before
-                      Friday Large Groups and Sunday Chapels to pray and prepare
-                      our hearts as well as practice for the set that day. And
-                      we also have weekly meetings on Saturday mornings
+                      Friday Large Groups to pray and prepare our hearts as well
+                      as practice for the set that day. And we also have weekly
+                      meetings on Saturday mornings
                     </div>
                     <div className="comment">
                       <a className="underliner">Why Join:</a> Join if you want
                       to glorify God with music and praise and learn what our
-                      worship means and how it should be Christ centered and
-                      Christ filled.
+                      worship means and how it should be Christ-centered and
+                      Christ-filled.
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> Charles Lim
-                      (csl4wd), Joohee Yang (jy8zn), Christian Ro
-                      (cr9ey@virginia.edu)
+                      <a className="underliner">Contact info:</a> Yujin Oh
+                      (yo9ksx), Nathan Park (ngp7ce), Joseph Lee (jyl9wbp)
                     </div>
                   </div>
                 </div>
@@ -123,27 +123,26 @@ function Ministries() {
 
                 <div className="blackglass">
                   <div className="text">Greeters Ministry</div>
-                  <div className="leaders">Led by Abby Park & Joseph Kang</div>
+                  <div className="leaders">Led by Joseph Kang</div>
                   <div className="snippet">
                     <div className="comment">
                       <a className="underliner">What we do:</a> We greet people
-                      before friday large group and sunday chapel by handing out
-                      bulletins, opening doors, and having conversations with
-                      people
+                      before Friday Large Group by opening doors, greeting, and 
+                      having conversations with people.
                     </div>
                     <div className="comment">
                       <a className="underliner">Vision:</a> To welcome and greet
                       people into the body of GCF by loving them with the love
-                      God first showed us
+                      God first showed us.
                     </div>
                     <div className="comment">
                       <a className="underliner">When:</a> We meet 30 min before
-                      LG and Chapel, usually 7:00 on Fridays and 12:30 on
-                      Sundays to pray and start greeting before people get there
+                      LG, usually 6:30-45pm on Fridays to pray and start 
+                      greeting before people get there
                     </div>
                     <div className="comment">
                       <a className="underliner">Why join:</a> People should join
-                      greeters ministry because it's a way to challenge yourself
+                      Greeters Ministry because it's a way to challenge yourself
                       to step outside of your comfort zone and live out what it
                       means to love the body of GCF as Christ loves us. It's
                       also a good way to get to know people you otherwise
@@ -151,14 +150,14 @@ function Ministries() {
                       within GCF
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> Abby Park
-                      (asp4yb), Joseph Kang (jdk7ham)
+                      <a className="underliner">Contact info:</a> Joseph Kang
+                      (jdk7ham)
                     </div>
                   </div>
                 </div>
               </div>
             </Grid>
-            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+            {/* <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
               <div className="paper">
                 <div className="pic_container bulletins_pic">Bulletins</div>
 
@@ -198,8 +197,8 @@ function Ministries() {
                   </div>
                 </div>
               </div>
-            </Grid>
-            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+            </Grid> */}
+            {/* <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
               <div className="paper">
                 <div className="pic_container arise_pic">Arise</div>
 
@@ -232,14 +231,14 @@ function Ministries() {
                   </div>
                 </div>
               </div>
-            </Grid>
+            </Grid> */}
             <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
               <div className="paper">
                 <div className="pic_container prayer_pic">Prayer</div>
 
                 <div className="blackglass">
                   <div className="text">Prayer Ministry</div>
-                  <div className="leaders">Led by Kacie Park & Phil Choi</div>
+                  <div className="leaders">Led by Kaylin Yang & Ashley Woo</div>
                   <div className="snippet">
                     <div className="comment">
                       <a className="underliner">What we do:</a> We pray and
@@ -262,7 +261,7 @@ function Ministries() {
                     </div>
                     <div className="comment">
                       <a className="underliner">When:</a> 30 minutes before
-                      large group on Friday and Chapel on Sundays. Occasionally,
+                      Large Group on Friday and on Sunday afternoons. Occasionally,
                       we will meet outside of these times to also prepare for
                       praise and prayer nights. We also go to retreat centers
                       early (the day of departure) to pray at the venues.
@@ -281,8 +280,8 @@ function Ministries() {
                       prayer life and to grow your heart for God's people
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> Phil Choi
-                      (psc3yh), Kacie Park (kjp6ah)
+                      <a className="underliner">Contact info:</a> Kaylin Yang
+                      (ky9pej), Ashley Woo (hja9dn)
                     </div>
                   </div>
                 </div>
@@ -290,44 +289,47 @@ function Ministries() {
             </Grid>
             <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
               <div className="paper">
-                <div className="pic_container cam_pic">Creative Arts (CAM)</div>
+                <div className="pic_container cam_pic">Canvases</div>
 
                 <div className="blackglass">
-                  <div className="text">Creative Arts Ministry</div>
+                  <div className="text">Canvases Ministry</div>
                   <div className="leaders">
-                    Led by Jenny Chun & Katelynn Lee
+                    Led by Anna Lee
                   </div>
                   <div className="snippet">
                     <div className="comment">
-                      <a className="underliner">What we do:</a> We aim to use
-                      the growing interest in visual arts, specifically graphic
-                      design and video, to help our fellowship grow in any way.
-                      Understanding that God uses all things for his glory, this
-                      ministry was created to utilize our passions, hobbies, and
-                      interests in a way that can make much of God.
+                      <a className="underliner">What we do:</a> CAM is split into
+                      three main subgroups of a graphic design team, video making/
+                      editing team, and a photography team. Our primary task is to
+                      help spread the word of weekly GCF events/outreach, generate
+                      amazing creative content, and capture moments to share with others.
                     </div>
                     <div className="comment">
-                      <a className="underliner">Vision:</a> Our goal is to give
-                      the exec team and other ministries more time to focus on
-                      their ministry, rather than spending that time making
-                      graphics and videos. We also aim to use this ministry as a
-                      way to give others a glimpse of what our community lives
-                      for and how we grow in Christ. We want to use this medium
-                      as a way to live out the value of being a purpose-driven
-                      community.
+                      <a className="underliner">Vision:</a> Our goal is to bring more 
+                      people to Christ and His community by using the creative gifts 
+                      that God has given us. As much as we want to bring new community,
+                      we hope that CAM is also a community for you to be surrounded by
+                      others with similar interests. We consider all ideas no matter how
+                      impossible or improbable they may seem in the moment.
+                      
                     </div>
                     <div className="comment">
-                      <a className="underliner">When:</a> Once a month!
+                      <a className="underliner">When:</a> Tentatively planning to meet
+                      weekly or bi-weekly depending on need.
                     </div>
                     <div className="comment">
-                      <a className="underliner">Why join:</a> Everyone should
-                      join because we are need of members!! This ministry is for
-                      people who have a serving heart and want a creative
-                      outlet, or a learning experience~~
+                      <a className="underliner">Why join:</a> Do you have a passion for 
+                      creating? Do you enjoy making videos, graphic design, taking pictures
+                      or just using your talents to bring to life the dreams of others? CAM 
+                      is the ministry for you! As boundless as God's love for us is, the
+                      possibilities are endless with CAM. Our style is ever-changing with
+                      the times and people, but our identity in Christ and sharing His love
+                      through the innovative & artistic gifts He has given us is firm. WE
+                      WANT YOU!
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> Jenny Chun
-                      (jc6ac), Katelynn Lee (kdl4ca)
+                      <a className="underliner">Contact info:</a> Anna Lee
+                      (ael8mx)
                     </div>
                   </div>
                 </div>
@@ -340,33 +342,40 @@ function Ministries() {
                 <div className="blackglass">
                   <div className="text">Multimedia Ministry</div>
                   <div className="leaders">
-                    Led by Annie Huynh & Janis Chen & Melissa Zhu
+                    Led by Austin Huang & Victoria Ok
                   </div>
                   <div className="snippet">
                     <div className="comment">
-                      <a className="underliner">What we do:</a> We help in
-                      leading the congregation in praise by clicking through the
-                      lyric slides as well as clicking through Sunday
-                      sermon/Friday guest speaker slides.
+                      <a className="underliner">What we do:</a> We present slides
+                      during our weekly Friday Large Groups (announcements, guest
+                      speakers, etc.) as well as help lead the congregation in 
+                      praise with lyric slides. We will also be managing and maintaining
+                      the GCF website.
                     </div>
                     <div className="comment">
-                      <a className="underliner">Vision:</a> To learn the
-                      importance of preparedness in our service to God and be
-                      rooted in active prayer.
+                      <a className="underliner">Vision:</a> This year, we want to expand
+                      our ministry to be the encompassing technology ministry within the
+                      fellowship. We would like to be a linking bridge for the fellowship
+                      by supporting other ministries (and the body as a whole) technologically.
+                      Ultimately, it is a joy to see the parts of Christ's body working in 
+                      union. No matter if the ways in which we serve are "easy" or "hard", or
+                      if our members are many or few, God can still do so much in any situation.
+                      We want to be a ministry that glorifies God and loves on the body by
+                      leading the congregation from the back-end.
                     </div>
                     <div className="comment">
-                      <a className="underliner">When:</a> You should join MMM if
-                      you are looking for a way to serve God and His people in a
-                      behind the scenes/low-time commitment way. Would love new
-                      members, we r small!
+                      <a className="underliner">When:</a> We have weekly planning meetings 
+                      on Saturdays and also meet prior to Friday Large Groups at around 5:30-6:00pm
+                      to set up.
                     </div>
                     <div className="comment">
-                      <a className="underliner">Why join:</a> To glorify God, to
-                      obey His commandment to love God and love others
+                      <a className="underliner">Why join:</a> Join MMM if you would like to
+                      actively serve and glorify God while managing the behind-the-scenes
+                      work.
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> Janis Chen
-                      (Jc6mh), Melissa Zhu (my4kz), Annie Huynh (ath2kr)
+                      <a className="underliner">Contact info:</a> Austin Huang
+                      (alh2ggp), Victoria Ok (vyo7tv)
                     </div>
                   </div>
                 </div>
@@ -384,7 +393,7 @@ function Ministries() {
         </Fade>
         <Fade cascade left duration="1000">
           <div className={classes.root}>
-            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+            {/*<Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
               <div className="paper">
                 <div className="pic_container tat_pic">Text-A-Toasty</div>
 
@@ -425,15 +434,15 @@ function Ministries() {
                   </div>
                 </div>
               </div>
-            </Grid>
-            <Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
+            </Grid>*/}
+            {/*<Grid item xs wrap="nowrap" spacing={2} className={classes.paper}>
               <div className="paper">
-                <div className="pic_container livelove_pic">Live Love</div>
+                <div className="pic_container livelove_pic">BcHeFirst</div>
 
                 <div className="blackglass">
-                  <div className="text">Live Love Ministry</div>
+                  <div className="text">BcHeFirst Ministry</div>
                   <div className="leaders">
-                    Led by Jennifer Cheung & Philip Song
+                    Led by Joseph Lee
                   </div>
                   <div className="snippet">
                     <div className="comment">
@@ -447,17 +456,16 @@ function Ministries() {
                       When we meet: 10:30am on Saturdays
                     </div>
                     <div className="comment">
-                      <a className="underliner">When:</a> We meet 30 min before
-                      LG and Chapel, usually 7:00 on Fridays and 12:30 on
-                      Sundays to pray and start greeting before people get there
+                      <a className="underliner">When:</a> We meet at 10:30am on 
+                      Saturdays to go downtown.
                     </div>
                     <div className="comment">
                       <a className="underliner">Why join:</a> To glorify God, to
                       obey His commandment to love God and love others
                     </div>
                     <div className="comment">
-                      <a className="underliner">Contact info:</a> Jennifer
-                      Cheung (jjc4dq), Philip Song (ps8nu)
+                      <a className="underliner">Contact info:</a> Joseph 
+                      Lee (jl5ag)
                     </div>
                   </div>
                 </div>
@@ -543,7 +551,7 @@ function Ministries() {
                   </div>
                 </div>
               </div>
-            </Grid>
+                      </Grid>*/}
           </div>
         </Fade>
       </div>

@@ -26,8 +26,9 @@ function About() {
         </Fade>
         <Fade duration="2000">
           <p className="about_text">
-            <p className="gcf">Grace Christian Fellowship</p> seeks to know
-            Jesus Christ and share His love and truth among all seekers of
+            <p className="gcf">Grace Christian Fellowship</p> is an inter-denominational
+            campus ministry at the University. We are a community of Christ-followers,
+            that seek to know Jesus Christ and share His love and truth among all seekers of
             truth. We also seek to raise Christ's people to reach out to the UVA
             and Charlottesville communities with His good news (the Gospel of
             Christ). GCF is a part of Servants Ministry, a network of campus
@@ -38,8 +39,8 @@ function About() {
 
       <Fade top duration="2000">
         <div className="divAbout">
-          <Link className="linkExec" to="/staff_and_leadership">
-            Student Leaders and Pastor
+          <Link className="link" to="/staff_and_leadership">
+            <button className="redirectButton">Leaders</button>
           </Link>
         </div>
       </Fade>
@@ -66,7 +67,7 @@ function About() {
       <div className="colorChange">
         <Fade cascade left duration="1000">
           <div className="statementOfFaith">
-            Statement of Faith
+            Statements of Faith
             <div className="statement_container">
               <div className="statement_underliner"></div>
             </div>

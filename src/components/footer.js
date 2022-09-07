@@ -20,7 +20,7 @@ function Footer() {
           <a href="https://www.facebook.com/GCFatUVA" target="_blank" rel="noreferrer" className="links">
             <FaFacebook/>
           </a>
-          <a href="https://www.instagram.com/gcfuva/" target="_blank" rel="noreferrer" className="links">
+          <a href="https://www.instagram.com/gcfatuva/" target="_blank" rel="noreferrer" className="links">
             <FaInstagram />
           </a>
           <a href="https://twitter.com/gcfatuva" target="_blank" rel="noreferrer" className="links">

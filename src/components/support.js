@@ -23,10 +23,13 @@ function Support() {
       </p>
       <Fade duration="1500">
         <p className="mission">
-          Your giving is vital and beneficial for our ministry and supporting
-          our mission. If you would like to give to GCF online, please click
-          below and put "GCF offering" in the memo. For those who are ALUMNI,
-          Please contact our treasurer if you would like to support us.
+          Our ministry is made possible through faithful prayer and financial
+          supporters. Your giving is vital and beneficial for our ministry and supporting
+          our mission to help young men and women to embrace and follow the way of God's
+          love and truth during some of the most important years of their life. If you 
+          would like to give to GCF online, please click below and put "GCF Offering" 
+          in the memo. For those who are ALUMNI, please contact Pastor IJ (ijkim@servantsministry.org) 
+          if you would like to support us.
         </p>
       </Fade>
       <Fade bottom duration="1500">
@@ -45,10 +48,10 @@ function Support() {
           <p className="supportList">
             <b>ALUMNI MISSIONARIES WE PRAY FOR</b> <br />
             Bob & Grace -- Asia <br />
-            James & Lauren Kim ('91) -- N. America mobilization <br />
-            Jee Lee ('03) -- Korea orphan ministry <br />
+            James & Lauren Kim ('91) -- North America Mobilization <br />
+            Jee Lee ('03) -- Korean Orphan Ministry <br />
             Peter ('93) & Joann Kim -- Arizona <br />
-            Peter & Rachel Chin -- E Africa <br />
+            Peter & Rachel Chin -- East Africa <br />
             Others alums serving in various parts of the world <br />
           </p>
         </Fade>
@@ -67,7 +70,7 @@ function Support() {
           </p>
         </Fade>
       </div>
-      {/* <p className="mission">
+      {/*<p className="mission">
         Servants Ministry is a non-profit tax-exempt 501(c)(3) organization. All
         donations are tax deductible to the extent allowed by law. Donors will
         receive an annual contribution statement by the end of January for
